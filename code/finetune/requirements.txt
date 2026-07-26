@@ -1,0 +1,32 @@
+# Python deps cho fine-tuning notebooks (Unsloth + TRL).
+# Tested: Kaggle T4 / Colab T4 / RTX 3090 / A100.
+#
+# Cài:  pip install -r finetune/requirements.txt
+#
+# Note: Unsloth dùng version pin trong notebook (do tokenizers conflict trên Kaggle).
+# File này gom các package cần thiết để khỏi phải copy lại.
+
+# Core PyTorch + CUDA
+torch>=2.4.0
+triton>=3.0.0
+torchvision
+# bitsandbytes — KHÔNG cần nữa (full 16-bit training, no 4bit/8bit quant)
+
+# HuggingFace stack — VERSION PINNED để hợp Unsloth requirement
+# (Unsloth cần tokenizers<=0.23.0, transformers==4.56.2)
+transformers==4.56.2
+tokenizers>=0.22.0,<=0.23.0
+trl==0.22.2
+datasets>=2.20.0
+accelerate>=0.34.0
+
+# Unsloth — install từ git (HEAD) trong notebook để có patches mới nhất
+# (KHÔNG pin version vì Unsloth update nhanh)
+unsloth
+unsloth_zoo
+
+# Optional: HF Hub push
+huggingface_hub>=0.25.0
+
+# Optional: utility cho inference
+python-dotenv>=1.0.0

@@ -1,0 +1,46 @@
+
+============================================================
+COHEN'S KAPPA — Human A vs B (overlap n=103)
+  Test set: kept_items_full.json (247 câu)
+============================================================
+  Quadratic-weighted (VIVID style): 0.7476  → Substantial
+  Linear-weighted:                  0.5586  → Moderate
+  Unweighted (raw agreement):       0.3629  → Fair
+
+BASIC METRICS
+  Mean A: 2.17 | Mean B: 2.07
+  Mean diff (A-B): +0.10
+  MAE:             0.52
+  Exact agreement: 53/103 (51.5%)
+  ±1 agreement:    99/103 (96.1%)
+
+CONFUSION MATRIX (rows=A, cols=B)
+         B=0  B=1  B=2  B=3  B=4  B=5
+  A=0:    0    0    0    0    0    0
+  A=1:    0   23    1    1    0    0
+  A=2:    0   22   12   17    1    0
+  A=3:    0    2    2   12    0    0
+  A=4:    0    0    0    3    1    0
+  A=5:    0    0    0    0    1    5
+
+DIFF DISTRIBUTION (A-B):
+  -2:   2 (  1.9%) █
+  -1:  18 ( 17.5%) █████████
+  +0:  53 ( 51.5%) ██████████████████████████
+  +1:  28 ( 27.2%) ██████████████
+  +2:   2 (  1.9%) █
+
+TOP DISAGREEMENTS (|A-B| ≥ 2)
+  Total: 4 cases
+  sid  83: A=3, B=1  (culture ) | Thái độ của các nhà văn Tự lực văn đoàn đối với minh triết d
+  sid  90: A=3, B=1  (culture ) | Tổ chức tư võ trong làng xã Việt Nam có nhiệm vụ gì?
+  sid  97: A=2, B=4  (culture ) | Những giá trị nào cần được giáo dục cho trẻ em để xây dựng n
+  sid 146: A=1, B=3  (culture ) | Người Việt Nam và người Trung Hoa xưa có quan niệm khác nhau
+
+============================================================
+COMPARE: Human consensus (avg A,B) vs Claude demo
+============================================================
+  Kappa (quadratic) avg(A,B) vs Claude: 0.9614
+  Mean human avg: 2.15
+  Mean claude:    2.17
+  → Nếu kappa thấp: Claude demo cần calibrate lại

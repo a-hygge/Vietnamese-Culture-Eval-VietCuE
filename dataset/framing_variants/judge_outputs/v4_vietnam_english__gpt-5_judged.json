@@ -1,0 +1,1744 @@
+{
+  "metadata": {
+    "version": "v4_vietnam_english",
+    "model": "gpt-5",
+    "source_file": "d:\\tmp\\vn-culture-llm-judge\\output_framing\\v4_vietnam_english\\gpt-5\\results.json",
+    "strategy": "aspect_based",
+    "judge": "azure/gpt-5",
+    "total": 247,
+    "evaluated": 247,
+    "errors": 0,
+    "last_update": "2026-05-24T21:18:37.447350"
+  },
+  "details": [
+    {
+      "id": 152,
+      "category": "law",
+      "score": 0,
+      "raw_response": "[EMPTY → score 0]",
+      "error": null
+    },
+    {
+      "id": 157,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 200,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 4\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 203,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 212,
+      "category": "law",
+      "score": 1,
+      "raw_response": "A: 1\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 221,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 2\nB: 5\nC: 1\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 226,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 282,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 3\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 331,
+      "category": "law",
+      "score": 1,
+      "raw_response": "A: 1\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 391,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 4\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 398,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 4\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 403,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 470,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 1/5\nB: 0/5\nC: 2/5\nSCORE: 2/5",
+      "error": null
+    },
+    {
+      "id": 473,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 635,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 659,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 660,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 1\nB: 3\nC: 1\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 841,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 849,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 889,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 890,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 2\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 915,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 964,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 1002,
+      "category": "law",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 1005,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 1013,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 1037,
+      "category": "law",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 1038,
+      "category": "law",
+      "score": 2,
+      "raw_response": "A: 1\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 1216,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 1353,
+      "category": "law",
+      "score": 1,
+      "raw_response": "A: 1\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 1370,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 1372,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 1435,
+      "category": "law",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 1546,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 1614,
+      "category": "law",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 1789,
+      "category": "law",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 2201,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 2\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 2203,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 3\nC: 1\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2209,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 2305,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 2319,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2367,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 2384,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2387,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "[EMPTY → score 0]",
+      "error": null
+    },
+    {
+      "id": 2391,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "[EMPTY → score 0]",
+      "error": null
+    },
+    {
+      "id": 2394,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2447,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2471,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2535,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 2551,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 4\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2567,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2569,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2584,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2588,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2600,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 0\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2658,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2665,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2677,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3.3",
+      "error": null
+    },
+    {
+      "id": 2685,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2691,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2693,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2705,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2718,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2768,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2772,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2784,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 4\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2812,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2844,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2847,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 4\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2858,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2869,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2873,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 2884,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2885,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 2909,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 2942,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3/5\nB: 2/5\nC: 5/5\nSCORE: 3/5",
+      "error": null
+    },
+    {
+      "id": 3084,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3097,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3098,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 3099,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3106,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3134,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3149,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 3195,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "[EMPTY → score 0]",
+      "error": null
+    },
+    {
+      "id": 3200,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "A: 5\nB: 4\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 3204,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3210,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 2\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 3212,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3217,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3218,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 3\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 3240,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3241,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3244,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3273,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3311,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3327,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 3332,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 3335,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 3\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 3370,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3373,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3404,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 5\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 3421,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3440,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3444,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 3454,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 0\nB: 0\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3461,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3494,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3514,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3532,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3534,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3555,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3557,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3561,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3574,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3577,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 2\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3598,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3605,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3606,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3609,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 0\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3629,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3646,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 3670,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3.7",
+      "error": null
+    },
+    {
+      "id": 3678,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 4\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3701,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 0\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3767,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 3778,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "A: 0/5\nB: 1/5\nC: 2/5\nSCORE: 0/5",
+      "error": null
+    },
+    {
+      "id": 3814,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3816,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3822,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 3886,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3909,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 3931,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 3932,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 3936,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3954,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 3985,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4010,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4014,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4058,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2/5\nB: 0/5\nC: 5/5\nSCORE: 2/5",
+      "error": null
+    },
+    {
+      "id": 4061,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4062,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4119,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4121,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 0/5\nB: 0/5\nC: 2/5\nSCORE: 2/5",
+      "error": null
+    },
+    {
+      "id": 4122,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4124,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4126,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4136,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4141,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4205,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4217,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4227,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4229,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4237,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4238,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4276,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 2\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4287,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4303,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 5\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4305,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4317,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 4\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4321,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4324,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4327,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4340,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4354,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4355,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4369,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4375,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4377,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4378,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4383,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4391,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 1\nC: 2\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4401,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 4\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4422,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4441,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "A: 0/5\nB: 0/5\nC: 0/5\nSCORE: 0/5",
+      "error": null
+    },
+    {
+      "id": 4443,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4463,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4496,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 0\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4503,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 2\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4512,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4524,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 3\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4525,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4540,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 0\nB: 0\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4551,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2/5\nB: 1/5\nC: 5/5\nSCORE: 2/5",
+      "error": null
+    },
+    {
+      "id": 4561,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4568,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4593,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0/5\nB: 0/5\nC: 1/5\nSCORE: 1/5",
+      "error": null
+    },
+    {
+      "id": 4597,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4610,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4611,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4613,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "[EMPTY → score 0]",
+      "error": null
+    },
+    {
+      "id": 4621,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4624,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4649,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4669,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 1\nB: 1\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4678,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 2\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 4722,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0/5\nB: 2/5\nC: 1/5\nSCORE: 1/5",
+      "error": null
+    },
+    {
+      "id": 4725,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 0\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4728,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 4\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 4731,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4755,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 4\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4757,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 2\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4761,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4831,
+      "category": "culture",
+      "score": 0,
+      "raw_response": "[EMPTY → score 0]",
+      "error": null
+    },
+    {
+      "id": 4864,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 0\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4899,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 1\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4924,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 3\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 4969,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 2\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 4972,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5108,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5140,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 2\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5156,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 5190,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5232,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 1\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5239,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5473,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 1\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5475,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 2\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5476,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 1/5\nB: 1/5\nC: 1/5\nSCORE: 1/5",
+      "error": null
+    },
+    {
+      "id": 5489,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 1\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5490,
+      "category": "history",
+      "score": 4,
+      "raw_response": "A: 4\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 5496,
+      "category": "history",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 5512,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 0\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5519,
+      "category": "history",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 5526,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5557,
+      "category": "history",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 5577,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5607,
+      "category": "history",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 5\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 5612,
+      "category": "history",
+      "score": 4,
+      "raw_response": "A: 3\nB: 4\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 5634,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 0\nB: 1\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5682,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5685,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5701,
+      "category": "history",
+      "score": 2,
+      "raw_response": "A: 0\nB: 1\nC: 1\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5702,
+      "category": "history",
+      "score": 2,
+      "raw_response": "A: 0\nB: 0\nC: 5\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5703,
+      "category": "history",
+      "score": 4,
+      "raw_response": "A: 3\nB: 5\nC: 5\nSCORE: 4",
+      "error": null
+    },
+    {
+      "id": 5712,
+      "category": "history",
+      "score": 2,
+      "raw_response": "A: 2\nB: 3\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5717,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5720,
+      "category": "history",
+      "score": 2,
+      "raw_response": "A: 2\nB: 1\nC: 3\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5733,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 3\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5734,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 1\nB: 2\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5740,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 0\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5742,
+      "category": "history",
+      "score": 2,
+      "raw_response": "A: 1\nB: 1\nC: 2\nSCORE: 2",
+      "error": null
+    },
+    {
+      "id": 5760,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 4\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5783,
+      "category": "history",
+      "score": 5,
+      "raw_response": "A: 5\nB: 5\nC: 4\nSCORE: 5",
+      "error": null
+    },
+    {
+      "id": 5813,
+      "category": "history",
+      "score": 3,
+      "raw_response": "A: 3\nB: 3\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 5831,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 5862,
+      "category": "history",
+      "score": 1,
+      "raw_response": "A: 0\nB: 1\nC: 0\nSCORE: 1",
+      "error": null
+    },
+    {
+      "id": 6123,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "A: 3\nB: 2\nC: 5\nSCORE: 3",
+      "error": null
+    },
+    {
+      "id": 6296,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "A: 1\nB: 0\nC: 1\nSCORE: 1",
+      "error": null
+    }
+  ]
+}

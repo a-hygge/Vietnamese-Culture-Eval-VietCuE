@@ -1,0 +1,112 @@
+[
+  {
+    "id": "PL_001",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Pháp luật được hiểu là gì?",
+    "answer": "Pháp luật là hệ thống các quy tắc xử sự chung do nhà nước ban hành hoặc thừa nhận, được đảm bảo thực hiện bằng quyền lực của nhà nước nhằm điều chỉnh các quan hệ xã hội.",
+    "gpt_answer": "Pháp luật là hệ thống các quy tắc, nguyên tắc do Nhà nước ban hành và bảo vệ, điều chỉnh hành vi của c",
+    "csat_score": 3,
+    "csat_reasoning": "Câu trả lời bị cắt cụt và thiếu các đặc điểm quan trọng như 'được nhà nước đảm bảo thực hiện' và 'thừa nhận'.",
+    "context": "Sau đây là câu hỏi về khái niệm pháp luật."
+  },
+  {
+    "id": "PL_002",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Pháp luật có vai trò gì trong xã hội?",
+    "answer": "Pháp luật có vai trò duy trì trật tự xã hội, bảo vệ quyền và lợi ích hợp pháp của các cá nhân, tổ chức, đồng thời tạo ra môi trường pháp lý ổn định để thúc đẩy phát triển kinh tế - xã hội.",
+    "gpt_answer": "Pháp luật có vai trò duy trì trật tự, bảo vệ quyền lợi của cá nhân và cộng đồng, đồng thời điều chỉnh hành vi của các cá nhân và tổ chức trong xã hội. Pháp luật đảm bảo công bằng và bảo vệ công lý.",
+    "csat_score": 5,
+    "csat_reasoning": "Trả lời đầy đủ các ý chính của đáp án chuẩn và mở rộng đúng trọng tâm về 'công bằng' và 'công lý'.",
+    "context": "Sau đây là câu hỏi về vai trò của pháp luật."
+  },
+  {
+    "id": "PL_003",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Quyền cơ bản của công dân trong pháp luật Việt Nam bao gồm những gì?",
+    "answer": "Quyền cơ bản của công dân bao gồm quyền sống, quyền tự do, quyền bình đẳng, quyền tham gia quản lý nhà nước và xã hội, cùng các quyền lợi về kinh tế, văn hóa, xã hội.",
+    "gpt_answer": "Quyền cơ bản của công dân trong pháp luật Việt Nam bao gồm quyền tự do, quyền bình đẳng, quyền tham gia quản lý nhà nước, quyền sở hữu tài sản, và quyền được bảo vệ sức khỏe, an sinh xã hội.",
+    "csat_score": 3,
+    "csat_reasoning": "Liệt kê đúng một số quyền cơ bản nhưng thiếu quyền quan trọng nhất là 'quyền sống'.",
+    "context": "Sau đây là câu hỏi về quyền công dân."
+  },
+  {
+    "id": "PL_004",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Nghĩa vụ cơ bản của công dân theo pháp luật Việt Nam là gì?",
+    "answer": "Nghĩa vụ cơ bản của công dân bao gồm tuân thủ Hiến pháp và pháp luật, đóng thuế đầy đủ, bảo vệ Tổ quốc, giữ gìn trật tự an ninh và bảo vệ môi trường.",
+    "gpt_answer": "Nghĩa vụ cơ bản của công dân theo pháp luật Việt Nam bao gồm nghĩa vụ tuân thủ pháp luật, nghĩa vụ bảo vệ Tổ quốc, nghĩa vụ tham gia lao động và đóng thuế.",
+    "csat_score": 3,
+    "csat_reasoning": "Trả lời đúng một số nghĩa vụ chính nhưng còn thiếu các nghĩa vụ quan trọng khác như 'bảo vệ môi trường', 'giữ gìn an ninh trật tự'.",
+    "context": "Sau đây là câu hỏi về nghĩa vụ công dân."
+  },
+  {
+    "id": "PL_005",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Bộ máy nhà nước Việt Nam được tổ chức theo nguyên tắc nào?",
+    "answer": "Bộ máy nhà nước Việt Nam được tổ chức theo nguyên tắc quyền lực nhà nước thống nhất, phân công, phối hợp và kiểm soát giữa các cơ quan lập pháp, hành pháp và tư pháp.",
+    "gpt_answer": "Quyền lực nhà nước thống nhất, có sự phân công, phối hợp và kiểm soát giữa các cơ quan; nguyên tắc tập trung dân chủ; Đảng lãnh đạo; quyền lực thuộc về nhân dân; nguyên tắc pháp chế xã hội chủ nghĩa.",
+    "csat_score": 5,
+    "csat_reasoning": "Câu trả lời hoàn toàn chính xác. Người trả lời không chỉ nêu đúng nội dung trong đáp án chuẩn (quyền lực thống nhất, phân công, phối hợp, kiểm soát) mà còn bổ sung đầy đủ các nguyên tắc hiến định khác (Đảng lãnh đạo, tập trung dân chủ...) làm cho câu trả lời hoàn thiện hơn.",
+    "context": "Sau đây là câu hỏi về tổ chức bộ máy nhà nước Việt Nam."
+  },
+  {
+    "id": "PL_006",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Nguồn gốc của Nhà nước được hình thành từ đâu?",
+    "answer": "Nguồn gốc của Nhà nước được hình thành từ sự phát triển của xã hội loài người, khi xuất hiện các mâu thuẫn về lợi ích và nhu cầu quản lý xã hội một cách có tổ chức.",
+    "gpt_answer": "Nguồn gốc của Nhà nước được hình thành từ sự phát triển của xã hội có giai cấp, khi có sự phân chia lao động và nhu cầu quản lý các quan hệ xã hội, bảo vệ tài sản và quyền lợi của các nhóm.",
+    "csat_score": 5,
+    "csat_reasoning": "Trả lời chính xác, đầy đủ theo quan điểm Mác-Lênin về nguồn gốc nhà nước, nêu rõ các yếu tố cốt lõi như xã hội có giai cấp và nhu cầu bảo vệ tài sản.",
+    "context": "Sau đây là câu hỏi về nguồn gốc của Nhà nước."
+  },
+  {
+    "id": "PL_007",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Bản chất của Nhà nước được thể hiện như thế nào?",
+    "answer": "Bản chất của Nhà nước thể hiện ở việc nó là công cụ của một giai cấp nhất định để thực hiện quyền lực và quản lý xã hội theo lợi ích của giai cấp đó.",
+    "gpt_answer": "Bản chất của Nhà nước thể hiện ở việc quyền lực chính trị được tổ chức và thực thi qua các cơ quan quyền lực, nhằm duy trì trật tự xã hội, bảo vệ quyền lợi cộng đồng và thực hiện các chính sách của Nhà nước.",
+    "csat_score": 3,
+    "csat_reasoning": "Chỉ nêu được bản chất xã hội của nhà nước mà bỏ qua bản chất giai cấp, vốn là một phần cốt lõi trong đáp án chuẩn.",
+    "context": "Sau đây là câu hỏi về bản chất của Nhà nước."
+  },
+  {
+    "id": "PL_008",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Chức năng của Nhà nước bao gồm những nội dung gì?",
+    "answer": "Chức năng của Nhà nước bao gồm quản lý xã hội, bảo vệ trật tự công cộng, thực hiện các chính sách kinh tế, văn hóa, xã hội và đảm bảo an ninh quốc gia.",
+    "gpt_answer": "Chức năng đối nội (bảo vệ chế độ, an ninh trật tự, quản lý kinh tế - xã hội) và chức năng đối ngoại (bảo vệ tổ quốc, quan hệ hợp tác quốc tế).",
+    "csat_score": 5,
+    "csat_reasoning": "Câu trả lời chính xác và có tính hệ thống cao hơn đáp án chuẩn (phân chia theo nhóm chức năng Đối nội và Đối ngoại). Nội dung chi tiết bên trong bao quát đầy đủ các ý của đáp án chuẩn.",
+    "context": "Sau đây là câu hỏi về chức năng của Nhà nước."
+  },
+  {
+    "id": "PL_009",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Hình thức Nhà nước được phân loại dựa trên những yếu tố nào?",
+    "answer": "Hình thức Nhà nước được phân loại dựa trên các yếu tố như hình thức chính thể, cấu trúc nhà nước và chế độ chính trị.",
+    "gpt_answer": "Hình thức chính thể, hình thức cấu trúc nhà nước và chế độ chính trị.",
+    "csat_score": 5,
+    "csat_reasoning": "Câu trả lời hoàn toàn chính xác, trùng khớp về mặt nội dung và thuật ngữ pháp lý với đáp án chuẩn.",
+    "context": "Sau đây là câu hỏi về hình thức Nhà nước."
+  },
+  {
+    "id": "PL_010",
+    "source": "Pháp luật đại cương",
+    "category": "law",
+    "question": "Các thuộc tính của pháp luật gồm những đặc điểm nào?",
+    "answer": "Các thuộc tính của pháp luật bao gồm tính quy phạm phổ biến, tính quyền lực bắt buộc và tính xác định về hình thức.",
+    "gpt_answer": "Tính quy phạm phổ biến; tính xác định chặt chẽ về mặt hình thức; tính được đảm bảo thực hiện bằng quyền lực nhà nước (tính cưỡng chế).",
+    "csat_score": 5,
+    "csat_reasoning": "Câu trả lời hoàn toàn chính xác, sử dụng thuật ngữ chuyên ngành chuẩn xác, tương đương hoàn toàn với ý nghĩa của đáp án chuẩn.",
+    "context": "Sau đây là câu hỏi về các thuộc tính của pháp luật."
+  }
+]

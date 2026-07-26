@@ -1,0 +1,1990 @@
+{
+  "metadata": {
+    "strategy": "cot",
+    "judge_model": "azure/gpt-5",
+    "base_model": "gpt_answer (GPT-4o)",
+    "data_file": "D:\\dichdata\\vietnamese-culture-eval-2\\version 02\\LLM-as-judge\\humancheck\\kept_items_full.json",
+    "total": 247,
+    "evaluated": 247,
+    "errors": 0,
+    "last_update": "2026-05-15T16:33:58.276288"
+  },
+  "details": [
+    {
+      "sample_id": 1,
+      "original_id": 152,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Xin lỗi, tôi không thể trình bày chi tiết toàn bộ chuỗi suy luận. Dưới đây là đánh giá ngắn gọn:\n\n- Keywords chính của gold: Tòa án nhân dân TP Hà Nội; Tòa án nhân dân TP Hồ Chí Minh (hai tòa án cụ thể).\n- Câu trả lời: “Tòa án nhân dân cấp tỉnh” chỉ nêu cấp tòa chung, không chỉ rõ 2 tòa án cụ thể theo quy định.\n- Liên quan chủ đề và cấp tòa, nhưng thiếu chi tiết cốt lõi (chỉ đích danh 2 tòa). Không có dấu hiệu bịa đặt.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 2,
+      "original_id": 157,
+      "category": "law",
+      "score": 4,
+      "raw_response": "1) Keywords/concepts của gold: “địa điểm cư trú, nơi làm việc hoặc trụ sở” của người khởi kiện; “nằm trên cùng phạm vi địa giới hành chính” với “Tòa án có thẩm quyền”.\n2) Bài model có: nêu được “cư trú, làm việc” và gắn với Tòa án tương ứng (hàm ý cùng địa giới). Thiếu “trụ sở” (đối với tổ chức). Không nêu trực tiếp cụm “cùng phạm vi địa giới hành chính”. Thêm chi tiết ngoài yêu cầu (nơi cơ quan ban hành quyết định/hành vi; trường hợp không cư trú/làm việc ở VN).\n3) Không thấy bịa đặt hay sai tr",
+      "error": null
+    },
+    {
+      "sample_id": 3,
+      "original_id": 200,
+      "category": "law",
+      "score": 1,
+      "raw_response": "Xin lỗi, tôi không thể trình bày toàn bộ suy luận chi tiết. Dưới đây là đánh giá ngắn gọn:\n\n- Keywords/concepts của gold: quản lý theo lãnh thổ; phân chia theo đơn vị hành chính lãnh thổ; không phụ thuộc huyết thống, nghề nghiệp, giới tính.\n- Câu trả lời không đề cập nguyên tắc theo lãnh thổ hay đơn vị hành chính, thay vào đó nói “nguyên tắc pháp lý”, lệch ý chính.\n- Không có yếu tố đúng theo gold; nội dung sai hướng.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 4,
+      "original_id": 203,
+      "category": "law",
+      "score": 5,
+      "raw_response": "Câu trả lời khớp hoàn toàn ý chính của gold: khẳng định trước 1993 không có quy định cụ thể về hành vi tham nhũng; thông tin bổ sung về quy định rải rác trong luật hình sự là phù hợp, không mâu thuẫn.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 5,
+      "original_id": 212,
+      "category": "law",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính: Luật sửa đổi 1997; số lượng tội danh liên quan đến tham nhũng; BLHS 1985; con số đúng là 9.\n2) Câu trả lời model: đưa ra con số “12 tội danh” → không khớp con số 9, dù đúng chủ đề “số tội danh tham nhũng được sửa đổi”.\n3) Sai sót: Sai nội dung cốt lõi (con số), không có phần đúng đáng kể.\n4) Điểm theo rubric: Sai hoàn toàn so với đáp án chuẩn → 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 6,
+      "original_id": 221,
+      "category": "law",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính của gold: “8 loại hành vi tham nhũng” được “kế thừa từ Pháp lệnh phòng chống tham nhũng năm 1998”.\n2) Câu trả lời model: “7 hành vi” — không khớp số lượng chủ chốt (8).\n3) Sai nội dung chính (số liệu), không có dấu hiệu bịa đặt thêm nhưng trả lời sai trọng tâm.\n4) Theo rubric, đây là sai hoàn toàn đối với câu hỏi dạng số liệu chính xác.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 7,
+      "original_id": 226,
+      "category": "law",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: \n- Đưa hối lộ, môi giới hối lộ bởi người có chức vụ\n- Nhũng nhiễu vì vụ lợi\n- Cản trở việc kiểm tra, thanh tra vì vụ lợi\n\n2. Mức độ cover của model:\n- Có “đưa hối lộ, môi giới hối lộ” nhưng không nêu rõ “bởi người có chức vụ”\n- Thiếu “nhũng nhiễu vì vụ lợi” và “cản trở kiểm tra, thanh tra vì vụ lợi”\n\n3. Sai sót/hallucinate:\n- Thêm “tham ô tài sản; nhận hối lộ” và nhấn vào “khu vực ngoài nhà nước” không phải trọng tâm câu hỏi “bổ sung hành vi”\n- Không phải b",
+      "error": null
+    },
+    {
+      "sample_id": 8,
+      "original_id": 282,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Đánh giá ngắn gọn: Gold nhấn mạnh tâm lý muốn che giấu hoặc tự xử lý nội bộ các vụ tham nhũng. Câu trả lời nêu lo lắng, e ngại trách nhiệm, thận trọng/quá mức dẫn đến né tránh/trì hoãn nhưng không đề cập đến che giấu hay tự giải quyết tham nhũng. Liên quan chủ đề nhưng lệch ý chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 9,
+      "original_id": 331,
+      "category": "law",
+      "score": 2,
+      "raw_response": "1. Keywords/concepts chính trong gold: Năm xuất bản là 2002.\n2. Kiểm tra cover: Câu trả lời không nêu 2002, chỉ liệt kê các năm khác (2013, 2016, 2019, 2021).\n3. Sai sót: Không đáp ứng nội dung chính (năm 2002), hướng trả lời lệch sang các lần tái bản; không có keyword cốt lõi.\n4. Quyết định điểm: Off-direction, có yếu tố đúng về chủ đề nhưng thiếu đáp án chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 10,
+      "original_id": 391,
+      "category": "law",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính (gold):\n- Đối tượng: người chưa thành niên làm con nuôi.\n- Trường hợp được xác định lại dân tộc: theo dân tộc của cha đẻ, mẹ đẻ.\n- Điều kiện: trước đó đã được xác định theo dân tộc cha/mẹ nuôi do không biết cha mẹ đẻ là ai.\n\n2) Kiểm tra cover:\n- Model nói xác định lại theo dân tộc cha/mẹ nuôi, không phải theo cha/mẹ đẻ.\n- Đưa điều kiện “có sự thỏa thuận của cha đẻ, mẹ đẻ và cha nuôi, mẹ nuôi” (không có trong gold).\n- Không nêu điều kiện “trước đó xác định theo dân tộc ",
+      "error": null
+    },
+    {
+      "sample_id": 11,
+      "original_id": 398,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: duy trì sự thống trị giai cấp; đàn áp sự phản kháng của giai cấp bị trị; bảo vệ địa vị và lợi ích của giai cấp thống trị.\n- Mức độ cover của model: nêu công cụ cưỡng chế (pháp luật, công an, tòa án, quân đội) và mục tiêu đảm bảo tuân thủ, nhưng không đề cập đến khía cạnh giai cấp (thống trị, đàn áp phản kháng, bảo vệ lợi ích giai cấp thống trị).\n- Sai sót/hallucinate: Không hallucinate; nội dung đúng chủ đề nhưng lệch trọng tâm so với yêu cầu về khía cạnh gi",
+      "error": null
+    },
+    {
+      "sample_id": 12,
+      "original_id": 403,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Ý chính trong gold: (1) chữa bệnh/điều trị, (2) thử nghiệm y học, dược học, (3) các nghiên cứu khoa học khác.\n- Câu trả lời đã có: điều trị bệnh nhân (khớp chữa bệnh), nghiên cứu khoa học (khớp nghiên cứu khoa học khác).\n- Thiếu: mục đích thử nghiệm y học, dược học (một ý quan trọng trong gold).\n- Thêm: đào tạo, giảng dạy (không có trong gold; thông tin ngoài phạm vi yêu cầu).\n- Đánh giá: Đúng một phần, còn thiếu một mục tiêu chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 13,
+      "original_id": 470,
+      "category": "law",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: bán tài sản thuộc di tích lịch sử - văn hóa; Nhà nước có quyền ưu tiên mua (quyền mua trước/ưu tiên mua).\n2. Coverage: Câu trả lời không đề cập quyền ưu tiên mua của Nhà nước; thay vào đó nói về cấm mua bán nếu không được phép và yêu cầu quyết định của cơ quan quản lý.\n3. Sai sót/hallucinate: Thiếu ý chính quan trọng nhất (quyền ưu tiên mua). Các khẳng định về “chỉ được mua bán khi có quyết định” không khớp với nội dung cốt lõi cần nêu theo gold, có khả năn",
+      "error": null
+    },
+    {
+      "sample_id": 14,
+      "original_id": 473,
+      "category": "law",
+      "score": 2,
+      "raw_response": "Gold nêu 3 hình thức: sở hữu cá thể, sở hữu tiểu chủ, sở hữu tư bản tư nhân. Câu trả lời của model đưa ra “cá nhân” và “pháp nhân” là cách phân loại theo chủ thể, không trùng với các hình thức trong gold; chỉ “cá nhân” có thể gần với “cá thể” nhưng vẫn lệch khái niệm, và thiếu “tiểu chủ” lẫn “tư bản tư nhân”. Do đó lệch hướng, có 1 yếu tố gần đúng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 15,
+      "original_id": 635,
+      "category": "law",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts trong gold:\n- Viện kiểm sát nhận bản sao biên bản hòa giải thành\n- Có quyền phản đối sự thỏa thuận của đương sự\n- Thời hạn 15 ngày kể từ ngày lập biên bản\n- Căn cứ: không phù hợp pháp luật hoặc lợi ích chung\n\n2) Độ phủ của câu trả lời:\n- Nêu được vai trò giám sát/kiểm tra tính hợp pháp và có quyền “yêu cầu tòa án xem xét lại” → gần với quyền phản đối khi thỏa thuận trái pháp luật\n- Thiếu: việc nhận bản sao biên bản; thời hạn 15 ngày; căn cứ “lợi ích chung”\n\n3) Sai sót/halluc",
+      "error": null
+    },
+    {
+      "sample_id": 16,
+      "original_id": 659,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Gold chứa các ý chính: (1) Người được thi hành án có thể yêu cầu trực tiếp người phải thi hành án thực hiện dựa trên bản sao bản án/quyết định có ghi “để thi hành”; (2) Nếu không tự nguyện thì gửi đơn đến cơ quan thi hành án; (3) Thời hạn yêu cầu: 3 năm (cá nhân) hoặc 1 năm (tổ chức) từ khi bản án, quyết định có hiệu lực.\n- Câu trả lời của model chỉ nêu: có quyền yêu cầu cơ quan thi hành án tổ chức thi hành và có thể nộp đơn bằng nhiều cách.\n- Thiếu các điểm quan trọng: quyền yêu cầu trực tiếp",
+      "error": null
+    },
+    {
+      "sample_id": 17,
+      "original_id": 660,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Đáp án của model trả lời đúng chủ đề và cấu trúc (thời hạn kể từ ngày nhận đơn), nhưng sai mốc thời hạn quan trọng: gold là “10 ngày” còn model là “05 ngày làm việc”. Do lệch ý chính, chỉ đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 18,
+      "original_id": 841,
+      "category": "law",
+      "score": 5,
+      "raw_response": "- Keywords/concepts trong gold: quyền người lao động đơn phương chấm dứt hợp đồng; căn cứ Điều 37; Bộ luật Lao động.\n- Câu trả lời đã nêu đúng Điều 37 Bộ luật Lao động; thêm “2019” không làm sai nội dung.\n- Không có sai sót hay bịa thông tin.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 19,
+      "original_id": 849,
+      "category": "law",
+      "score": 5,
+      "raw_response": "- Keywords/concepts trong gold: “hình thức chính thể”, “hình thức cấu trúc”.\n- Câu trả lời đã nêu đủ hai hình thức này; có thêm “hình thức chế độ” là thông tin ngoài phạm vi gold nhưng không làm thiếu hai ý chính.\n- Không có sai lệch trọng yếu hay bịa đặt so với gold.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 20,
+      "original_id": 889,
+      "category": "law",
+      "score": 2,
+      "raw_response": "1. Keywords/concepts chính trong gold: “thông báo bằng văn bản”, “ít nhất 15 ngày”, “trước ngày hợp đồng lao động xác định thời hạn hết hạn”.\n2. Kiểm tra cover: Câu trả lời nêu 30 ngày/3 ngày làm việc theo độ dài hợp đồng, không có “15 ngày”, không đề cập “bằng văn bản”, không gắn với mốc “trước ngày hợp đồng hết hạn”.\n3. Sai sót/hallucinate: Lệch hướng sang quy định báo trước của trường hợp khác (đơn phương chấm dứt), thiếu các keyword cốt lõi; không hallucinate chi tiết ngoài bối cảnh nhưng nộ",
+      "error": null
+    },
+    {
+      "sample_id": 21,
+      "original_id": 890,
+      "category": "law",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- 07 ngày làm việc kể từ ngày chấm dứt HĐLĐ\n- Hai bên phải thanh toán đầy đủ các khoản liên quan\n- Trường hợp đặc biệt có thể kéo dài nhưng không quá 30 ngày\n\n2) Độ bao phủ của câu trả lời:\n- Có: “hai bên”, “thanh toán các khoản liên quan”, “kể từ ngày chấm dứt”, “7 ngày” (nhưng thiếu “làm việc”)\n- Thiếu: ngoại lệ “trường hợp đặc biệt… không quá 30 ngày”; thiếu chính xác “ngày làm việc”\n\n3) Sai sót/hallucinate:\n- Không bịa thông tin\n- Thiếu chi tiết quan tr",
+      "error": null
+    },
+    {
+      "sample_id": 22,
+      "original_id": 915,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Keywords chính (gold): “phương pháp dân chủ”, “phương pháp phản dân chủ”.\n- Đáp án model: “phương pháp cưỡng chế”, “phương pháp thuyết phục (giáo dục)”.\n- Mức độ khớp: Không khớp với hai keyword/concept của gold; cùng chủ đề “phương pháp cai trị” nhưng là hệ phân loại khác.\n- Sai sót: Lệch so với đáp án chuẩn, không chứa các cụm “dân chủ/ phản dân chủ”.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 23,
+      "original_id": 964,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính (gold): Hai nhóm đối tượng: (1) Người lao động miền xuôi đi làm ở vùng cao/vùng sâu/vùng xa/biên giới/hải đảo; (2) Người lao động ở các vùng này đi làm ở miền xuôi. Cả hai thuộc diện được thanh toán tiền tàu xe và tiền lương ngày đi đường.\n- Mức độ cover của câu trả lời: Chỉ nêu người lao động làm việc ở miền núi/vùng sâu/vùng xa/biên giới/hải đảo; không đề cập nhóm ngược lại (từ vùng khó khăn xuống miền xuôi). Thiếu tính hai chiều.\n- Sai sót/hallucinate: Không bịa, như",
+      "error": null
+    },
+    {
+      "sample_id": 24,
+      "original_id": 1002,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Ý chính gold: (1) Phần vốn chưa góp được xem là khoản nợ đối với công ty; (2) Thành viên có thể bị khai trừ theo quyết định của Hội đồng thành viên.\n- Bài đáp: nêu khả năng bị buộc rút/ra khỏi công ty (gần với “khai trừ”) nhưng không nêu “quyết định của HĐTV” và không đề cập “khoản nợ”. Thêm “bồi thường thiệt hại” là chi tiết ngoài gold.\n- Đánh giá: Đúng một phần, thiếu ý “khoản nợ” và thẩm quyền HĐTV.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 25,
+      "original_id": 1005,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Đánh giá nhanh:\n- Nội dung đúng được: có nêu tên, trụ sở công ty; họ tên, địa chỉ thành viên; có đề cập thông tin về phần vốn góp (nhưng diễn đạt “mệnh giá, số lượng” thiên về cổ phần, chưa chuẩn với “giá trị phần vốn góp và loại tài sản góp vốn”).\n- Thiếu/khác quan trọng: không có số và ngày cấp GCN đăng ký kinh doanh; không có vốn điều lệ; thiếu quốc tịch và giấy tờ định danh; thiếu loại thành viên; thiếu loại tài sản góp vốn; thiếu số và ngày cấp giấy chứng nhận phần vốn góp; thiếu quyền và n",
+      "error": null
+    },
+    {
+      "sample_id": 26,
+      "original_id": 1013,
+      "category": "law",
+      "score": 4,
+      "raw_response": "- Keywords/concepts chính trong gold: “hình thành doanh nghiệp của HTX/LHHTX”, “hoạt động theo Luật Doanh nghiệp”, (bối cảnh) “khi phát triển đến trình độ cao hơn”.\n- Câu trả lời model có cover: nêu được “có thể thành lập doanh nghiệp (trực thuộc)” → khớp ý “doanh nghiệp của HTX/LHHTX”.\n- Thiếu/sai: không đề cập “theo Luật Doanh nghiệp” và không nêu điều kiện “khi phát triển đến trình độ cao hơn”.\n- Không có bịa đặt.\n\nSCORE: 4",
+      "error": null
+    },
+    {
+      "sample_id": 27,
+      "original_id": 1037,
+      "category": "law",
+      "score": 2,
+      "raw_response": "- Ý chính của gold: phần chênh lệch khi tài sản bảo đảm > nợ phải được nhập vào tài sản còn lại của doanh nghiệp/hợp tác xã để tiếp tục thanh lý.\n- Câu trả lời model: nói trả lại cho người thế chấp/chủ sở hữu — không khớp với yêu cầu “nhập vào tài sản còn lại để thanh lý”.\n- Liên quan chủ đề nhưng lệch hướng so với quy định trong bối cảnh thanh lý DN/HTX. Không phải bịa, nhưng nội dung mâu thuẫn với gold.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 28,
+      "original_id": 1038,
+      "category": "law",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- Doanh nghiệp đã được Nhà nước áp dụng biện pháp đặc biệt về tài sản để phục hồi.\n- Không phục hồi được và phải thanh lý.\n- Nghĩa vụ: hoàn trả lại giá trị tài sản đã được áp dụng biện pháp đặc biệt cho Nhà nước.\n- Thời điểm: trước khi phân chia tài sản (Điều 37 Luật phá sản).\n\n2) Đối chiếu câu trả lời của model:\n- Không đề cập “biện pháp đặc biệt về tài sản”, không nói “hoàn trả giá trị tài sản cho Nhà nước”.\n- Nói chung chung về kê khai, bảo toàn tài sản,",
+      "error": null
+    },
+    {
+      "sample_id": 29,
+      "original_id": 1216,
+      "category": "law",
+      "score": 2,
+      "raw_response": "- Keywords/concepts chính trong gold: “quan điểm, chủ trương, đường lối, chính sách” của “Đảng Cộng sản Việt Nam”.\n- Model có cover không: Không. Câu trả lời nói về “bình đẳng, đoàn kết, công bằng xã hội” và “bảo đảm quyền lợi chính đáng”, không đề cập đến cơ sở là quan điểm/đường lối/chính sách của Đảng.\n- Sai sót/hallucinate: Không bịa thông tin, nhưng lệch cơ sở được hỏi (đưa ra nguyên tắc chung thay vì cơ sở theo Đảng).\n- Điểm theo rubric: Off-direction, có 1 yếu tố đúng về chủ đề chung.\n\nSC",
+      "error": null
+    },
+    {
+      "sample_id": 30,
+      "original_id": 1353,
+      "category": "law",
+      "score": 1,
+      "raw_response": "1. Keywords/concepts chính (gold): \n- Xuất hiện đầu tiên: xã hội tư sản\n- Phát triển mạnh mẽ: xã hội chủ nghĩa\n\n2. Kiểm tra coverage của model: \n- Nói xuất hiện đầu tiên: xã hội chiếm hữu nô lệ (không khớp)\n- Nói phát triển mạnh mẽ: xã hội tư bản chủ nghĩa (không khớp)\n\n3. Sai sót/hallucinate: \n- Sai cả hai ý chính; không trùng keyword nào quan trọng; không phải bịa đặt ngoài phạm vi, nhưng nội dung trái với đáp án chuẩn.\n\n4. Quyết định điểm: \n- Theo rubric, sai hoàn toàn so với gold → 1 điểm.\n\n",
+      "error": null
+    },
+    {
+      "sample_id": 31,
+      "original_id": 1370,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Câu trả lời liên quan đến bảo đảm xã hội và có nhắc sự tham gia, giám sát của quần chúng, nhưng thiếu ý cốt lõi “nhiều hình thức hoạt động xã hội của các tổ chức đoàn thể quần chúng”; thay vào đó tập trung vào quyền, trật tự, chính sách. Liên quan nhưng thiếu ý chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 32,
+      "original_id": 1372,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Giải thích ngắn: Đáp án chuẩn nhấn mạnh một nguyên tắc cốt lõi: pháp luật phải phản ánh đúng các quy luật và nhu cầu khách quan của sự phát triển xã hội. Câu trả lời chấm có đề cập “phản ánh nhu cầu xã hội” nhưng thiếu yếu tố “khách quan/các quy luật” và “phát triển xã hội”, đồng thời đi lệch sang các nguyên tắc khác (hợp hiến, hợp pháp, khả thi...). Do đó đúng một phần, cùng chủ đề nhưng không khớp trọn vẹn ý chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 33,
+      "original_id": 1435,
+      "category": "law",
+      "score": 3,
+      "raw_response": "Đánh giá nhanh:\n- Nội dung đúng một phần: nêu được ý “cán bộ, công chức phải tuân thủ pháp luật; nếu vi phạm sẽ bị xử lý” (tương ứng việc áp dụng trách nhiệm công vụ).\n- Thiếu các điểm cốt lõi của gold: (1) điều kiện phát sinh trách nhiệm là vi phạm quy định công vụ/quy chế công chức thông qua quyết định/hành vi hành chính gây thiệt hại quyền, lợi ích hợp pháp; (2) quyền của công dân/tổ chức khiếu nại, khiếu kiện để đòi bồi thường; (3) cơ quan có thẩm quyền áp dụng trách nhiệm công vụ với chủ th",
+      "error": null
+    },
+    {
+      "sample_id": 34,
+      "original_id": 1546,
+      "category": "law",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts (gold): thực hành tiết kiệm; chống lãng phí; phòng, chống tham nhũng; trong hoạt động kinh tế - xã hội và quản lý nhà nước.\n\n2) Coverage by model: Không nêu tiết kiệm, chống lãng phí, chống tham nhũng. Nội dung đưa ra là tuân thủ Hiến pháp, tham gia quản lý, kiến nghị, bảo vệ an ninh, chấp hành quy tắc công cộng — không trùng các keyword chính của gold.\n\n3) Sai sót/hallucinate: Không hallucinate; trả lời cùng chủ đề “nghĩa vụ để quản lý nhà nước hiệu quả” nhưng lệch trọng tâ",
+      "error": null
+    },
+    {
+      "sample_id": 35,
+      "original_id": 1614,
+      "category": "law",
+      "score": 3,
+      "raw_response": "- Keywords chính của gold: liệt kê các chủ thể có trách nhiệm gồm Ủy ban Thường vụ Quốc hội, Thủ tướng, Phó Thủ tướng, Bộ trưởng, Thủ trưởng cơ quan ngang bộ và các cơ quan Nhà nước khác; nội dung “có trách nhiệm tạo điều kiện để đại biểu Quốc hội làm nhiệm vụ”.\n- Đáp án model: nêu loại hỗ trợ (thông tin, vật chất, điều kiện làm việc, bảo vệ quyền lợi), nhưng không nêu đúng danh mục chủ thể chịu trách nhiệm như gold.\n- Độ đúng/sai: Không bịa đặt, cùng chủ đề “tạo điều kiện” nhưng lệch trọng tâm ",
+      "error": null
+    },
+    {
+      "sample_id": 36,
+      "original_id": 1789,
+      "category": "law",
+      "score": 5,
+      "raw_response": "- Ý chính của gold: Khi bản án/quyết định có hiệu lực thì công chức lãnh đạo, quản lý đương nhiên thôi giữ chức vụ do bổ nhiệm.\n- Câu trả lời đã nêu đúng đầy đủ ý này. Phần bổ sung “bị phạt tù không hưởng án treo thì bị buộc thôi việc” là phù hợp quy định, không mâu thuẫn.\n- Không có sai sót hay bịa thông tin.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 37,
+      "original_id": 2201,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "- Keywords/concepts chính (gold): bôi than lên đầu; ý nghĩa là sự hối lỗi/sám hối của các tín đồ.\n- Đối chiếu: Câu trả lời nói trừ tà, xua xui, cầu may mắn — không đề cập hối lỗi/sám hối.\n- Sai sót/hallucinate: Lệch hoàn toàn ý nghĩa; gán ý nghĩa dân gian không liên quan.\n- Điểm theo rubric: Sai nội dung chính, nên chấm 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 38,
+      "original_id": 2203,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Keywords/concepts (gold): thay đổi ở nội dung; hình thức giữ nguyên.\n- Model coverage: Không nêu “nội dung vs hình thức”; nói thay đổi ở “tín ngưỡng, nghi lễ” (hàm ý thay đổi hình thức), trái với ý “hình thức giữ nguyên”.\n- Sai sót: Lệch hướng trọng tâm; không hallucinate nhưng không khớp khái niệm chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 39,
+      "original_id": 2209,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts gold: - “cách thể chế hóa tín ngưỡng” (institutionalization/formalization) từ văn hóa Trung Hoa - vẫn “giữ nguyên các biểu hiện của linh hồn giáo” về nội dung\n2) Coverage by model: Không đề cập “thể chế hóa” hay “giữ linh hồn giáo”; thay vào đó liệt kê Đạo/Nho/Phật, nghi lễ thờ cúng, âm dương ngũ hành.\n3) Sai sót/hallucinate: Không bịa, nhưng lệch trọng tâm so với yếu tố cốt lõi cần nêu (thể chế hóa).\n4) Điểm: Off-direction, có liên quan chung về ảnh hưởng Trung Hoa nhưng kh",
+      "error": null
+    },
+    {
+      "sample_id": 40,
+      "original_id": 2305,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính (gold): “tối đa 4 yếu tố” và các yếu tố cụ thể “mạo từ, chỉ trỏ, loại từ, danh từ”.\n2) Coverage: Câu trả lời nói “3 thành phần chính (tối đa 6 vị trí/yếu tố)”, không nêu đúng số “4”, không liệt kê các yếu tố mạo từ/chỉ trỏ/loại từ/danh từ.\n3) Sai sót: Sai về số lượng tối đa (nói 6 thay vì 4), thiếu hoàn toàn các yếu tố then chốt, đưa thông tin không đúng (3 thành phần, 6 vị trí).\n4) Điểm: Không khớp ý chính và keywords; nội dung lệch và sai.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 41,
+      "original_id": 2319,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Không khớp các keywords/concepts chính “thơ hàng hóa” vs “thơ quà tặng”. Câu trả lời nói “thơ tự do” và so sánh về quy tắc, cảm xúc — cùng chủ đề nhưng lệch so với yêu cầu của gold. Không hallucinate, chỉ sai trọng tâm. \n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 42,
+      "original_id": 2367,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: tác động thông qua “các cuộc tranh luận sôi nổi trên báo chí” xoay quanh “từng tác phẩm quan trọng”.\n2) Model: nói về phản ánh bất công, khơi dậy ý thức dân tộc, cổ vũ độc lập, chuyển biến nhận thức; không đề cập tranh luận trên báo chí hay cơ chế tác động qua báo chí.\n3) Không thấy bịa đặt rõ ràng, nhưng lệch trọng tâm so với gold.\n4) Theo rubric: liên quan chủ đề nhưng khác khía cạnh chính → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 43,
+      "original_id": 2384,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1) Keywords/concepts gold: xu hướng tả thực/hiện thực; bênh vực quần chúng lao động; mang lại thay đổi tích cực; làm giảm sự buồn chán và cô đơn trước đó.\n\n2) Model cover: có “hiện thực xã hội” (tả thực/hiện thực); nêu phản ánh đời sống tầng lớp lao động và bất công (gần với “bênh vực quần chúng lao động”); có “mang lại sự thay đổi tích cực”. Thiếu chi tiết “làm giảm buồn chán và cô đơn”.\n\n3) Không sai sót/hallucinate.\n\n4) Điểm: Khớp ý chính, thiếu 1 chi tiết phụ về hiệu ứng “giảm buồn chán, cô ",
+      "error": null
+    },
+    {
+      "sample_id": 44,
+      "original_id": 2387,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Gold keywords/concepts: Nguyễn Công Hoan, Ngô Tất Tố, Lan Khai.\n- Model coverage: Nêu Nguyễn Tuân, Nam Cao, Nguyễn Minh Châu, Nguyễn Huy Thiệp; không trùng bất kỳ keyword chính nào của gold.\n- Đánh giá sai sót/hallucinate: Không bịa, cùng chủ đề “đổi mới phong cách”, nhưng lệch hoàn toàn danh sách kỳ vọng.\n- Điểm theo rubric: Liên quan nhưng không khớp keywords chính ⇒ 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 45,
+      "original_id": 2391,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đánh giá ngắn: Gold gồm Nguyễn Công Hoan, Nguyên Hồng, Thạch Lam. Câu trả lời chỉ khớp Thạch Lam, thiếu Nguyễn Công Hoan và Nguyên Hồng; thêm các tên khác (Nguyễn Huy Thiệp, Nam Cao, Nguyễn Ngọc Tư) không thuộc gold. Nội dung đúng một phần, cùng chủ đề nhưng thiếu hai keyword chính; không có bịa đặt.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 46,
+      "original_id": 2394,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Bước 1 (keywords/concepts gold): tổ quốc; gia đình; thân phận; diện mạo.\n- Bước 2 (đối chiếu câu trả lời): không đề cập các yếu tố trên; trả lời nói về ngôn ngữ, phong tục, nghệ thuật, cộng đồng, lịch sử, tín ngưỡng, giáo dục.\n- Bước 3 (sai sót/hallucinate): Không bịa; nội dung liên quan chủ đề nhưng lệch so với các yếu tố được hỏi.\n- Bước 4 (chấm điểm): Cùng chủ đề nhưng khác khía cạnh, không khớp keywords chính ⇒ mức 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 47,
+      "original_id": 2447,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Keywords/concepts chính trong gold: La Mã, Mélanésie (tương đồng về tín ngưỡng thờ cúng tổ tiên).\n- Model không cover các keywords này; thay vào đó nêu Trung Quốc, Hàn Quốc, Nhật Bản.\n- Nội dung cùng chủ đề (tương đồng tín ngưỡng thờ cúng tổ tiên) nhưng sai hoàn toàn về các nền văn hóa cần nêu; không có dấu hiệu bịa đặt ngoài việc lệch đáp án.\n- Điểm phù hợp là off-direction với một yếu tố đúng về chủ đề.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 48,
+      "original_id": 2471,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính trong gold: người Việt làm chủ/khởi nghiệp ở nước ngoài (không chỉ bán sức lao động); sự hiện diện của cửa hàng Việt; sản phẩm Việt được đón nhận tại các nước khác.\n2) Câu trả lời model không đề cập các ý này; nêu chung chung “trao đổi hàng hóa, vay mượn kỹ thuật, tiếp thu công nghệ” nên không cover keywords chính của gold.\n3) Không bịa, nhưng lệch hướng so với yêu cầu cụ thể của gold.\n4) Theo rubric: off-direction, có liên quan chung về “tiếp xúc kinh tế” nhưng thiếu ",
+      "error": null
+    },
+    {
+      "sample_id": 49,
+      "original_id": 2535,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "1. Keywords/concepts chính trong gold:\n- Tác phẩm: Thọ Mai Gia Lễ\n- Tác giả: Thọ Mai (nhà Nho Nghệ An, thế kỷ XVIII)\n- Vai trò: quan trọng trong định hình phong tục thờ cúng tổ tiên ở Việt Nam\n\n2. Đối chiếu với câu trả lời của model:\n- Nêu đúng tác phẩm: “Thọ Mai gia lễ”\n- Nêu tác giả: “Hồ Sĩ Tân” (chính là hiệu Thọ Mai) → khớp về tác giả theo cách gọi khác\n- Phần vai trò được hàm ý qua việc trả lời trực tiếp tác phẩm; câu hỏi chỉ yêu cầu nêu tác phẩm\n\n3. Sai sót/hallucinate:\n- Không có sai nội ",
+      "error": null
+    },
+    {
+      "sample_id": 50,
+      "original_id": 2551,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1. Keywords/concepts chính trong gold:\n- Nguồn gốc: văn học dân gian\n- Biểu hiện: tình hữu ái giữa người lao động; sống có tình có nghĩa; tinh thần chống bất công áp bức\n\n2. Kiểm tra coverage của model:\n- Không nhắc đến văn học dân gian (thiếu nguồn gốc then chốt)\n- Nêu “truyền thống yêu nước, đấu tranh chống ngoại xâm” (lệch so với “chống bất công áp bức”)\n- “Giá trị nhân văn” mơ hồ, có thể gần với “có tình có nghĩa” nhưng không cụ thể\n- Không đề cập “tình hữu ái giữa người lao động”\n\n3. Sai só",
+      "error": null
+    },
+    {
+      "sample_id": 51,
+      "original_id": 2567,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- “Ổn định nhất trong lịch sử loài người”\n- “Mặc dù người nắm chính quyền ban đầu ít kinh nghiệm” (chính trị, quân sự, kinh tế)\n\n2) Đối chiếu với câu trả lời của model:\n- Model nói về: kiểm soát lãnh thổ, bộ máy vững mạnh, duy trì trật tự trong chiến tranh.\n- Không nhắc “ổn định nhất trong lịch sử loài người”\n- Không nhắc yếu tố “ít kinh nghiệm ban đầu”\n\n3) Sai sót/hallucinate:\n- Không hallucinate rõ ràng, nhưng lệch khỏi các điểm cốt lõi của gold.\n\n4) Quyế",
+      "error": null
+    },
+    {
+      "sample_id": 52,
+      "original_id": 2569,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Keywords/concepts từ gold: “nhân cách luận cách mạng”; các thành tố gồm “cá nhân dựa trên võ lực của Pháp” và “cá nhân luận kinh tế của Mỹ”.\n- Câu trả lời không đề cập hay bao quát các khái niệm/chìa khóa này; thay vào đó nêu “tinh thần yêu nước, đoàn kết, chiến tranh nhân dân, lãnh đạo của Đảng” → lệch khỏi concept cốt lõi của gold.\n- Không có dấu hiệu bịa đặt, nhưng nội dung không khớp với yêu cầu về keywords/chủ điểm chính của gold.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 53,
+      "original_id": 2584,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: địa bạ/kê khai ruộng đất; đê điều; việc đóng thuế; thổ sản; nhấn mạnh “thay vì kinh nghiệm nông nghiệp thực tiễn”.\n2) Model cover: có “quản lý ruộng đất” (gần với địa bạ/kê khai ruộng đất), “thủy lợi” (gần với đê điều); thiếu “thuế”, “thổ sản”, và không nêu yếu tố “không tập trung kinh nghiệm thực tiễn”.\n3) Sai sót/halu: thêm “lịch pháp (thiên văn)” không nằm trong gold (yếu tố lệch/ngoài trọng tâm).\n4) Điểm: Đúng một phần, thiếu nhiều ý chính và có chi tiết lệch.\n\nSCO",
+      "error": null
+    },
+    {
+      "sample_id": 54,
+      "original_id": 2588,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts gold: đi theo con đường kỹ thuật phương Tây; phá vỡ/trút bỏ truyền thống cũ; chấp nhận tiêu chí cống hiến dựa trên lao động, sáng tạo, giá trị kinh tế.\n- Model cover: nêu “công nghiệp hóa, hiện đại hóa”, “chuyển từ văn hóa nông nghiệp sang công nghiệp, đô thị” → đúng hướng hiện đại hóa/ kỹ trị.\n- Thiếu: không nhắc rõ “theo con đường kỹ thuật phương Tây”, không nói “phá vỡ truyền thống cũ”, không đề cập tiêu chí cống hiến (lao động, sáng tạo, giá trị kinh tế).\n- Sai sót/halluc",
+      "error": null
+    },
+    {
+      "sample_id": 55,
+      "original_id": 2600,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "Xin lỗi, tôi không thể trình bày chi tiết suy luận từng bước. Đây là đánh giá ngắn gọn:\n\n- Từ khóa/chủ điểm của đáp án chuẩn: “46 công trình pháp luật” trong thời Nguyễn trước Pháp thuộc.\n- Câu trả lời chấm: nêu “1 công trình (Hoàng Việt luật lệ)”, sai số lượng, không khớp ý chính.\n- Không có dấu hiệu bịa đặt về tên bộ luật, nhưng không trả lời đúng yêu cầu về số lượng.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 56,
+      "original_id": 2658,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts gold: rời bỏ con đường làm quan; lao vào văn hóa và kỹ thuật; tận hiến/sống chết vì nó; bất chấp khó khăn gian khổ.\n- Đối chiếu: Model có nêu đẩy mạnh nghiên cứu, sáng tạo, ứng dụng khoa học công nghệ và thúc đẩy đổi mới văn hóa (phù hợp phần “văn hóa, kỹ thuật”). Tuy nhiên thiếu các ý cốt lõi “rời bỏ con đường làm quan” và “tận hiến, bất chấp gian khổ”; còn đề xuất “tham gia chính sách, định hướng” đi ngược tinh thần “rời bỏ làm quan”.\n- Sai sót/hallucinate: Không bịa, nhưng",
+      "error": null
+    },
+    {
+      "sample_id": 57,
+      "original_id": 2665,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- B1 (Keywords gold): hình thành qua hàng ngàn năm; nhờ đóng góp của nhiều thế hệ; vượt qua khó khăn; (ví dụ các nước chỉ là minh họa).\n- B2 (Đối chiếu): Câu trả lời nói về ảnh hưởng tôn giáo/triết học, giá trị truyền thống, giao thoa văn hóa. Không đề cập thời gian dài hàng ngàn năm, không nêu đóng góp của nhiều thế hệ hay vượt khó.\n- B3 (Sai sót/hallucinate): Nội dung hợp lý nhưng lệch trọng tâm so với gold; không bịa đặt.\n- B4 (Điểm): Cùng chủ đề nhưng khác khía cạnh, thiếu các keywords chính",
+      "error": null
+    },
+    {
+      "sample_id": 58,
+      "original_id": 2677,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- “Thực hiện thành công sự dân tộc hóa” (indigenization) các yếu tố/văn hóa phương Tây.\n- Điểm khác biệt ở chỗ Việt Nam làm được, còn các nước Đông Nam Á khác “chưa làm được”.\n\n2) Kiểm tra coverage của câu trả lời:\n- Có nhắc “kết hợp giữa yếu tố dân gian và ảnh hưởng phương Tây” (gần với ý dân tộc hóa, nhưng chưa nêu rõ “thành công”).\n- Có so sánh với Đông Nam Á khác nhưng lệch trọng tâm sang “chú trọng giá trị văn hóa dân tộc, lòng yêu nước”.\n- Không nêu r",
+      "error": null
+    },
+    {
+      "sample_id": 59,
+      "original_id": 2685,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Gold key points: (1) Tính dân tộc, rất Việt Nam; (2) Tất yếu có nội dung dân tộc trong hình thức; (3) Thế hệ mới vượt gộp thành công thế hệ cũ; (4) Không phải mò mẫm, hướng đi đã vạch.\n- Coverage by model: Nêu yếu tố “truyền thống dân tộc” (gần với tính dân tộc) nhưng không nói rõ “nội dung dân tộc trong hình thức”; bỏ sót hoàn toàn ý “vượt gộp thế hệ cũ” và “hướng đi đã vạch”. Bổ sung yếu tố hiện đại, hội nhập (không có trong gold).\n- Sai sót/hallucinate: Không bịa, nhưng lệch trọng tâm so vớ",
+      "error": null
+    },
+    {
+      "sample_id": 60,
+      "original_id": 2691,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Câu trả lời liên quan chủ đề nhưng không nêu hai yếu tố cốt lõi của gold (sự phát triển liên tục của người Kinh và sự đoàn kết với các tộc người khác). Thay vào đó tập trung vào tiếp biến văn hóa Trung-Ấn, truyền thống, lòng yêu nước và kháng chiến. Không có bịa đặt, chỉ lệch trọng tâm.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 61,
+      "original_id": 2693,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Keywords/concepts trong gold: chiến tranh giữa các tộc người; sự chia rẽ; sự nổi lên rồi sụp đổ của các trung tâm văn hóa.\n- Bài model: nói về giao thoa văn hóa Ấn–Trung–bản địa, ảnh hưởng của các đế chế; không đề cập các yếu tố chiến tranh, chia rẽ, thăng trầm trung tâm văn hóa.\n- Không có bịa đặt, nhưng lệch trọng tâm so với gold.\n- Theo rubric: off-direction, không cover keywords chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 62,
+      "original_id": 2705,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Gold nêu 2 hướng: “Tây phương hóa hoàn toàn” và “xây dựng nền văn hóa dân tộc có tính chất Tây phương”. Câu trả lời chỉ gần với hướng thứ hai (tiếp thu/kết hợp văn hóa hiện đại phương Tây) nhưng thay hướng thứ nhất bằng “duy trì bản sắc truyền thống”, nên thiếu và lệch một nửa nội dung chính. Không có bịa đặt.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 63,
+      "original_id": 2718,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1. Keywords/concepts chính trong gold: “tiểu thuyết Trung Hoa”, “cầu nối văn hóa”, “đã được thiết lập từ trước”.\n2. Kiểm tra coverage: Câu trả lời nêu “tương đồng cơ tầng văn hóa (lúa nước)” và “vị trí địa lý”; không đề cập đến tiểu thuyết Trung Hoa hay cầu nối văn hóa đã có sẵn.\n3. Sai sót/hallucinate: Không hallucinate, nhưng lệch hoàn toàn so với ý chính của gold.\n4. Điểm: Không khớp bất kỳ keyword/concept nào của gold.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 64,
+      "original_id": 2768,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Câu trả lời đi đúng chủ đề “quan điểm thao tác luận” nhưng không nêu các ý cốt lõi của gold: không nhấn mạnh “văn hóa là một quan hệ (không phải đồ vật)”, không đề cập tính phổ quát ở mọi tộc người, và chỉ hàm ý chứ không khẳng định “chỉ tồn tại ở con người”. Mức độ khớp nội dung chỉ ở mức một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 65,
+      "original_id": 2772,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Ý chính của gold: (1) Nhận diện khía cạnh văn hóa trong các hiện tượng; (2) Đổi mới và bảo tồn văn hóa; (3) Tạo giá trị văn hóa phục vụ kinh doanh.\n- Mức độ bao phủ của câu trả lời: có chạm nhẹ (1) qua “phân tích hành vi xã hội”, nhưng không đề cập (2) và (3); thay vào đó nêu quản lý tổ chức, chính sách, truyền thông/giáo dục/cộng đồng—lệch so với các lĩnh vực trọng tâm của gold.\n- Sai sót/hallucinate: Không bịa, nhưng lệch hướng và thiếu các ý chính quan trọng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 66,
+      "original_id": 2784,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Bước 1 (keywords/concepts gold): “yêu cầu và mục đích bất biến”; “không phụ thuộc vào các biểu hiện thay đổi/các kiểu lựa chọn”.\n- Bước 2 (đối chiếu model): Model nói về “truyền thống lịch sử, phong tục, ngôn ngữ, giá trị tinh thần, tích lũy qua thế hệ” — không đề cập đến tính “bất biến” và “không phụ thuộc biểu hiện thay đổi”.\n- Bước 3 (sai sót/hallucinate): Không bịa; nội dung đúng chủ đề nhưng lệch trọng tâm so với gold.\n- Bước 4 (điểm): Đúng một phần, liên quan nhưng không khớp ý chính của",
+      "error": null
+    },
+    {
+      "sample_id": 67,
+      "original_id": 2812,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1. Keywords/concepts chính (gold): \n- Phương pháp thực chứng (empirical/positivist).\n- Không dựa trên các hệ thống như âm dương, ngũ hành, phân chia du mục/nông nghiệp.\n\n2. Độ cover của câu trả lời: \n- Nêu các kỹ thuật thực chứng (quan sát, phỏng vấn, khảo sát thực địa, nghiên cứu trường hợp), phù hợp với “phương pháp thực chứng”.\n- Không đề cập vế “không dựa trên” các hệ thống âm dương, ngũ hành, du mục/nông nghiệp.\n\n3. Sai sót/hallucinate: \n- Không hallucinate; nội dung đúng hướng và liên quan",
+      "error": null
+    },
+    {
+      "sample_id": 68,
+      "original_id": 2844,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Gold nhấn mạnh kết quả là không để lại giá trị bền vững và dần phai nhạt theo thời gian. Câu trả lời của model tập trung vào hệ quả như thống trị văn hóa, mất bản sắc, phân hóa và xung đột, không đề cập đến tính không bền vững/phai nhạt. Nội dung liên quan nhưng lệch trọng tâm chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 69,
+      "original_id": 2847,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "Keyword chính: “nhiệt tình lạnh”.\nCâu trả lời “Nhà triết học” không nêu thuật ngữ, lệch hướng, không chứa yếu tố đúng so với gold.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 70,
+      "original_id": 2858,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính (gold): bổn phận đối với Tổ quốc và gia đình; mục tiêu góp phần ổn định thân phận cá nhân và tôn trọng diện mạo cá nhân trong xã hội.\n- Đối chiếu coverage: Câu trả lời có “Tổ quốc”; không đề cập “gia đình”; không nêu phương diện “ổn định thân phận cá nhân” và “tôn trọng diện mạo cá nhân”.\n- Sai sót/hallucinate: Thêm “nhân dân”, “lý tưởng cách mạng” (liên quan chủ đề nhưng không trùng gold). Thiếu ý quan trọng về “gia đình” và mục tiêu xã hội-cá nhân.\n- Đánh giá: Đúng mộ",
+      "error": null
+    },
+    {
+      "sample_id": 71,
+      "original_id": 2869,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "- Keywords/concepts gold: 3 giai đoạn gồm (1) bắt chước máy móc; (2) kết hợp với bản địa nhưng gây cảm giác lai căng; (3) vượt gộp thành công, phù hợp tâm thức dân tộc.\n- Đối chiếu: Model đưa 3 giai đoạn “tiếp nhận – biến đổi – hội nhập,” tương ứng khá sát với khung 3 giai đoạn của gold, nhưng thiếu các đặc trưng quan trọng: “bắt chước máy móc,” “lai căng,” và “phù hợp với tâm thức dân tộc” chỉ được diễn đạt chung chung.\n- Sai sót/hallucinate: Không có bịa; nội dung đúng hướng nhưng khái quát, t",
+      "error": null
+    },
+    {
+      "sample_id": 72,
+      "original_id": 2873,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: giảm bớt khó khăn; cung cấp con người; nhiệt tình cách mạng; ý thức tổ chức; tinh thần cầu thị; không giáo điều.\n2) Bài model: nói về cung cấp luận cứ khoa học/thực tiễn cho hoạch định chính sách, quản lý, xây dựng đời sống văn hóa. Không đề cập “cung cấp con người” hay các phẩm chất (nhiệt tình, tổ chức, cầu thị, không giáo điều), cũng không nói “giảm bớt khó khăn”.\n3) Không có bịa, nội dung liên quan chủ đề nhưng lệch trọng tâm so với gold.\n4) Theo rubric: liên quan ",
+      "error": null
+    },
+    {
+      "sample_id": 73,
+      "original_id": 2884,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Tóm tắt đánh giá ngắn gọn:\n1) Keywords/concepts chính trong gold: “nhu cầu của tâm thức con người Việt Nam”.\n2) Bài làm không nêu/bao quát khái niệm này; thay vào đó nói “truyền thống, gia đình, cộng đồng, giá trị đạo đức, phong tục”.\n3) Không bịa đặt, nhưng lệch ý chính (nguyên nhân được gold nêu là nhu cầu tâm thức).\n4) Điểm phù hợp theo rubric: 3 (đúng một phần, liên quan nhưng thiếu/lệch ý cốt lõi).\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 74,
+      "original_id": 2885,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Gold nêu 3 ý chính: (1) nhu cầu tâm thức về cơ bản giống nhau ở mọi tầng lớp, lứa tuổi; (2) không liên quan tài sản/học vấn; (3) khá ổn định.  \nCâu trả lời tập trung vào nội dung giá trị (hòa hợp cộng đồng, gia đình, tổ tiên) và nhắc “ổn định”, nhưng không đề cập tính đồng nhất giữa các tầng lớp/lứa tuổi và sự độc lập với tài sản/học vấn. Không bịa nhưng lệch hướng, chỉ trùng yếu tố “ổn định” ở mức yếu.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 75,
+      "original_id": 2909,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "- Keywords/concepts chính (gold): Lưỡng Hà (Mesopotamia); khoảng ba ngàn năm trước Công nguyên.\n- Đối chiếu câu trả lời: Nêu Trung Hoa (thời nhà Tống) → không khớp cả văn hóa lẫn thời kỳ.\n- Đánh giá sai sót: Sai hoàn toàn so với gold; thông tin bị bịa/sai nguồn gốc.\n- Quyết định điểm: Theo rubric, cho 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 76,
+      "original_id": 2942,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: văn hóa Trung Quốc; văn hóa Lưỡng Hà cổ đại.\n2. Đối chiếu: Câu trả lời nêu văn hóa Trung Hoa (Âm dương, Ngũ hành, Kinh Dịch) nhưng không đề cập văn hóa Lưỡng Hà; bổ sung tín ngưỡng dân gian bản địa (không có trong gold).\n3. Sai sót/hallucinate: Không bịa, nhưng thiếu một trụ cột quan trọng (Lưỡng Hà) và thêm yếu tố ngoài phạm vi gold.\n4. Điểm: Đúng một phần, còn thiếu ý chính quan trọng.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 77,
+      "original_id": 3084,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Khái niệm/chìa khóa của gold: ưu tiên “sự hy sinh lớn nhất để bảo vệ đất nước”; không quan tâm “gia thế, tài sản, nguồn gốc xuất thân”.\n- Bài model: nhấn mạnh “đạo đức, lòng nhân ái, khả năng đoàn kết”, giảm trọng “tài năng/quyền lực”.\n- Độ khớp: Cùng chủ đề tiêu chí chọn lãnh đạo nhưng không nêu “hy sinh bảo vệ Tổ quốc” và không đề cập việc bỏ qua “gia thế, tài sản, nguồn gốc”. Có liên quan nhưng lệch trọng tâm.\n- Không thấy bịa/sai nghiêm trọng.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 78,
+      "original_id": 3097,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Gold nhấn vào “lăng kính tâm thức dân gian” với sắc thái “giễu cợt, phê phán”. Câu trả lời nêu “chủ nghĩa yêu nước và tinh thần nhân đạo”, bỏ sót hoàn toàn hai ý chính trên, nên lệch hướng dù vẫn cùng chủ đề Nho giáo trong văn học. Không có bịa đặt, nhưng không khớp nội dung cốt lõi.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 79,
+      "original_id": 3098,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Tóm lược đánh giá: Ý lõi của gold là “vua Việt không thể cai trị dựa trên một bộ máy quan liêu chỉ biết vâng dạ” (nhấn vào ràng buộc/không có “yes-men”). Câu trả lời chỉ mô tả tính quân chủ Nho giáo, gắn bó làng xã và việc dựa vào quan lại nói chung, không chạm đúng điểm khác biệt cốt lõi về “không thể dựa vào bộ máy chỉ biết vâng dạ”. Liên quan chủ đề nhưng lệch trọng tâm; không thấy bịa đặt.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 80,
+      "original_id": 3099,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords chính của gold: “hệ thống đê điều ở miền Bắc”; “hệ thống kênh mương ở miền Nam”.\n2) Câu trả lời nêu “ngôi đình làng” → không cover hai hệ thống đê điều/kênh mương.\n3) Không bịa, nhưng lệch hoàn toàn so với đáp án chuẩn.\n4) Theo rubric: off-direction, chỉ có liên hệ chung về “công trình văn hóa” → 2 điểm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 81,
+      "original_id": 3106,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính (gold):\n- Hai cách: dùng thương nghiệp (chuyển tự cung tự cấp → kinh tế hàng hóa) và dùng bạo lực.\n- Hệ quả: thương nghiệp → tầng lớp thương nhân mạnh; bạo lực → nổi dậy toàn dân, tạo cơ hội ngoại xâm.\n\n2) Đối chiếu câu trả lời model:\n- Nêu “giải thể triệt để” và “giải thể không triệt để/tuần tự”, hệ quả sang chế độ chiếm hữu nô lệ/phong kiến phương Đông.\n- Không đề cập thương nghiệp, kinh tế hàng hóa, tầng lớp thương nhân; không đề cập bạo lực, nổi dậy, cơ hội ngoại x",
+      "error": null
+    },
+    {
+      "sample_id": 82,
+      "original_id": 3134,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold: \n- Không bị lép vế quá mức\n- Được pháp luật bênh vực\n- Gắn bó mật thiết với cha mẹ\n\n2) Đối chiếu với câu trả lời model:\n- Model nhấn mạnh phụ nữ bị giới hạn quyền lực chính trị, kinh tế và ít quyền quyết định → nghiêng về “lép vế”, trái với ý “không bị lép vế quá mức”\n- Không đề cập “được pháp luật bênh vực”\n- Không đề cập “gắn bó mật thiết với cha mẹ”\n- Chỉ có chi tiết “được tôn trọng trong vai trò gia đình” là phần nào liên quan đến vị thế trong gia đình\n",
+      "error": null
+    },
+    {
+      "sample_id": 83,
+      "original_id": 3149,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Không thể cung cấp toàn bộ suy luận chi tiết theo yêu cầu. Dưới đây là đánh giá ngắn gọn:\n\n- Nội dung đúng chủ đề, thể hiện thái độ trân trọng minh triết dân gian và việc làm mới trong sáng tác.\n- Tuy nhiên, bỏ sót ý then chốt “vừa phê phán vừa tôn vinh”; không nêu các giá trị cụ thể như “lễ giáo” và “lòng tận tụy với gia đình”.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 84,
+      "original_id": 3195,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold: “để răng trắng”, “tự xưng Bạch Xỉ”, gắn với lời sấm “Bạch xỉ sinh, thiên hạ bình”.\n2) Câu trả lời model: chỉ nói chung chung “lợi dụng sấm ký/Sấm Trạng Trình để tuyên truyền, thần thánh hóa bản thân”, không nêu hành động cụ thể “để răng trắng” hay “tự xưng Bạch Xỉ”.\n3) Không thấy bịa đặt rõ ràng, nhưng thiếu các chi tiết cốt lõi cần thiết.\n4) Đúng chủ đề nhưng thiếu keywords chính, nên chấm mức đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 85,
+      "original_id": 3200,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "- Keywords/concepts chính trong gold: so sánh với xã hội/thiết chế ở Hy Lạp cổ đại; cụ thể là thành bang/city-state gắn với dân chủ; được mô tả trong “Thành bang Cổ đại” của Fustel (Pustel) de Coulanges.\n- Độ phủ của câu trả lời: nêu “Thành bang Hy Lạp (Cité grecque)” — khớp trọng tâm “thành bang Hy Lạp/city-state”.\n- Sai sót/hallucinate: Không bịa; thiếu chi tiết về “xã hội dân chủ” và không nêu sách “Thành bang Cổ đại” cùng tác giả.\n- Đánh giá theo rubric: Khớp ý chính, thiếu 1-2 chi tiết phụ.",
+      "error": null
+    },
+    {
+      "sample_id": 86,
+      "original_id": 3204,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts gold: truyền thống tự tổ chức của nông dân (làng xã do mình sáng tạo), không lệ thuộc chính quyền phong kiến, sự hòa hợp với tư tưởng XHCN.\n- Câu trả lời model: tập trung vào vai trò/ chính sách của Đảng (cách mạng giải phóng, cải cách ruộng đất, hỗ trợ nông nghiệp).\n- Đánh giá: Cùng chủ đề “nguyên nhân gắn bó”, nhưng lệch ý chính của gold (không đề cập truyền thống tự quản, tính tương hợp tư tưởng). Nội dung không có dấu hiệu bịa đặt nghiêm trọng.\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 87,
+      "original_id": 3210,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1. Keywords/concepts chính trong gold:\n- Mô hình bộ máy quản lý làng\n- Thể chế công xã nông thôn cổ xưa\n- Tính phổ quát liên lục địa (từ châu Phi đến châu Á, châu Đại Dương, châu Mỹ)\n\n2. Kiểm tra cover:\n- Câu trả lời nói “mô hình tổ chức của triều đình phong kiến trung ương (nhà nước quân chủ thu nhỏ)”, không trùng “quản lý làng”, không nhắc “công xã nông thôn cổ xưa”, không có yếu tố phổ quát liên châu lục.\n\n3. Đánh giá sai sót/hallucinate:\n- Lệch hẳn ý của Từ Chi; nội dung sai so với gold. Khô",
+      "error": null
+    },
+    {
+      "sample_id": 88,
+      "original_id": 3212,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts từ gold: trách nhiệm của người trên phải thực hiện đúng giao kèo; nếu không sẽ bị người dưới phê bình; có thể mất chức.\n- Mức độ cover của model: chỉ nêu dân cùng tham gia xây dựng, thảo luận, thống nhất quy định và các giá trị công bằng, bình đẳng; không đề cập trách nhiệm/kiểm soát người trên, phê bình hay bãi miễn.\n- Sai sót/hallucinate: Không bịa; nội dung đúng chủ đề nhưng lệch trọng tâm so với ý chính của gold.\n- Đánh giá: Liên quan nhưng thiếu các keywords cốt lõi (trá",
+      "error": null
+    },
+    {
+      "sample_id": 89,
+      "original_id": 3217,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Không thể cung cấp suy luận từng bước. Đánh giá ngắn: Câu trả lời nêu các phong trào nông dân có thật và đúng chủ đề, nhưng không trùng các phong trào yêu cầu trong đáp án chuẩn (Nguyễn Bổ, Trần Đức Huy, Mạc Đình Phúc, Kỳ Đồng), nên chỉ đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 90,
+      "original_id": 3218,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts in gold: \n  - Tập hợp những người yêu thích võ nghệ và quân sự\n  - Gắn liền với các lò vật nổi tiếng trong làng\n\n- Độ phủ của câu trả lời: \n  - Có nhắc đến huấn luyện võ nghệ (liên quan chủ đề)\n  - Không nêu nhiệm vụ “tập hợp người yêu thích võ/quân sự”\n  - Không đề cập sự gắn kết với các lò vật trong làng\n  - Thêm các nhiệm vụ bảo vệ an ninh, chống ngoại xâm (không có trong gold)\n\n- Đánh giá: Nội dung liên quan nhưng lệch trọng tâm so với gold và thiếu các keyword chính.\n\nSC",
+      "error": null
+    },
+    {
+      "sample_id": 91,
+      "original_id": 3240,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Ý chính gold: xây dựng quan hệ với họ hàng nhà chồng; góp phần quyết định sự kính nể, yêu thương mà gia đình chồng nhận từ cộng đồng.\n- Bài model: nói vai trò chung (quản lý gia đình, kinh tế, tình cảm, truyền thống), không đề cập quan hệ với họ hàng nhà chồng hay ảnh hưởng đến sự kính nể từ cộng đồng.\n- Không thấy bịa đặt, nhưng thiếu các keywords cốt lõi, chỉ cùng chủ đề chung về vai trò người vợ.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 92,
+      "original_id": 3241,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Giải thích ngắn gọn: Gold nhấn vào “các Mẫu” (Mẫu Thượng Thiên, Mẫu Thoải, Mẫu Thượng Ngàn). Câu trả lời nêu Ngọc Hoàng, Tam Thanh, không hề đề cập các Mẫu, nên lệch ý chính theo gold. Nội dung vẫn đúng chủ đề Đạo giáo nhưng sai trọng tâm so với đáp án chuẩn. Không phải bịa đặt, chỉ sai hướng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 93,
+      "original_id": 3244,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold: nam giới gắn với vai trò trong chính trị; nữ giới giữ vai trò chủ đạo trong lĩnh vực tâm linh.\n2) Model không cover các keywords này: chỉ nói trụ cột gia đình, lãnh đạo, nội trợ/chăm sóc; không đề cập đến chính trị hay tâm linh.\n3) Không hallucinate; nội dung đúng chung về vai trò giới nhưng lệch trọng tâm so với gold.\n4) Điểm: Liên quan chủ đề nhưng thiếu/khác ý chính quan trọng → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 94,
+      "original_id": 3273,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts (gold): cô độc; không nhà; không họ hàng; không có bàn thờ thờ tổ tiên; không nhận được sự an ủi.\n2. Đối chiếu: Model nêu chung chung suy giảm tinh thần, áp bức/bóc lột, phân biệt, xâm phạm văn hóa/giáo dục; không đề cập các điểm cụ thể: cô độc, không nhà, không họ hàng, không bàn thờ, không an ủi.\n3. Sai sót/hallucinate: Không hallucinate; nội dung đúng hướng nhưng thiếu các chi tiết cốt lõi của gold.\n4. Điểm: Phù hợp một phần, thiếu nhiều chi tiết quan trọng.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 95,
+      "original_id": 3311,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts của gold: khao vọng/ăn mừng/tiệc tùng/ngi lễ; ngôi thứ; quy chế về quần áo; xưng hô; cách đối xử; cách ăn nói.\n2) Độ phủ của câu trả lời: có “Trang phục” (khớp quy chế quần áo); “Chức vị” phần nào gợi ngôi thứ. Thiếu các mục khao vọng/ăn mừng/tiệc tùng/nghi lễ, xưng hô, cách đối xử, cách ăn nói. Nêu thêm gia thế, học vấn, tài sản, đạo đức là những yếu tố không nằm trong gold.\n3) Sai sót/hallucinate: Không bịa, nhưng lệch trọng tâm so với các yếu tố nghi lễ và quy phạm hành v",
+      "error": null
+    },
+    {
+      "sample_id": 96,
+      "original_id": 3327,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính trong gold: Đặng Xuân Bảng; Nguyễn Thượng Hiền; nhà Nho yêu nước; chủ trương phong trào thiện đản để bảo vệ truyền thống yêu nước.\n2) Kiểm tra coverage: Câu trả lời nêu Phan Bội Châu, Phan Châu Trinh (nhà Nho duy tân), không nhắc Đặng Xuân Bảng, Nguyễn Thượng Hiền; không khớp cụ thể với phong trào “thiện đản”.\n3) Sai sót: Sai đối tượng chủ chốt; lẫn với phong trào Duy Tân. Không phải hallucinate, nhưng thông tin không đúng với câu hỏi.\n4) Điểm: Off-direction, có một yế",
+      "error": null
+    },
+    {
+      "sample_id": 97,
+      "original_id": 3332,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: lễ (giữ đúng cương vị), nghĩa (làm điều đúng đắn), liêm (không tham lam), sỉ (biết xấu hổ trước sai trái).\n2) Coverage: Model không nêu trực tiếp “lễ, nghĩa, liêm, sỉ”. Có tương đồng một phần: “tôn trọng” gần với lễ; “trung thực” gần với liêm; “tự trọng” gần với sỉ; “trách nhiệm/làm điều đúng” có nét gần với nghĩa. Tuy nhiên thiếu bộ tứ và định nghĩa cụ thể như gold yêu cầu.\n3) Sai sót/hallucinate: Không bịa, nhưng lệch trọng tâm so với gold và thiếu các keyword chính.",
+      "error": null
+    },
+    {
+      "sample_id": 98,
+      "original_id": 3335,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords chính của gold: “phục vụ nhân cách luận”, “đề cao những nhân cách phù hợp với văn hóa”, “bất chấp hoàn cảnh khó khăn”.\n2) Câu trả lời model nói về “truyền miệng, truyền nghề, cha truyền con nối” → không bao quát các keyword/khái niệm cốt lõi trên.\n3) Không hallucinate; nội dung cùng chủ đề “duy trì/tồn tại” nhưng lệch hướng so với yếu tố cốt lõi được hỏi.\n4) Theo rubric: Off-direction, không khớp các ý chính của gold → 2 điểm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 99,
+      "original_id": 3370,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- Thông thạo khoa học - kỹ thuật\n- Giỏi quản lý xã hội\n- Thạo kinh doanh\n- Biết sử dụng tiền hợp lý\n- Tuân thủ pháp luật\n- Chấp nhận cạnh tranh\n- Hiểu quyền tư hữu trong pháp luật\n\n2) Đối chiếu cover của câu trả lời:\n- Có phần gần: “Công nghệ: sử dụng công nghệ hiệu quả” ≈ thông thạo khoa học - kỹ thuật.\n- Các ý còn lại (giáo dục, đạo đức, kỹ năng mềm, tư duy tích cực, hiểu biết văn hóa, sức khỏe tinh thần) không khớp các keywords trọng tâm như: quản lý xã ",
+      "error": null
+    },
+    {
+      "sample_id": 100,
+      "original_id": 3373,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính của gold: phát triển kỹ thuật/hạ tầng truyền thông – vận tải (điện thoại, vô tuyến, lưới điện, giao thông); tăng tiếp xúc trong nước và với thế giới; hệ quả là giao lưu và thỏa hiệp văn hóa hai chiều.\n- Độ phủ của câu trả lời: nêu toàn cầu hóa và ảnh hưởng ngoại lai (liên quan đến tiếp xúc với thế giới) nhưng không đề cập yếu tố kỹ thuật/hạ tầng truyền thông – vận tải, không nói đến tăng tiếp xúc trong nước, cũng không nhắc khía cạnh “thỏa hiệp hai phía”; bổ sung các ng",
+      "error": null
+    },
+    {
+      "sample_id": 101,
+      "original_id": 3404,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts gold: Tổ quốc; gia đình; thân phận; diện mạo.\n2) Coverage: Câu trả lời không nêu “Tổ quốc”, “thân phận”, “diện mạo”; “tôn vinh tổ tiên” có thể liên hệ lỏng lẻo đến “gia đình” nhưng không khớp trực tiếp.\n3) Sai sót/hallucinate: Lệch hướng so với 4 yêu cầu chuẩn, đưa nội dung chung về chức năng tín ngưỡng; không bịa nhưng thiếu các keyword chính.\n4) Đánh giá theo rubric: Off-direction, có 1 yếu tố liên quan mơ hồ → 2 điểm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 102,
+      "original_id": 3421,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Đánh giá nhanh: Gold yêu cầu hai ý chính: dựa trên “mười nét cơ bản” và “quy phạm hóa một lần cho toàn bộ lịch sử hệ chữ”. Câu trả lời của model chuyển sang Quốc ngữ, nói về nguyên tắc ghi âm vị và cơ chế thống nhất qua từ điển/giáo dục/văn bản, không đề cập hai ý chính trên, lệch hướng so với gold dù vẫn nói về quy phạm hóa nói chung.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 103,
+      "original_id": 3440,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính (gold): cầm bút bằng ba ngón tay; bên ngoài lỏng nhẹ nhưng thực chất rất chặt (đến mức không ai giật được); đảm bảo chính xác và linh hoạt.\n- Đối chiếu: Model nói cầm bằng 5 ngón (“Ngũ chỉ chấp bút”), nêu giữ chắc, cổ tay linh hoạt, cán bút thẳng đứng.\n- Sai sót: Lệch chi tiết trọng yếu về số ngón (5 vs 3); thiếu ý “bên ngoài lỏng, bên trong chặt” ở mức nhấn mạnh; thêm chi tiết không có trong gold (cán bút thẳng đứng).\n- Quyết định: Cùng chủ đề, có một phần đúng (giữ ch",
+      "error": null
+    },
+    {
+      "sample_id": 104,
+      "original_id": 3444,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- Học vấn Hán chủ yếu dành cho tầng lớp quý tộc/quan lại.\n- Đại đa số người Việt là dân nghèo, thiếu thời gian và điều kiện kinh tế nên không thể học đầy đủ văn hóa Hán.\n\n2) Đối chiếu với câu trả lời của model:\n- Model nói về “tiếp thu có chọn lọc”, “Việt hóa”, “phù hợp bản sắc và điều kiện địa phương”, so sánh với Trung Quốc như “tự nhiên của họ”.\n- Không đề cập đến yếu tố then chốt: tính chất giai tầng (quý tộc vs đa số dân nghèo) và hạn chế về thời gian/",
+      "error": null
+    },
+    {
+      "sample_id": 105,
+      "original_id": 3454,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "1) Keywords/concepts chính trong gold: “quy chế thầy trò (xưa)” và tính “chặt chẽ”.\n2) Model cover: Nêu “tôn sư trọng đạo” (bản chất là chuẩn mực thầy–trò trong truyền thống) và khẳng định tính quy chế chặt chẽ; phù hợp với ý “quy chế thầy trò xưa”.\n3) Sai sót/hallucinate: Không có; nội dung đúng chủ đề, không bịa.\n4) Quyết định điểm: Khớp ý chính và keywords (dù dùng cụm tương đương). \n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 106,
+      "original_id": 3461,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1. Keywords/concepts chính (gold): “Danh bút” trong thư pháp là nguyên tắc/lối chữ nhấn mạnh “cái trắng (khoảng trống) bay” chứ không phải “cái đen (mực) bay”.\n2. Kiểm tra cover: Câu trả lời chuyển nghĩa “danh bút” thành người/tác phẩm nổi tiếng, không đề cập nguyên tắc “khoảng trống bay”. Không cover các keywords chính.\n3. Sai sót/hallucinate: Lệch khái niệm so với định nghĩa trong thư pháp; không bịa nhưng sai hướng.\n4. Quyết định điểm: Off-direction, chỉ trúng mỗi lĩnh vực “thư pháp” → 2 điểm",
+      "error": null
+    },
+    {
+      "sample_id": 107,
+      "original_id": 3494,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Gold nhấn mạnh: “bình thường, vừa phải, gần gũi, quen thuộc, tránh cực đoan”.\n- Câu trả lời nêu: yêu nước, nhân nghĩa, đoàn kết, hiếu học, tôn trọng truyền thống, hòa hợp thiên nhiên.\n- Không trùng các keywords/chủ điểm chính của gold; vẫn đúng chủ đề “giá trị văn hóa Việt Nam” nhưng lệch khía cạnh.\n- Không có bịa đặt, chỉ không khớp nội dung yêu cầu.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 108,
+      "original_id": 3514,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Ý chính của gold: câu hỏi cốt lõi là “có cần hay không” (tính cần thiết).\n- Câu trả lời của model: “linh hay không linh” (tính hiệu nghiệm), khác trọng tâm.\n- Cùng lĩnh vực tôn giáo nhưng lệch ý chính; không bịa.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 109,
+      "original_id": 3532,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Keywords/chủ điểm của gold: “ví như một kho vàng” + “cần vất vả khai thác/đào bới”.\n- Câu trả lời model dùng ẩn dụ khác hẳn (“vũ khí tinh thần/sức mạnh nội sinh”), không chứa các keyword/chủ điểm của gold.\n- Không bịa thông tin nhưng lệch hướng so với đáp án chuẩn.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 110,
+      "original_id": 3534,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đánh giá ngắn gọn: Gold nhấn mạnh 3 điểm then chốt: (1) phải “đào bới” vất vả để khai mở, (2) có người cố tình che lấp/đổ thêm đất đá, (3) mỗi cá nhân phải tự thân làm việc đó. Câu trả lời chấm liệt kê khó khăn vĩ mô (nguồn lực, quản lý, thương mại hóa, ngoại lai…), không đề cập ba ý cốt lõi này. Nội dung vẫn đúng chủ đề nhưng lệch trọng tâm so với gold, không có sai/hallucinate.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 111,
+      "original_id": 3555,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Model trả lời lệch trọng tâm: gold nhấn vào truyền thống sáng tác/sử dụng thơ, văn, giai thoại, tục ngữ để biểu đạt chính nghĩa và khí tiết trong gian khó. Model nói về truyền thống đoàn kết, tương thân tương ái; chỉ chạm nhẹ tới “tục ngữ” qua ví dụ “lá lành đùm lá rách”. Off-direction với một yếu tố đúng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 112,
+      "original_id": 3557,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: ghi chép (bài thơ, bài hát, giai thoại, tục ngữ mới học); chia sẻ với đồng bào trong các buổi gặp gỡ.\n2) Đối chiếu: Câu trả lời nêu bảo tồn, tham gia nghệ thuật, sưu tầm di sản, quảng bá văn hóa; không có “ghi chép” các bài vè/thơ/hát/giai thoại/tục ngữ mới học và không có “chia sẻ trong buổi gặp gỡ”.\n3) Sai sót/hallucinate: Không bịa, nhưng lệch trọng tâm so với hành vi cụ thể trong gold.\n4) Điểm: Liên quan chủ đề chung nhưng thiếu các keywords chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 113,
+      "original_id": 3561,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: “chữ viết” là biểu tượng; thể hiện qua “câu đối, hoành phi, gia phả” và “trí nhớ cộng đồng”.\n2. Model không cover các keywords/concepts đó; trả lời “cây tre” (biểu tượng khác, không liên quan đến chữ viết).\n3. Không hallucinate; nội dung liên quan chủ đề biểu tượng văn hóa Việt nhưng lệch so với gold.\n4. Theo rubric: cùng chủ đề nhưng sai khía cạnh chính => 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 114,
+      "original_id": 3574,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Tóm tắt đánh giá ngắn gọn:\n- Keywords/concepts trong gold: (1) bị ảnh hưởng bởi địa vị xã hội; (2) thiếu ý thức vững vàng về giá trị con người trong lao động.\n- Độ phủ của câu trả lời: Không đề cập hai ý trên; nội dung tập trung vào kỷ luật, cảm hứng, tư duy ngắn hạn, kế hoạch dài hạn, hợp tác nhóm.\n- Sai sót/hallucination: Không hallucinate, nhưng lệch ý so với gold dù vẫn đúng chủ đề “điểm yếu tư duy lao động”.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 115,
+      "original_id": 3577,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính trong gold: “con đường ngàn dặm”; ý nghĩa: “hành trình dài”, “cần sự kiên trì, quyết tâm từ mỗi cá nhân”.\n2) Model không cover các keywords/concepts này; thay vào đó nói “một cuộc cách mạng” và ý nghĩa là “thay đổi toàn diện, sâu sắc”.\n3) Sai lệch trọng tâm: so sánh khác hoàn toàn; bỏ sót ý “hành trình dài/kiên trì”. Không bịa thông tin nhưng trả lời sai nội dung chính.\n4) Theo rubric, lệch hướng với 1 yếu tố đúng (cùng chủ đề đổi mới nhưng sai phép so sánh và ý nghĩa)",
+      "error": null
+    },
+    {
+      "sample_id": 116,
+      "original_id": 3598,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords chính trong gold: “cây đại thụ”, “mảnh đất Đông Nam Á”, “tiếp nhận và hòa hợp ảnh hưởng”, “giữ bản sắc riêng”.\n2. Bài model: “vườn hoa” chỉ gợi ý đa dạng/hòa hợp, không khớp hình ảnh “cây đại thụ”, không nhắc Đông Nam Á, không nêu rõ “giữ bản sắc”.\n3. Không bịa, nhưng sai hình ảnh cốt lõi và thiếu các chi tiết then chốt.\n4. Theo rubric: liên quan chủ đề nhưng lệch và thiếu nhiều ý chính → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 117,
+      "original_id": 3605,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Gold nhấn mạnh yếu tố cốt lõi: niềm tin rằng giao lưu không bị lợi dụng cho âm mưu chính trị và không có đe dọa/ép buộc bằng vũ lực hay áp lực. Câu trả lời của model nêu các yếu tố chung (tôn trọng, hiểu biết, thích nghi, bình đẳng, chính sách) nhưng không đề cập đến hai điểm then chốt này. Nội dung vẫn đúng chủ đề và liên quan nhưng lệch trọng tâm so với gold, không có bịa đặt.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 118,
+      "original_id": 3606,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính (gold): \n- “được công nhận là nền tảng của quan hệ quốc tế”\n- mốc thời gian: “trong khoảng hai thập kỷ gần đây” (tức khoảng 20 năm gần đây, thiên về từ đầu 2000s trở lại đây)\n\n2) Đối chiếu với câu trả lời: \n- Có nói về thời điểm “được công nhận” trong quan hệ quốc tế (đúng chủ đề).\n- Nêu mốc “thập kỷ 90”/“1988” → lệch so với “hai thập kỷ gần đây”.\n\n3) Sai sót/hallucinate:\n- Lệch mốc thời gian trọng yếu so với gold.\n- Đưa thêm chi tiết UNESCO 1988 (có thật nhưng không k",
+      "error": null
+    },
+    {
+      "sample_id": 119,
+      "original_id": 3609,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "- Keywords/concepts chính (gold): “Lê Thánh Tông”, “Minh Mạng”.\n- Coverage của model: Nêu đúng cả hai tên vua: “Vua Lê Thánh Tông và vua Minh Mạng”.\n- Sai sót/hallucinate: Không có; trùng khớp hoàn toàn với đáp án chuẩn.\n- Đánh giá theo rubric: Khớp hoàn toàn nội dung và keywords chính.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 120,
+      "original_id": 3629,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đánh giá ngắn gọn:\n- Gold nhấn mạnh: “nâng tính dân tộc lên tầm thế giới” và “sản phẩm vừa mang tinh thần dân tộc vừa vang vọng, cộng hưởng với khát vọng của các nền văn hóa khác”.\n- Câu trả lời nêu: tiếp thu có chọn lọc, giữ bản sắc, hài hòa truyền thống-hiện đại.\n- Thiếu các ý cốt lõi về “tầm thế giới” và “sức vang/tiếng vọng” ra bên ngoài; do đó chỉ đúng một phần, cùng chủ đề nhưng lệch trọng tâm.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 121,
+      "original_id": 3646,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1) Keywords/concepts (gold): người trần/đời thường; nhiều bất hạnh của phụ nữ; sống đạo đức, thương người; không có tu luyện đặc biệt.\n2) Coverage (model): có “người trần gian”; có “trắc trở/oan khuất/bất hạnh”; có “đức độ/cứu nhân độ thế” (tương ứng thương người). Thiếu nêu rõ “không tu luyện gì đặc biệt”.\n3) Sai sót/hallucination: Không thấy bịa; thêm “tài năng” và “hiển thánh” không mâu thuẫn. Thiếu chi tiết “không tu luyện”.\n4) Điểm: Khớp ý chính, thiếu 1 chi tiết phụ quan trọng vừa phải.\n\nS",
+      "error": null
+    },
+    {
+      "sample_id": 122,
+      "original_id": 3670,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Phân tích ngắn gọn: Câu trả lời của model đúng hướng về khó khăn khi không có tiền tệ (định giá, trao đổi, phân phối; có nhắc đến sản xuất, giao thương), nhưng bỏ sót các ý quan trọng của gold là: người dân chưa có khái niệm rõ ràng về các khâu sản xuất–lưu thông–phân phối–tiêu dùng và đặc biệt là ảnh hưởng của tư duy cũ, cơ chế quan liêu bao cấp. Do đó chỉ khớp một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 123,
+      "original_id": 3678,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "- Keywords/concepts chính (gold): năm 1923; Hồ Chí Minh/Nguyễn Ái Quốc; so sánh Khổng Tử với Mác/Karl Marx (ngang hàng).\n- Đối chiếu: Câu trả lời nêu rõ “Hồ Chí Minh… so sánh Khổng Tử với Karl Marx… năm 1923” — khớp đầy đủ các ý chính.\n- Sai sót/hallucinate: Không.\n- Đánh giá theo rubric: Đáp án khớp hoàn toàn nội dung và keywords chính.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 124,
+      "original_id": 3701,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Keywords/concepts chính (gold): “Liễu Hạnh Công Chúa”; đồng nhất hóa với nữ thần Chăm Thiên Y A Na; bối cảnh Trung Bộ.\n- Đối chiếu câu trả lời: Model trả lời “Thánh Mẫu Thiên Y A Na”, tức lặp lại chính nữ thần Thiên Y A Na, không nêu nhân vật Việt được đồng nhất là Liễu Hạnh.\n- Sai sót: Lệch ý chính; thiếu keyword cốt lõi “Liễu Hạnh Công Chúa”; nội dung chỉ liên quan bề mặt (nhắc Thiên Y A Na) nhưng không đáp ứng yêu cầu đồng nhất hóa với nhân vật nữ cụ thể.\n- Đánh giá theo rubric: Off-directi",
+      "error": null
+    },
+    {
+      "sample_id": 125,
+      "original_id": 3767,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Ý chính trong đáp án chuẩn: 5 ông quan cụ thể và tương ứng: Quan lớn đệ nhất (Thượng Thiên, áo đỏ), Quan lớn đệ nhị (Thượng Ngàn, áo lục), Quan lớn đệ tam (Thoải, áo lam), Quan lớn đệ tứ (Địa Phủ, áo vàng), Quan lớn đệ ngũ (Quan Tuần Tranh).\n- Bài trả lời đã nêu: mỗi ông quan tượng trưng cho Kim, Mộc, Thủy, Hỏa, Thổ và vai trò hỗ trợ Thánh Mẫu.\n- Thiếu/khác biệt: Không nêu tên, thứ bậc các quan; không nêu miền (Thượng Thiên/Thượng Ngàn/Thoải/Địa Phủ); không nêu màu áo; không nhắc Quan Tuần Tra",
+      "error": null
+    },
+    {
+      "sample_id": 126,
+      "original_id": 3778,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Gold concepts: Trịnh Thường (tri phủ Ninh Giang); vợ hai bị con Long Vương kéo xuống nước; nhờ tiên Quỷ Cốc giúp đòi vợ từ Long Vương.\n- Model coverage: Chỉ có nhắc Trịnh Thường; không có Long Vương, vợ bị kéo xuống nước, Quỷ Cốc, Ninh Giang. Nêu một sự kiện khác (thi chạy đua ở ngã ba sông Bạch Hạc với Thạch Khanh), lệch hướng.\n- Đánh giá: Off-direction, có 1 yếu tố đúng (tên nhân vật).\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 127,
+      "original_id": 3814,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: “mối quan hệ trực tiếp” giữa lãnh đạo và dân; “chưa có bộ máy quan lại đông đúc” (chưa qua tầng nấc trung gian).\n- Cover của model: Không nêu “trực tiếp” hay “thiếu bộ máy quan lại”; tập trung vào quan hệ quân–thần, trung quân và tư tưởng “dân vi bản” → lệch trọng tâm so với gold.\n- Sai sót/hallucinate: Có chi tiết dễ tranh cãi về gán “dân vi bản” cho Mặc Tử/Quản Trọng; nhưng quan trọng là thiếu hoàn toàn ý chính của gold.\n- Quyết định điểm: Cùng chủ đề (qua",
+      "error": null
+    },
+    {
+      "sample_id": 128,
+      "original_id": 3816,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Tóm tắt đánh giá ngắn gọn:\n- Keyword/concept chính của gold: “lễ” dùng để điều chỉnh quan hệ xã hội (nghi thức cống nạp, tế tự, quần áo, xe cộ, số người tham dự điệu vũ).\n- Câu trả lời nêu “phong tục, tập quán, lệ làng (luật tục)”, không khớp với “lễ” theo nghĩa Nho giáo/quy phạm lễ nghi; đi lệch ý chính dù cùng lĩnh vực điều chỉnh xã hội.\n- Không có bịa đặt, nhưng sai trọng tâm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 129,
+      "original_id": 3822,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "Gold nêu vai trò cốt lõi: giúp Trịnh Thường gặp Long Vương để đòi lại vợ. Câu trả lời chấm không đề cập Long Vương hay việc đòi vợ, lại đưa chi tiết “truyền dạy phép thuật/trao sách quý” không có trong gold. Lệch ý chính, không có yếu tố nào trùng khớp.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 130,
+      "original_id": 3886,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính (gold): \n- Nội dung Kinh Xuân Thu có: chuyện quái dị, cướp ngôi, tôi giết vua.\n- Quan điểm Khổng Tử: không bàn những việc không thuộc địa vị của mình.\n\n2) Đối chiếu câu trả lời: \n- Không nêu các yếu tố “quái dị, cướp ngôi, tôi giết vua”.\n- Không đề cập nguyên tắc “không bàn việc ngoài địa vị”.\n- Trả lời chung chung về “suy đồi đạo đức” trái với lý tưởng nhân lễ.\n\n3) Sai sót/hallucinate: \n- Không thấy bịa đặt rõ ràng; nhưng lý do đưa ra lệch so với gold.\n\n4) Đánh giá th",
+      "error": null
+    },
+    {
+      "sample_id": 131,
+      "original_id": 3909,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "Gold: “tân” trong “Duy tân” nghĩa là “cái đầu tiên”, không phải “mới”. Model trả lời “mới” nên sai hoàn toàn so với gold.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 132,
+      "original_id": 3931,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Xin lỗi, tôi không thể cung cấp suy luận chi tiết từng bước. Dưới đây là đánh giá ngắn gọn:\n\n- Keywords/concepts của gold: “giống nhau căn bản” giữa Khổng giáo và văn hóa hiện đại; “khác nhau là thứ yếu” và “có thể khắc phục dễ dàng”.\n- Câu trả lời của model: nói về giá trị tích cực và hạn chế của Khổng giáo, cần chọn lọc/điều chỉnh; kết hợp với tinh thần khoa học, dân chủ.\n- Thiếu các điểm cốt lõi: không nêu “giống nhau căn bản”; không khẳng định “khác biệt là thứ yếu và dễ khắc phục”.\n- Không ",
+      "error": null
+    },
+    {
+      "sample_id": 133,
+      "original_id": 3932,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính (gold): lý thuyết đầu thai dùng để giải thích Thánh Mẫu hóa thân; các hóa thân là những nhân vật lịch sử cụ thể: Hai Bà Trưng, Bà Triệu, Ỷ Lan, Ngọc Hân.\n- Đối chiếu: Câu trả lời nói chung chung về sự tiếp nối linh hồn, nghiệp báo, và việc thần linh/nhân vật lịch sử trở thành đối tượng thờ cúng; không nêu Thánh Mẫu, không nêu các ví dụ cụ thể.\n- Sai sót: Thiếu ý cốt lõi “Thánh Mẫu hóa thân thành nhân vật lịch sử cụ thể”; chuyển hướng sang giải thích rộng về nghiệp và th",
+      "error": null
+    },
+    {
+      "sample_id": 134,
+      "original_id": 3936,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính (gold): ham học; thông minh; tháo vát; nhạy bén với/nhanh thích ứng với thay đổi.\n2) Coverage: Câu trả lời nêu “bảo thủ, trọng xưa khinh nay, ngại thay đổi” — hoàn toàn không phủ các keyword, còn trái ngược với “nhạy bén với thay đổi”.\n3) Sai sót/hallucinate: Nội dung lệch hẳn ý chính, không có yếu tố đúng; không bịa đặt dữ kiện nhưng kết luận ngược với gold.\n4) Điểm theo rubric: Sai hoàn toàn so với gold.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 135,
+      "original_id": 3954,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Xin lỗi, tôi không thể cung cấp suy luận từng bước chi tiết. Dưới đây là đánh giá ngắn gọn:\n\nCâu trả lời nêu được ý tôn kính/thờ phụng Ông Lốt (điểm đúng), nhưng bỏ sót chi tiết nghi thức quan trọng trong gold (người đồng nằm dài, phủ khăn đỏ khi ông nhập) và thêm các ý tượng trưng may mắn/phồn thịnh không có trong gold. Vì vậy chỉ đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 136,
+      "original_id": 3985,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Không thể cung cấp chuỗi suy luận chi tiết. Dưới đây là đánh giá ngắn gọn:\n\nĐáp án chuẩn nhấn mạnh nguyên nhân cốt lõi là năng suất máy móc vượt xa lao động con người, làm mất ý nghĩa của thước đo tiến bộ dựa trên sản xuất vật chất. Câu trả lời của model chuyển trọng tâm sang các yếu tố phi vật chất (tri thức, công nghệ, môi trường, chất lượng sống), nên liên quan chủ đề nhưng không bao quát ý chính then chốt của gold.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 137,
+      "original_id": 4010,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: \n  - Việc thừa kế là điều tự nhiên\n  - Không bị coi là thiệt thòi\n  - So sánh/khái quát tương tự như tư tưởng phương Tây chịu ảnh hưởng Platông và Thiên Chúa giáo (tính tất yếu/không thoát khỏi ảnh hưởng)\n- Đối chiếu với câu trả lời: \n  - Câu trả lời nói về lợi ích/giá trị (đạo đức, gia đình, hiếu, học vấn, trách nhiệm xã hội) và tác động đến lối sống/bản sắc, nhưng không nêu tính “tự nhiên”, không khẳng định “không thiệt thòi”, và không có phép so sánh với ",
+      "error": null
+    },
+    {
+      "sample_id": 138,
+      "original_id": 4014,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold: “các công cụ” và đặc biệt “khái niệm như công cụ của tư duy”.\n2) Model không nêu “công cụ” hay “khái niệm là công cụ của tư duy”; liệt kê tò mò, quan sát, thử nghiệm, công nghệ, trao đổi tri thức, ứng dụng — cùng chủ đề nhưng lệch trọng tâm.\n3) Không có bịa đặt, nhưng thiếu các keywords cốt lõi của gold.\n4) Điểm phù hợp: 3 (đúng một phần, liên quan nhưng thiếu/không khớp ý chính).\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 139,
+      "original_id": 4058,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính từ gold: chịu ảnh hưởng mạnh từ truyền thống; dùng lối tâng bốc hoặc mạt sát; thiếu cái nhìn khách quan về đối tượng.\n2) Bài model không đề cập các ý này; thay vào đó nói về mục tiêu giải quyết vấn đề xã hội/chính trị, tính thực tiễn, cải cách.\n3) Không thấy bịa đặt, nhưng lệch trọng tâm so với gold, không khớp các keywords chính.\n4) Theo rubric: off-direction, không cover keywords chính → 2 điểm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 140,
+      "original_id": 4061,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính của gold: “sự nhất quán trong việc lựa chọn và thực hành tư tưởng”.\n- Độ bao phủ của câu trả lời: Không nêu “tính nhất quán” mà chuyển sang nội dung giá trị (nhân nghĩa, đạo đức, dân làm gốc), nên lệch so với ý chính của gold.\n- Sai sót/hallucinate: Không bịa; thông tin đúng nhưng không trúng trọng tâm gold.\n- Quyết định điểm: Cùng chủ đề nhưng sai khía cạnh trọng tâm → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 141,
+      "original_id": 4062,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1) Keywords/concepts chính trong gold:\n- “Đạo nhà” liên hệ với cụ Đồ Chiểu (Nguyễn Đình Chiểu)\n- Được xem như biểu tượng cho tư tưởng lựa chọn tiêu biểu của Việt Nam\n\n2) Đối chiếu với câu trả lời:\n- Có: liên hệ với Nguyễn Đình Chiểu\n- Thiếu: ý “biểu tượng cho tư tưởng lựa chọn tiêu biểu của Việt Nam”\n\n3) Sai sót/hallucinate: Không có; thông tin đúng, chỉ thiếu chi tiết phụ.\n\n4) Điểm theo rubric: Khớp ý chính, thiếu chi tiết phụ → 4\n\nSCORE: 4",
+      "error": null
+    },
+    {
+      "sample_id": 142,
+      "original_id": 4119,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts (gold): \n- Có đặc điểm phù hợp với vị thần (diện mạo, tính tình, cách ăn mặc)\n- Được thần chọn\n- Trong buổi hầu bóng\n\n2) Đối chiếu với câu trả lời model:\n- Có “được thần chọn” (khớp)\n- “Nhập hồn” gần với hầu bóng (gần khớp, nhưng không nêu rõ “buổi hầu bóng”)\n- Thiếu hoàn toàn ý “đặc điểm phù hợp (diện mạo, tính tình, cách ăn mặc)”\n- Thêm “nghi lễ nhập môn”, “giáng bút” không có trong gold (chi tiết ngoài phạm vi)\n\n3) Sai sót/hallucinate:\n- Không bịa thông tin rõ ràng nhưng ",
+      "error": null
+    },
+    {
+      "sample_id": 143,
+      "original_id": 4121,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Ý chính của gold: (1) sự gắn bó mật thiết giữa đất nước và sự sống con người; (2) không ai có thể chọn lựa hay tách rời khỏi đất nước.\n- Bài trả lời: nêu tinh thần đoàn kết, che chở, vai trò trung tâm và sự gắn kết cộng đồng; có ý “gắn kết” nhưng thiếu hẳn yếu tố “không thể chọn lựa/tách rời” và lệch trọng tâm sang bao bọc–bảo vệ.\n- Không có bịa đặt nghiêm trọng, nhưng thiếu ý then chốt.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 144,
+      "original_id": 4122,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "Đánh giá nhanh: Câu trả lời nêu đúng bối cảnh chia cắt Đàng Ngoài/Đàng Trong và điểm cốt lõi là cả hai cùng tồn tại dưới danh nghĩa nhà Lê, tức vẫn là một thực thể quốc gia chung. Tuy nhiên, thiếu nêu rõ tên quốc gia “Đại Việt” và có chi tiết thời gian chưa chuẩn là phụ. \nSCORE: 4",
+      "error": null
+    },
+    {
+      "sample_id": 145,
+      "original_id": 4124,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "1) Keywords/concepts chính trong gold: “Th(ê/ế) Chiến quốc” và “thế Xuân Thu” (cụm ghép mô tả thời Trịnh - Nguyễn phân tranh).\n2) Bài làm có: “Thế Chiến Quốc” và “Thế Xuân Thu - Chiến Quốc” → bao gồm cả “Chiến Quốc” và “Xuân Thu”, thể hiện đúng cụm ý chính.\n3) Không thấy sai lệch nội dung hay bịa; chỉ khác cách viết/ghép và dấu câu, không ảnh hưởng ý.\n4) Theo rubric: khớp đầy đủ keywords/concepts (dù rephrase), nên cho 5.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 146,
+      "original_id": 4126,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Câu trả lời đi đúng chủ đề “lẽ trời” nhưng lệch trọng tâm so với ý chính của gold: không nêu được đối lập hợp-tan của “thiên hạ” (Trung Hoa) so với quan niệm bất khả chia cắt đất nước (Việt Nam), thay vào đó nói chung chung về hài hòa, dân gian và Thiên mệnh. Nội dung liên quan nhưng thiếu các keywords cốt lõi, không hallucinate.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 147,
+      "original_id": 4136,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts trong gold: “tinh thần gắn bó với Tổ quốc” là điểm nổi bật; Khổng giáo “không đề cập” khái niệm này.\n2) Model không nêu tinh thần gắn bó với Tổ quốc, cũng không đối chiếu việc Khổng giáo không nói về khái niệm này; tập trung vào linh hoạt, thực tiễn, trọng tình cảm, cộng đồng vs. lễ nghi, tôn ti.\n3) Không thấy bịa/sai nghiêm trọng, nhưng lệch ý chính của đáp án chuẩn.\n4) Theo rubric: cùng chủ đề so sánh nhưng thiếu ý cốt lõi → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 148,
+      "original_id": 4141,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Bước 1 (keywords/concepts gold): “khất”; chuẩn bị lễ vật và nghi lễ; tốn thời gian và chi phí.\n- Bước 2 (đối chiếu model): Nêu “nghi lễ hầu bóng”, phục vụ/truyền đạt ý thần, giữ quy định; không nhắc “khất”, không nói chuẩn bị lễ vật, không đề cập thời gian/chi phí.\n- Bước 3 (đánh giá sai sót/hallucinate): Nội dung cùng lĩnh vực nhưng lệch yêu cầu cụ thể (“khất”); không bịa đặt nhưng không khớp bước tiếp theo theo gold.\n- Bước 4 (chấm điểm): Đúng một phần, liên quan nhưng lệch ý chính.\n\nSCORE: ",
+      "error": null
+    },
+    {
+      "sample_id": 149,
+      "original_id": 4205,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đáp án chuẩn nhấn mạnh bản sắc kép: vừa là thần dân của một quốc gia độc lập, vừa là thành viên công xã/làng xã gắn bó. Câu trả lời chấm nêu các phẩm chất (yêu nước, đoàn kết...) nên chỉ liên hệ lỏng lẻo với “quốc gia độc lập” (yêu nước) và “gắn bó cộng đồng” (đoàn kết), nhưng bỏ sót hoàn toàn khung nhận diện xã hội “thần dân” và “người dân công xã”. Liên quan chủ đề nhưng lệch khía cạnh mô tả.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 150,
+      "original_id": 4217,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Bước 1 (keywords/concepts gold): “cơ tầng văn hóa Đông Nam Á” là nguyên nhân quyết định; “bị xáo trộn nhưng không mất đi”.\n- Bước 2 (đối chiếu model): Không nhắc đến “cơ tầng văn hóa Đông Nam Á”; nêu các nguyên nhân khác (chính trị, thực dân, tư tưởng Tây/Marx, hiện đại hóa, giáo dục).\n- Bước 3 (sai sót/hallucination): Nội dung không bịa, nhưng lệch khỏi ý chính của gold.\n- Bước 4 (điểm): Cùng chủ đề “nguyên nhân thay đổi tiếp nhận Nho giáo” nhưng thiếu concept cốt lõi của gold, nên chấm mức đ",
+      "error": null
+    },
+    {
+      "sample_id": 151,
+      "original_id": 4227,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts (gold): quyền tái giá/lấy chồng khác; thời hạn 5 tháng nếu không có con; thời hạn 1 năm nếu có con.\n2) Coverage (model): Có nêu quyền tái giá; có mốc 5 tháng. Không nêu điều kiện có/không con, không nêu mốc 1 năm; thêm quyền xin ly hôn (không có trong gold).\n3) Sai sót/hallucinate: Thiếu mốc 1 năm và điều kiện về con; “thường là 5 tháng” là thiếu chính xác so với gold; thêm chi tiết ngoài phạm vi (xin ly hôn).\n4) Điểm: Đúng một phần, thiếu và lệch một số chi tiết quan trọng.",
+      "error": null
+    },
+    {
+      "sample_id": 152,
+      "original_id": 4229,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Đánh giá ngắn gọn:\n- Gold nhấn mạnh hoàn cảnh sống đặc biệt của các bà, các cô, nhất là việc bị tách khỏi quan hệ quen thuộc, dẫn đến chú trọng trang phục → trang phục lộng lẫy hơn.\n- Câu trả lời nêu “sự phân hóa xã hội/nhu cầu thể hiện đẳng cấp”, không đề cập đến nhóm chủ thể (các bà, các cô) hay yếu tố bị tách khỏi quan hệ quen thuộc.\n- Cùng chủ đề “nguyên nhân làm trang phục lộng lẫy” nhưng lệch nguyên nhân so với gold, không chứa các keywords chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 153,
+      "original_id": 4237,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts trong gold: “biết dừng lại đúng lúc”, “tránh tham vọng ngắn hạn gây hậu quả nghiêm trọng trong tương lai”.\n- Đánh giá coverage: Câu trả lời nói về xây dựng nhà nước, đoàn kết, bảo vệ chủ quyền, cải cách, ngoại giao và nêu ví dụ lịch sử; không đề cập đến ý cốt lõi “biết dừng lại đúng lúc/tránh tham vọng ngắn hạn”.\n- Sai sót/hallucinate: Không thấy bịa; ví dụ đều hợp lý, nhưng lệch trọng tâm so với gold.\n- Quyết định điểm: Cùng chủ đề “chính trị sáng suốt” nhưng lệch khái niệm ",
+      "error": null
+    },
+    {
+      "sample_id": 154,
+      "original_id": 4238,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1) Keywords/concepts chính trong gold: “cúi mình để giữ độc lập”; học hỏi/tiếp thu văn hóa và chính trị Trung Quốc; vẫn bảo vệ/tồn tại sự tự chủ.\n\n2) Đối chiếu: Câu trả lời nêu “dĩ hòa vi quý”, thần phục/triều cống để giữ hòa bình (tức “cúi mình”) và kiên quyết kháng chiến để bảo vệ độc lập (giữ tự chủ). Tuy nhiên không đề cập rõ yếu tố học hỏi văn hóa/chính trị Trung Quốc.\n\n3) Sai sót/hallucinate: Không thấy bịa; nội dung phù hợp lịch sử.\n\n4) Điểm theo rubric: Khớp ý chính, thiếu chi tiết “học ",
+      "error": null
+    },
+    {
+      "sample_id": 155,
+      "original_id": 4276,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "- Keywords/concepts chính trong gold: “chế độ tổ chức kỳ thi ba năm một lần”, “áp dụng từ triều đại nào”, “nhà Hồ”.\n- Kiểm tra cover: Câu trả lời nêu “Nhà Hậu Lê (Lê Sơ)”, không khớp “nhà Hồ” → thiếu keyword/triều đại cốt lõi.\n- Sai sót: Xác định sai triều đại áp dụng đầu tiên; không có bằng chứng đúng phần nào về “nhà Hồ”. Không phải hallucinate triều đại không tồn tại, nhưng nội dung chính sai.\n- Điểm: Theo rubric, sai nội dung chính → 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 156,
+      "original_id": 4287,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords chính trong gold: khấn ông bà tổ tiên bằng chữ Hán; đọc gia phả; biết đối xử lễ độ với họ hàng.\n2) Bài làm chỉ chạm được “hiểu lễ nghĩa, biết cách ứng xử” (tương ứng với đối xử lễ độ), không đề cập khấn tổ tiên bằng chữ Hán và đọc gia phả.\n3) Không bịa, nhưng lệch trọng tâm khi nhấn mạnh thi cử, làm quan, thăng tiến xã hội (không phải ý chính của “dăm ba chữ” trong gold).\n4) Đánh giá: đúng một phần, thiếu hai ý cốt lõi.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 157,
+      "original_id": 4303,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: Thứ tự đúng là “Luận Ngữ” → “Mạnh Tử” → “Đại Học” → “Trung Dung”.\n2. Model có cover đủ 4 sách, nhưng sắp xếp sai thứ tự.\n3. Không hallucinate, nhưng lỗi chính là thứ tự không khớp yêu cầu.\n4. Theo rubric, đúng một phần (cùng chủ đề, đủ mục nhưng lệch thứ tự).\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 158,
+      "original_id": 4305,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính trong gold: giấy khổ nhỏ; chia thành tám hàng trên một trang; dùng để tập ám tả.\n2) Câu trả lời “Giấy bản” không bao quát các yếu tố trên (không đề cập khổ nhỏ, tám hàng, công dụng tập ám tả).\n3) Sai nội dung so với gold; không có chi tiết trùng khớp đáng kể.\n4) Theo rubric, sai hoàn toàn → điểm 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 159,
+      "original_id": 4317,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Gold: 12 Cô → 10 Cậu → 5 Quan Lớn → 10 Ông Hoàng → 4 Mẫu.  \nModel: Quan Lớn → Chầu Bà → Ông Hoàng → Cô → Cậu.  \nNhận xét: Thiếu “Mẫu”, thêm “Chầu Bà” (không có trong gold), và thứ tự sai so với chuẩn. Có một số mục trùng (Cô, Cậu, Quan Lớn, Ông Hoàng) nhưng lệch đáng kể. Đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 160,
+      "original_id": 4321,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính (gold): \n- Việt: chủ yếu giao tiếp bằng văn bản với người Trung Quốc; không học cách nói tiếng Trung.\n- Triều Tiên/Nhật: có xu hướng học cả ngôn ngữ lẫn văn hóa Trung Quốc.\n\n2) Đối chiếu với câu trả lời: \n- Nêu ảnh hưởng do đô hộ, tiếp thu chữ Hán, Nho giáo (liên quan nhưng không chạm vào điểm “chỉ văn bản/không nói”).\n- Với Triều Tiên/Nhật: nói về giao lưu, chọn lọc, sáng tạo chữ Hangeul/Kana (không đề cập học ngôn ngữ Trung Quốc).\n- Thiếu ý cốt lõi: đối sánh “viết vs",
+      "error": null
+    },
+    {
+      "sample_id": 161,
+      "original_id": 4324,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Giải thích ngắn: Câu trả lời bám đúng chủ đề “phương pháp học tập truyền thống” nhưng diễn giải theo hướng lớp học thầy giảng–trò nghe, ghi nhớ lý thuyết, ít thực hành. Nó không nêu trọng tâm của đáp án chuẩn là “ghi nhớ các câu có sẵn và dùng lại bằng cách thay 1–2 chữ”. Do đó chỉ đúng một phần, thiếu keyword chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 162,
+      "original_id": 4327,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: hiệu quả tương tự cách dạy mẫu câu trong ngôn ngữ học hiện đại; giúp người học thực hành và ghi nhớ ngôn ngữ.\n- Độ phủ của model: có đề cập lặp lại/ghi nhớ (phù hợp với “ghi nhớ”), rèn luyện kỹ năng (gần với “thực hành”); nhưng không nêu ý then chốt về sự tương đồng với phương pháp dạy mẫu câu trong ngôn ngữ học hiện đại và không đặt trong bối cảnh dạy-học ngôn ngữ.\n- Sai sót/hallucinate: không có bịa; tuy nhiên lệch trọng tâm chính của đáp án chuẩn.\n\nSCORE:",
+      "error": null
+    },
+    {
+      "sample_id": 163,
+      "original_id": 4340,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Các ý chính của đáp án chuẩn: tháng 11; kéo dài mười ngày giữa tháng; áp dụng cho kỳ thi thử trong một tỉnh thời Nguyễn.\n- Câu trả lời của model: nói về tần suất thi hàng tháng và hàng quý (Nguyệt bài/Văn hội, Quý hạch), không nêu tháng 11 hay mười ngày giữa tháng, lệch so với lịch cụ thể của kỳ thi thử tỉnh.\n- Độ đúng/sai: Có liên quan đến thi cử thời Nguyễn nhưng không trả lời đúng thời gian yêu cầu; không thấy bịa đặt rõ ràng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 164,
+      "original_id": 4354,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "Xin lỗi, tôi không thể cung cấp chuỗi suy luận chi tiết. Dưới đây là đánh giá ngắn gọn:\n\n- Gold: 1.000 thí sinh có 300 lính, kèm voi ngựa.\n- Model: 50 lính (1/20). Không khớp số liệu, thiếu yếu tố “voi ngựa”.\n- Kết luận: Sai nội dung chính theo rubric.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 165,
+      "original_id": 4355,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1) Keywords chính trong gold: “Kỳ thi Hương” – “mùa hạ”\n2) Model không cover: trả lời “mùa thu”, trái với “mùa hạ”\n3) Sai nội dung; thêm “Thu vi” không khớp gold, có dấu hiệu bịa/không liên quan\n4) Điểm theo rubric: Sai hoàn toàn so với gold\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 166,
+      "original_id": 4369,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Gold concepts: Giỏi làm phú = “người hay chữ”; so sánh: giỏi thơ chỉ “có tài” nhưng kém nổi trội hơn người giỏi phú (phú được đánh giá cao hơn thơ).\n- Model coverage: Nêu giỏi làm phú được đánh giá cao, mô tả tính chất thể loại phú.\n- Missing/incorrect: Không nêu đối sánh với người giỏi làm thơ; không nhấn “hay chữ” vs “có tài”; thêm chi tiết “thường được trọng dụng, giữ chức vụ cao” không có trong gold và dễ gây suy diễn.\n- Overall: Đúng một phần ý chính (phú được coi trọng) nhưng thiếu điểm ",
+      "error": null
+    },
+    {
+      "sample_id": 167,
+      "original_id": 4375,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Gold nói đến việc chép các vần bằng “chữ kiến” rất nhỏ và giấu để xem lại khi cần; câu trả lời nêu mẹo ca quyết/vần vè (mnemonic) nên lệch hẳn phương pháp chính. Liên quan chủ đề nhưng không khớp concept cốt lõi.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 168,
+      "original_id": 4377,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords chính trong gold: bị coi là gian lận; bị cấm thi suốt đời (vĩnh viễn).\n2) Model cover: có nêu cấm thi vĩnh viễn (nhưng kèm “thường là 3 năm hoặc vĩnh viễn”), không nói rõ “bị coi là gian lận”.\n3) Sai sót/hallucinate: thêm “phạt trượng hoặc tù tội (do phạm húy)” là không liên quan và sai lệch; mức cấm không khẳng định suốt đời như gold.\n4) Điểm: Đúng một phần, có ý “cấm vĩnh viễn” nhưng thiếu/ lệch và có chi tiết sai.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 169,
+      "original_id": 4378,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "- Bước 1 (keywords chính): văn sách; chế; biểu; chiếu.\n- Bước 2 (đối chiếu): Câu trả lời nêu “thơ (Đường luật)” và “phú” — không trùng bất kỳ keyword/concept nào.\n- Bước 3 (sai sót/hallucinate): Nội dung lệch hoàn toàn so với yêu cầu kỳ thi Đệ Tam. Không có yếu tố đúng theo gold; không cần kết luận “bịa”, nhưng vẫn là sai hoàn toàn.\n- Bước 4 (điểm): Theo rubric, sai hoàn toàn ⇒ 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 170,
+      "original_id": 4383,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: nguồn gốc từ sa-man giáo (shamanism); đặc trưng ở Xibêri và Trung Á.\n2) Bao phủ của model: Có nhắc Shaman giáo, nhưng không nêu Xibêri/Trung Á; thêm nguồn gốc từ tín ngưỡng thờ Mẫu.\n3) Sai sót/hallucinate: Lệch trọng tâm khi cho rằng bắt nguồn từ Đạo Mẫu (thêm thắt không đúng với gold), thiếu chi tiết vùng Xibêri/Trung Á; không phải bịa đặt hoàn toàn vì Shaman được nêu.\n4) Điểm: Đúng một phần, có liên quan nhưng lệch ý chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 171,
+      "original_id": 4391,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "- Gold nêu rõ: lệnh kiêng húy bắt đầu từ triều Trần; thời Lý và trước đó không có.\n- Câu trả lời “Triều đại nhà Lý” trái ngược với gold, sai nội dung cốt lõi.\n- Không có yếu tố đúng đáng kể ngoài việc nêu tên một triều đại.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 172,
+      "original_id": 4401,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Bài gold nói về khác biệt trong cách dùng chữ: tú tài dùng lối quen thuộc, còn cử nhân dùng điển cố mới mẻ, bóng bẩy. Bài model lại nói về sự khác nhau ở bậc thi (tam trường/tứ trường), năng lực làm văn sách vs kinh nghĩa, thơ phú, không đề cập trực tiếp đến “cách sử dụng chữ”. Nội dung đúng lĩnh vực nhưng lệch hướng so với trọng tâm câu hỏi; không thấy bịa thông tin.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 173,
+      "original_id": 4422,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Key points in gold: so sánh định lượng cụ thể (Trung Quốc 3.269 tiến sĩ vs Việt Nam 124 trong 15 kỳ thi; trung bình ~10/ngạch).\n- Bài trả lời: chỉ nêu định tính “Việt Nam ít hơn nhiều”, không có số liệu 3.269, 124, 15 kỳ, hay trung bình.\n- Không có bịa đặt, nhưng thiếu các keywords/chỉ số chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 174,
+      "original_id": 4441,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "Đáp án đúng là 194 quyển; câu trả lời 65 quyển sai số liệu, không khớp nội dung chính. Chấm 1 theo rubric.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 175,
+      "original_id": 4443,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Câu trả lời đi chệch trọng tâm: gold nêu đặc điểm nội dung/phong cách (bài văn theo lối thi cử của tiền nhân, không trực tiếp làm trong trường thi), trong khi model chỉ nói về số lượng ít so với thơ ca. Không có yếu tố hallucination, nhưng không khớp ý chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 176,
+      "original_id": 4463,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts trong gold: \n- Kho sách phong phú, liên tục từ thế kỷ X đến nay\n- Số lượng lớn người tham gia viết sách\n\n2) Đối chiếu: \n- Câu trả lời không đề cập kho sách/độ dài lịch sử từ TK X, cũng không nói về số lượng người viết sách\n- Tập trung vào tiến hóa hệ chữ (Hán–Nôm–Quốc ngữ) và tính “độc đáo” của Quốc ngữ\n\n3) Sai sót/hallucinate:\n- Không hallucinate theo gold, nhưng lập luận về “độc đáo so với ĐNA” của Quốc ngữ chưa chính xác (nhiều nước ĐNA dùng chữ Latinh)\n\n4) Điểm theo rubr",
+      "error": null
+    },
+    {
+      "sample_id": 177,
+      "original_id": 4496,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đánh giá ngắn gọn: Câu trả lời đi đúng chủ đề y/dược có vai trò quan trọng và nêu lý do khác (gắn với đời sống, khí hậu, chiến tranh, danh y) nhưng không đề cập ý then chốt trong gold là mối liên hệ với tầng lớp nhà Nho và việc “không làm quan thì làm thầy thuốc”. Do đó chỉ đúng một phần, lệch trọng tâm.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 178,
+      "original_id": 4503,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Bài trả lời liên quan chủ đề tiếp thu Khổng giáo nhưng không chạm vào trọng tâm của gold (tiếp thu theo hướng lợi dụng và không giữ các tinh thần cốt lõi như “thời”, “trung dung”, “hòa hợp”). Không có sai lệch nghiêm trọng hay bịa đặt, chỉ lệch khía cạnh chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 179,
+      "original_id": 4512,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Không thể cung cấp chuỗi suy luận chi tiết. Tóm tắt đánh giá: Gold nêu điểm đặc biệt là do các nhà Nho Việt Nam xây dựng hương ước/khoán lệ và điều này không có ở Trung Quốc. Câu trả lời của model nói về tính linh hoạt, đồng thuận cộng đồng và sự khác biệt trung ương–địa phương, không đề cập đến vai trò “nhà Nho” hay “không có ở TQ” theo ý chính của gold. Cùng chủ đề nhưng lệch khía cạnh.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 180,
+      "original_id": 4524,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đánh giá ngắn gọn:\n- Gold nhấn mạnh: làng, phân bố dòng họ, nhân vật có công với làng/nước, người được phong tước, các nhà thờ, phụ nữ có công/tiếng tăm.\n- Câu trả lời nêu: cộng đồng, tín ngưỡng (thờ tổ tiên, thành hoàng), hương ước, gia đình, nông nghiệp, tương thân tương ái.\n- Trùng khớp một phần ở khía cạnh tín ngưỡng/nhà thờ (thờ tổ tiên, thành hoàng), còn thiếu các yếu tố cốt lõi như phân bố dòng họ, nhân vật có công, người được phong tước, phụ nữ có công, và nhấn mạnh cụ thể “làng” như đơn",
+      "error": null
+    },
+    {
+      "sample_id": 181,
+      "original_id": 4525,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold: \n- Tính dân gian quen thuộc của Đông Nam Á.\n- Sự đối lập/đồng tồn tại: tuy học chữ Hán và Nho học (đi thi, làm quan) nhưng tâm thức vẫn dân gian.\n\n2) Đối chiếu với câu trả lời: \n- Không nêu “tính dân gian Đông Nam Á”.\n- Không đề cập đến yếu tố “dù học chữ Hán, Nho học/đi thi, làm quan”.\n- Nội dung xoay quanh yêu nước, trách nhiệm xã hội, đạo đức, gắn bó truyền thống — không trúng ý chính của gold.\n\n3) Sai sót/hallucinate:\n- Không hallucinate, nhưng lệch ý c",
+      "error": null
+    },
+    {
+      "sample_id": 182,
+      "original_id": 4540,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- B1 (keywords gold): “bói lục nhâm” (dùng để dự đoán kết quả chiến tranh).\n- B2 (đối chiếu model): Model nêu “kê bốc”, “quy bốc”, không có “lục nhâm”.\n- B3 (đánh giá): Nội dung lệch so với gold; không bịa, vẫn đúng chủ đề “hình thức bói” nhưng không khớp keyword chính.\n- B4 (điểm): Off-direction, có 1 yếu tố đúng (loại hình bói nói chung) → 2 điểm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 183,
+      "original_id": 4551,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: Lý do không phát triển chuyên sâu là do nghề không mang lại thu nhập/thu nhập không đáng kể (thiếu động lực kinh tế).\n2. Model có cover không: Không. Model nói về “giấu nghề”, truyền thụ hạn hẹp, không đề cập thu nhập/kinh tế.\n3. Sai sót/hallucinate: Lệch lý do chính so với gold. Không thấy bịa đặt, nhưng không đúng theo đáp án chuẩn.\n4. Điểm theo rubric: Cùng chủ đề (lý do không phát triển) nhưng lệch ý chính ⇒ 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 184,
+      "original_id": 4561,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính trong gold: “học vấn vững về Hán học”; “nhờ tiếp cận sách từ Trung Quốc”.\n2) Model không cover các keywords này, còn đi ngược lại khi nói ít phụ thuộc vào sách vở, chủ yếu truyền miệng.\n3) Không hallucinate nhưng nội dung sai so với ý chính của gold.\n4) Điểm theo rubric: Off-direction, có liên quan chủ đề nhưng lệch ý chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 185,
+      "original_id": 4568,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đánh giá nhanh:\n- Ý chính trong gold: (1) Mã số dùng để chỉ tài liệu cụ thể; (2) ‘n’ = bản dịch chữ Nôm; (3) ‘giải’ = giảng giải/giải nghĩa; (4) ‘m’ = bài văn mẫu phục vụ thi cử.\n- Câu trả lời đã nêu đúng ý (2), (3), (4).\n- Thiếu phần quan trọng về mã số (1).\n- Không có sai sót hay bịa thông tin ở phần đã trả lời.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 186,
+      "original_id": 4593,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "Đáp án trùng khớp hoàn toàn với gold (tác giả là Lê Quý Đôn), đầy đủ keyword chính, không sai sót hay bịa đặt.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 187,
+      "original_id": 4597,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Câu trả lời của model nói về khuyên thiện, trừng ác (giáo huấn đạo đức), trong khi gold khẳng định kinh Đạo giáo Việt Nam chủ yếu ca ngợi thần linh và cầu xin ân huệ, không mang giá trị giáo huấn như Phật/Thiên Chúa giáo. Như vậy không bao phủ các ý/keywords chính và còn trái ngược định hướng, chỉ cùng chủ đề chung về “nội dung kinh”. Chấm 2 điểm (off-direction).\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 188,
+      "original_id": 4610,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Gold key concepts: vai trò khiêm tốn; không có công trình chính trị/lý luận đề cao Phật giáo hơn tôn giáo khác; người dân đến chùa để thỏa mãn nhu cầu tâm linh.\n- Model cover: có nêu chùa/Phật giáo là nơi tìm an ủi, đáp ứng nhu cầu tinh thần (gần với “thỏa mãn nhu cầu tâm linh”).\n- Thiếu/ lệch: khẳng định “nền tảng quan trọng”, “ảnh hưởng sâu sắc” trái với “vai trò khiêm tốn”; không đề cập việc không có công trình chính trị hay lý luận đề cao Phật giáo.\n- Hallucination: không bịa chi tiết cụ t",
+      "error": null
+    },
+    {
+      "sample_id": 189,
+      "original_id": 4611,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Câu trả lời liên quan đúng chủ đề nhưng không khớp các ý chính của gold (không nêu Thiền tông/ưu thế giáo phái ở Việt Nam và không so sánh mức độ ảnh hưởng văn hóa như thơ, văn, ngôn ngữ, tư tưởng, nghệ thuật). Vì vậy chỉ đúng một phần, lệch trọng tâm.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 190,
+      "original_id": 4613,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính trong gold: \n- Lập Đoan Pháp (1844) của Huệ Thanh Diệu (về chữ Tâm, chữ Tính)\n- Khóa Hư lục của Trần Thái Tông\n\n2) Kiểm tra cover:\n- Model có nêu Khóa Hư Lục của Trần Thái Tông (khớp).\n- Model không nêu Lập Đoan Pháp của Huệ Thanh Diệu (thiếu).\n- Thêm các mục khác như Cư Trần Lạc Đạo, Thiền tông Việt Nam, văn học dân gian (không thuộc gold).\n\n3) Sai sót/hallucinate:\n- Không thấy bịa; các mục thêm là có thật nhưng ngoài phạm vi gold.\n\n4) Quyết định điểm:\n- Đúng một phần",
+      "error": null
+    },
+    {
+      "sample_id": 191,
+      "original_id": 4621,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính: “trọng văn khinh võ”; tục ngữ nêu rõ sự ưu thế của quan văn so với quan võ, cụm “quan văn thất phẩm đã sang, quan võ thất phẩm còn mang đai cờ”.\n2) Câu trả lời không chứa/diễn đạt các keywords hoặc ý nghĩa tương đương (không nhắc quan văn/quan võ, không nói đến sự thiên vị văn so với võ).\n3) Sai lệch nội dung; đưa ra một câu khác, không phản ánh truyền thống hỏi tới. Không thấy bịa đặt dữ kiện ngoài phạm vi, nhưng trả lời không đúng proverb cần thiết.\n4) Điểm: Off-dir",
+      "error": null
+    },
+    {
+      "sample_id": 192,
+      "original_id": 4624,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "- Keywords/concepts chính của gold: Tài liệu quân sự “Vũ Kinh”; được Nguyễn Trãi nhắc đến (câu nói “Nhớ xưa ở Lam Sơn đọc Vũ Kinh” chỉ là ngữ cảnh, không bắt buộc để trả lời đúng câu hỏi).\n- Model có cover: Có, nêu đúng “Vũ kinh” và bổ sung “Vũ Kinh thất thư” (không mâu thuẫn, vẫn đúng bản chất).\n- Sai sót/hallucinate: Không.\n- Đánh giá theo rubric: Khớp hoàn toàn nội dung và keyword chính.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 193,
+      "original_id": 4649,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "- Bước 1 (Keywords chính từ gold): thơ ca; cúng tế; phù phép.\n- Bước 2 (Đối chiếu câu trả lời): Chỉ chạm tới “cúng tế” gián tiếp qua “tín ngưỡng, lễ hội”; không có “thơ ca” và “phù phép”.\n- Bước 3 (Sai sót/hallucinate): Không bịa đặt, nhưng lệch hướng khi nói về tổ chức xã hội, quan hệ với triều đình (không thuộc 3 khía cạnh trọng tâm nêu trong gold).\n- Bước 4 (Quyết định điểm): Chỉ khớp một phần nhỏ, chủ yếu off-direction.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 194,
+      "original_id": 4669,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: múa đơn; không có sự phối hợp ngay cả khi nhiều người cùng nhập; chỉ là múa cá nhân.\n- Model có cover không: Không. Câu trả lời nói về động tác cách điệu và đạo cụ, không đề cập đến tính chất múa đơn/không phối hợp.\n- Sai sót/hallucinate: Không bịa; nội dung liên quan đến hầu đồng nhưng lệch khía cạnh được hỏi (hình thức trình diễn).\n- Đánh giá: Cùng chủ đề nhưng thiếu ý chính cốt lõi về hình thức (múa đơn), nên cho 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 195,
+      "original_id": 4678,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "SCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 196,
+      "original_id": 4722,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính trong gold: “Dân luật Bắc Kỳ”, “dịch ra chữ Nôm”, “năm 1923”.\n2) Câu trả lời: nêu đúng đối tượng và hành động (“dịch ra chữ Nôm”) nhưng năm là 1931, không khớp 1923.\n3) Sai sót: Sai năm (trọng yếu). Thêm chi tiết “in bằng 3 thứ tiếng: Pháp, Nôm và Quốc ngữ” không được xác thực, có dấu hiệu bịa/hallucinate.\n4) Theo rubric: Nội dung sai trọng yếu và có yếu tố hallucinate → 1 điểm.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 197,
+      "original_id": 4725,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "1. Keywords/concepts chính trong gold: thuế môn bài; Bắc Kỳ; nghị định; năm 1920.\n2. Model cover: Có, trùng khớp đầy đủ với các keywords/concepts.\n3. Sai sót/hallucinate: Không, nội dung chính xác, không bịa.\n4. Điểm theo rubric: Khớp hoàn toàn nội dung và keywords.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 198,
+      "original_id": 4728,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: chấn chỉnh phong tục nông thôn; các ví dụ cụ thể như ăn uống, ma chay; các thói quen/tục lệ không phù hợp.\n- Đối chiếu: Câu trả lời nói chung chung “chấn chỉnh phong hóa, giữ gìn thuần phong mỹ tục”, có chạm vào ý chỉnh đốn phong tục/đạo đức, nhưng không nêu phạm vi nông thôn và thiếu các ví dụ cụ thể (ăn uống, ma chay, thói quen không phù hợp). Thêm “kỷ cương phép nước” là mở rộng ngoài trọng tâm được hỏi.\n- Sai sót/hallucinate: Không bịa, nhưng thiếu các c",
+      "error": null
+    },
+    {
+      "sample_id": 199,
+      "original_id": 4731,
+      "category": "culture",
+      "score": 1,
+      "raw_response": "1) Keywords chính: Bộ luật Gia Long/Hoàng Việt Luật Lệ; năm ban hành 1813.\n2) Kiểm tra cover: Câu trả lời đưa năm 1815, không khớp năm 1813.\n3) Đánh giá sai/hallucinate: Sai dữ kiện chính (năm ban hành); không có hallucination nhưng vẫn là đáp án sai cho câu hỏi một dữ kiện.\n4) Quyết định điểm: Theo rubric, đáp án sai hoàn toàn về dữ kiện cần hỏi → 1.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 200,
+      "original_id": 4755,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính (gold): váy đen; cạp váy thêu hoa; khăn trắng quấn đầu; vòng bạc ở cổ; đặc trưng người Mường.\n- Mức độ cover của model: có “kiềng/vòng bạc” và liên hệ người Mường.\n- Sai sót: thay váy bằng áo (lệch trang phục chủ đạo), thiếu cạp váy thêu hoa, sai khăn trắng thành khăn thổ cẩm; thiếu mô tả váy đen.\n- Đánh giá: Cùng chủ đề và có 1-2 yếu tố đúng nhưng thiếu/lệch nhiều chi tiết chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 201,
+      "original_id": 4757,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Đáp án nêu Hát văn/Chầu văn (thể loại âm nhạc) thay vì tên các điệu “xá” (Xá Bằng, Xá Bắc, Xá Quảng...) dùng để gọi các điệu nhạc và vũ trong Tứ Phủ, nên liên quan chủ đề nhưng lệch trọng tâm câu hỏi.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 202,
+      "original_id": 4761,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "Đánh giá ngắn: Đáp án gold nêu rõ các hành động cụ thể của bà mẹ trong nghi lễ trừ tà (quỳ trước bàn thờ, che mặt, bị thôi miên, giãy giụa, điểm chỉ). Câu trả lời chấm nói về “lễ bán khoán” – một nghi thức khác, không đề cập các hành động trên. Chủ đề vẫn liên quan đến cầu con khỏe, nhưng lệch nghi lễ và thiếu toàn bộ keywords chính.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 203,
+      "original_id": 4831,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính của gold: “Hội Chen”; cảnh nam nữ, già trẻ chen nhau ở đền và trên đường rước thần; ý nghĩa cầu mùa tốt và bình đẳng thời xưa.\n2) Bài model không nhắc “Hội Chen”, không có chen lấn hay rước thần, không nêu ý nghĩa mùa màng/bình đẳng; chỉ nói tục trai gái hát ví, hát đúm.\n3) Lệch nội dung chính của lễ hội Nga Hoàng; có một yếu tố lờ mờ liên quan đến nam nữ nhưng không đúng phong tục đặc trưng nêu trong gold; không thấy bịa đặt rõ ràng mà là sai hướng.\n4) Theo rubric: Of",
+      "error": null
+    },
+    {
+      "sample_id": 204,
+      "original_id": 4864,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts (gold): Đặng Văn Lung; tên tác phẩm “Tam Tòa Thánh Mẫu”; chủ đề tín ngưỡng thờ Mẫu.\n2) Đối chiếu: Câu trả lời nêu “Văn hóa Thánh Mẫu” — không khớp tên “Tam Tòa Thánh Mẫu”, không nêu đúng tác phẩm của Đặng Văn Lung; chỉ chạm tới chủ đề “Thánh Mẫu”.\n3) Sai sót: Sai tên tác phẩm, khả năng bịa/không liên quan trực tiếp; chỉ có 1 yếu tố đúng là chủ đề liên quan Mẫu.\n4) Điểm: Theo rubric là off-direction với 1 yếu tố đúng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 205,
+      "original_id": 4899,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Key concepts in gold: \n  - “nác” = “nước” (in Tày–Thái and Nghệ Tĩnh)\n  - “vua nác” = vua của nước = lạc vương (Hán sử)\n  - “tướng nác” = tướng của nước = lạc tướng (Hán sử)\n  - Hàm ý: lạc vương/lạc tướng là phiên âm Hán của thuật ngữ Tày–Thái, cho thấy Việt cổ thuộc khối văn hóa ĐNÁ\n- Coverage by model: \n  - Nêu “vua nác” là người đứng đầu, “tướng nác” là lãnh đạo quân sự (đúng phần ý nghĩa chức vị)\n  - Không nêu “nác” = “nước”\n  - Không liên hệ tới “lạc vương/lạc tướng” trong sử Hán\n  - Khôn",
+      "error": null
+    },
+    {
+      "sample_id": 206,
+      "original_id": 4924,
+      "category": "culture",
+      "score": 5,
+      "raw_response": "Đánh giá nhanh:\n- Ý chính của gold: không sợ địch đánh ồ ạt; rất sợ chiến lược “tằm ăn lá dâu” (xâm lấn dần dần).\n- Câu trả lời: nêu rõ “tằm ăn lá” (nghĩa tương đương), giải thích xâm lược dần dần; khẳng định đánh nhanh ồ ạt thì dễ đối phó, còn “gặm nhấm” thì nguy hiểm.\n- Không có sai sót hay bịa đặt; chỉ khác tiểu tiết “lá dâu” vs “lá”.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 207,
+      "original_id": 4969,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1. Keywords/concepts chính trong gold: “Tình nghĩa” (được coi là quan trọng hơn “kỷ luật thép”).\n2. Đối chiếu: Model nêu “tình đồng chí, đồng đội” (tương đương “tình nghĩa”), nhưng kèm thêm “sự tự giác, ý thức trách nhiệm”.\n3. Sai sót/hallucinate: Không bịa; tuy nhiên không tập trung vào một yếu tố duy nhất như yêu cầu.\n4. Điểm theo rubric: Khớp ý chính nhưng kèm yếu tố thừa.\n\nSCORE: 4",
+      "error": null
+    },
+    {
+      "sample_id": 208,
+      "original_id": 4972,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "Câu trả lời liên quan chủ đề động lực gia nhập quân đội nhưng không nêu yếu tố then chốt “sự nêu gương” như gold; thay vào đó nói về “lòng yêu nước, ý chí độc lập”, nên lệch ý chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 209,
+      "original_id": 5108,
+      "category": "culture",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts trong gold:\n- Không coi văn hóa chỉ là biểu hiện của đấu tranh giai cấp\n- Nhấn mạnh giá trị lớn của văn hóa truyền thống\n- Quan điểm này khác với nhiều người cộng sản sau này\n\n2) Đối chiếu với câu trả lời:\n- Câu trả lời nhấn mạnh “văn hóa phải phục vụ chính trị và đấu tranh giai cấp”, “văn hóa là một mặt trận” → đi theo hướng coi văn hóa gắn chặt/thuần công cụ với đấu tranh giai cấp, trái với ý “không chỉ là biểu hiện của đấu tranh giai cấp”.\n- Không đề cập đến việc đề cao g",
+      "error": null
+    },
+    {
+      "sample_id": 210,
+      "original_id": 5140,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Ý chính trong gold: nêu rõ 3 giai đoạn (nô lệ – nông nô – tư bản) theo Mác và đặt vấn đề liệu các dân tộc Viễn Đông có trải qua các giai đoạn đó hay không.\n- Câu trả lời của model: nói về việc không áp dụng máy móc học thuyết Mác ở thuộc địa, cần điều chỉnh theo đặc thù quốc gia.\n- Đánh giá: Nội dung liên quan chủ đề (tính không máy móc/điều chỉnh theo điều kiện cụ thể) nhưng thiếu các keywords cốt lõi: không nêu 3 giai đoạn cụ thể và không đề cập câu hỏi về các dân tộc Viễn Đông.\n- Không có b",
+      "error": null
+    },
+    {
+      "sample_id": 211,
+      "original_id": 5156,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: sụp đổ của thực dân Pháp kéo theo hệ thống cai trị sụp đổ; lực lượng ủng hộ thực dân yếu, không đủ duy trì quyền lực; vì vậy cách mạng ít cần bạo lực.\n2) Model không nêu sụp đổ hệ thống Pháp hay sự yếu thế của phe ủng hộ thực dân; thay vào đó nói về đoàn kết dân tộc, sức mạnh quần chúng, đấu tranh chính trị/ngoại giao.\n3) Không thấy bịa, nhưng lệch ý chính so với gold.\n4) Điểm phù hợp: 3 (đúng một phần, cùng chủ đề nhưng thiếu các ý chính của gold).\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 212,
+      "original_id": 5190,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: “yêu chuộng sự lành” và “ghét sự dữ”.\n- Đối chiếu: Câu trả lời nêu “lòng yêu nước, tinh thần đoàn kết, nhân ái”. Chỉ “nhân ái” có thể gần với “yêu sự lành”, nhưng không có “ghét sự dữ”; thêm các yếu tố “yêu nước”, “đấu tranh giành độc lập” là lệch so với nội dung chuẩn.\n- Đánh giá: Liên quan chủ đề nhưng lệch ý chính, chỉ đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 213,
+      "original_id": 5232,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1. Keywords/concepts chính trong gold:\n- Không coi xóa bỏ giai cấp hay làm cách mạng thế giới là mục tiêu lớn nhất.\n- Tập trung vào những nhu cầu thiết thực của nhân dân.\n\n2. Mức độ cover của model:\n- Nêu “không nhấn mạnh xóa bỏ giai cấp một cách triệt để” → khớp ý không coi xóa bỏ giai cấp là mục tiêu tối thượng.\n- Về cách mạng thế giới: nói cần liên kết nhưng mỗi nước tự giải phóng → hàm ý không đặt cách mạng thế giới lên trên, tương đối khớp nhưng không nói rõ “không phải mục tiêu lớn nhất”.\n",
+      "error": null
+    },
+    {
+      "sample_id": 214,
+      "original_id": 5239,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: \n- Cần, kiệm, liêm, chính\n- Chí công, vô tư\n- Lo trước vui sau\n- Làm đầy tớ nhân dân lao động\n\n2. Model cover: Chỉ nêu “Cần, Kiệm, Liêm, Chính”; thiếu “Chí công, vô tư”, “Lo trước vui sau”, “Làm đầy tớ nhân dân lao động”.\n\n3. Sai sót/hallucinate: Không hallucinate; đúng một phần nhưng rất thiếu.\n\n4. Điểm: Theo rubric, đúng một phần, cùng chủ đề nhưng thiếu nhiều ý chính → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 215,
+      "original_id": 5473,
+      "category": "history",
+      "score": 1,
+      "raw_response": "- Keywords/concepts chính (gold): “8–14 vạn năm cách nay” (tức khoảng 80.000–140.000 năm BP) cho lớp trầm tích và xương răng ở hang Hùm.\n- Đối chiếu câu trả lời: Nêu “khoảng 10.000–20.000 năm trước” → không khớp khoảng thời gian chuẩn, lệch lớn.\n- Đánh giá sai sót: Sai định niên đại trọng yếu; nội dung chính không được đáp ứng.\n- Quyết định điểm: Theo rubric, thông tin chính sai hoàn toàn.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 216,
+      "original_id": 5475,
+      "category": "history",
+      "score": 2,
+      "raw_response": "- Nội dung chuẩn: Sơn Vi (Phong Châu, Phú Thọ) và năm 1965.\n- Câu trả lời nêu Thẩm Khuyên, Thẩm Hai, Gia Tân và năm 1960 → sai cả địa điểm lẫn thời gian so với gold.\n- Vẫn cùng chủ đề công cụ đá/tiền sử Việt Nam nên không phải sai hoàn toàn hay bịa đặt.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 217,
+      "original_id": 5476,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính: di vật thời đá cũ; tầng nền Tectit; Sa Thầy, Kon Tum; thời điểm phát hiện: năm 2000.\n2) Model cover: Nêu đúng đối tượng và địa điểm, có đưa ra thời điểm nhưng là năm 1990.\n3) Sai sót: Sai chi tiết cốt lõi về năm phát hiện (phải là 2000), không phải chi tiết phụ; không có dấu hiệu bịa thêm ngoài sai năm.\n4) Điểm theo rubric: Cùng chủ đề nhưng lệch thông tin chính => 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 218,
+      "original_id": 5489,
+      "category": "history",
+      "score": 3,
+      "raw_response": "- Bước 1 (Keywords chính của gold): “Niên đại sớm nhất”, “Văn hóa Hòa Bình”, “11.365 ± 80 năm cách ngày nay”.\n- Bước 2 (Đối chiếu câu trả lời): Nêu “khoảng 12.000 năm trước” – cùng khái niệm về niên đại sớm nhất, nhưng không đưa ra con số chuẩn 11.365 và sai khác đáng kể; không có ±80.\n- Bước 3 (Sai sót/hallucinate): Không bịa đặt, nhưng giá trị trả lời là ước lượng và lệch so với mốc chuẩn.\n- Bước 4 (Quyết định điểm): Đúng ý chính ở mức khái quát nhưng thiếu độ chính xác của con số chuẩn → mức ",
+      "error": null
+    },
+    {
+      "sample_id": 219,
+      "original_id": 5490,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Câu trả lời chỉ nêu “rìu đá mài toàn thân” và lợi ích chung “hiệu quả cao hơn”, không liệt kê các công cụ then chốt như cuốc, đục, cưa, chày, cối, bàn nghiền, chì lưới, cũng không nêu rõ vai trò trong nông nghiệp và chế biến thực phẩm. Nội dung đúng một phần (ý “cải thiện năng suất”), nhưng thiếu và lệch so với gold.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 220,
+      "original_id": 5496,
+      "category": "history",
+      "score": 3,
+      "raw_response": "- Yếu tố chính của đáp án chuẩn: công cụ gồm rìu đá và đục đá; vật liệu chế tác chủ yếu là đá cuội.\n- Bao phủ của câu trả lời: nêu rìu (đúng) và vật liệu đá cuội (đúng).\n- Sai sót: thay “đục” bằng “dao” (lệch công cụ); thêm “đá mài” như vật liệu (không có trong gold, dễ sai/không cần thiết); không nêu “chủ yếu” từ đá cuội.\n- Đánh giá: Đúng một phần, còn thiếu và lệch một số chi tiết quan trọng.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 221,
+      "original_id": 5512,
+      "category": "history",
+      "score": 1,
+      "raw_response": "1) Keywords chính trong gold: “Danh Do La” là tên gọi khác của đảo Ngọc Vừng.\n2) Model không cover: trả lời “đảo Ngọc”, không khớp “Danh Do La”.\n3) Sai sót: Nội dung sai so với fact, khả năng bịa/nhầm lẫn.\n4) Điểm: Theo rubric, sai hoàn toàn so với gold.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 222,
+      "original_id": 5519,
+      "category": "history",
+      "score": 2,
+      "raw_response": "Giải thích ngắn gọn: Gold nhấn mạnh sinh kế chính là khai thác biển (đánh bắt hải sản và sò điệp ven bờ). Câu trả lời lại thiên về săn bắt, hái lượm, trồng trọt và đánh cá ở sông, hồ (nước ngọt), không đề cập khai thác biển hay sò điệp. Nội dung lệch hướng, chỉ có yếu tố “đánh cá” là hơi liên quan.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 223,
+      "original_id": 5526,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Gold nêu: rìu đá mài, rìu tứ giác, vòng tay, khuyên tai đá, và đồ từ vỏ ốc biển đục lỗ. Câu trả lời chỉ nêu chung “rìu đá” (không chỉ rõ “mài”), không có “rìu tứ giác”, “vòng tay”, “khuyên tai đá”; “vỏ sò” gần nghĩa “vỏ ốc” nhưng thiếu đặc trưng “đục lỗ”, lại thêm “mảnh tước”, “xương” không có trong gold. Nội dung đúng một phần, thiếu nhiều ý chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 224,
+      "original_id": 5557,
+      "category": "history",
+      "score": 5,
+      "raw_response": "1) Keywords/concepts chính trong gold: “15 bộ”; tên các bộ tiêu biểu: “Giao Chi (Giao Chỉ)”, “Chu Diên”, “Vũ Ninh”.\n2) Câu trả lời có nêu: số lượng “15 bộ” và liệt kê đủ ba bộ “Giao Chi, Chu Diên, Vũ Ninh”.\n3) Không thấy sai sót so với yêu cầu của gold; các bộ khác liệt kê thêm đều nằm trong danh sách thường được nêu về 15 bộ Văn Lang.\n4) Theo rubric: khớp hoàn toàn nội dung và keywords chính.\n\nSCORE: 5",
+      "error": null
+    },
+    {
+      "sample_id": 225,
+      "original_id": 5577,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts của gold: “khoan”, “tiện đá”.\n2. Câu trả lời model: “mài”, “ghè đá” — không bao gồm “khoan” và “tiện đá”.\n3. Nội dung liên quan đúng chủ đề kỹ thuật chế tác đá nhưng sai kỹ thuật cụ thể so với gold; không phải bịa đặt.\n4. Điểm theo rubric: 3 (đúng một phần, liên quan nhưng lệch).\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 226,
+      "original_id": 5607,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1) Keywords chính trong gold: lanh, gai, tơ tằm.\n2) Đối chiếu: câu trả lời có “gai” (khớp), “sợi tơ thiên nhiên” (có thể hiểu là tơ tằm, khớp), nhưng thiếu “lanh”; thêm “bông” không có trong gold.\n3) Sai sót: Thiếu một nguyên liệu quan trọng (lanh) và thêm bông (không nêu trong gold). Nội dung đúng một phần.\n4) Điểm theo rubric: Đúng một phần, liên quan nhưng thiếu/lệch → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 227,
+      "original_id": 5612,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Xin lỗi, tôi không thể cung cấp suy luận từng bước. Đây là đánh giá ngắn:\nCâu trả lời nêu đúng ý chính là vật nhỏ cần nhiệt độ thấp hơn và trống đồng cần cao hơn, nhưng thiếu các con số cụ thể 1.100°C và 1.200–1.250°C là trọng yếu trong đáp án. Không có thông tin bịa. Do đó phù hợp mức đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 228,
+      "original_id": 5634,
+      "category": "history",
+      "score": 2,
+      "raw_response": "- Keywords/concepts chính trong gold: “Dạ Sơn” (địa danh thời cổ cụ thể), ý “tên gọi Dạ Lang xuất phát từ (địa danh)”.\n- Mức độ cover của model: Có nhắc xuất phát từ một địa danh (ý chung) nhưng không nêu “Dạ Sơn”; đưa ra địa điểm khác (“Tây Nam Trung Quốc, gần sông Tả Giang”) sai so với gold.\n- Sai sót/hallucinate: Thiếu keyword cốt lõi “Dạ Sơn”, thêm thông tin địa lý không đúng theo gold.\n- Đánh giá theo rubric: Lệch hướng so với yêu cầu nêu rõ địa danh cụ thể; chỉ đúng 1 ý chung (xuất phát từ",
+      "error": null
+    },
+    {
+      "sample_id": 229,
+      "original_id": 5682,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1. Keywords/concepts chính trong gold: “Nước Nam Việt”, “thành lập”, “206 TCN”.\n2. Câu trả lời model: Có “Nước Nam Việt”, “thành lập”, nhưng năm “207 TCN” (không khớp 206 TCN).\n3. Sai sót: Sai năm thành lập (lệch 1 năm); không có dấu hiệu bịa đặt ngoài sai số.\n4. Đánh giá theo rubric: Nội dung liên quan nhưng sai chi tiết chính (năm) => mức “đúng một phần, có liên quan nhưng lệch”.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 230,
+      "original_id": 5685,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Xin lỗi, tôi không thể cung cấp suy luận chi tiết từng bước. Đánh giá ngắn: Câu trả lời đúng chủ thể (Tây Hán do Lưu Bang) nhưng sai năm thành lập (đúng là 206 TCN, không phải 202 TCN). Liên quan nhưng lệch thông tin chính, phù hợp mức 3 theo rubric.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 231,
+      "original_id": 5701,
+      "category": "history",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính trong gold: Mốc thời gian cụ thể 86 TCN đến 82 TCN về việc Nhà Hán thu phục các bộ lạc Côn Minh.\n- Đối chiếu: Câu trả lời nêu “khoảng thế kỷ I TCN” (100–1 TCN), bao trùm khoảng 86–82 TCN nhưng không nêu dải năm cụ thể.\n- Sai sót/hallucinate: Không bịa; tuy nhiên mức độ chi tiết thiếu quan trọng (thiếu mốc năm chính xác).\n- Đánh giá: Cùng chủ đề và bao phủ khái quát khung thời gian, nhưng thiếu độ chính xác cốt lõi (dải 86–82 TCN) → đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 232,
+      "original_id": 5702,
+      "category": "history",
+      "score": 2,
+      "raw_response": "- B1 (keywords gold): “Thuật Dương hầu”, “Kiến Đức”, người kế vị sau Triệu Minh vương.\n- B2 (đối chiếu): Model trả lời “Triệu Ai Vương” — không trùng bất kỳ keyword/chủ thể chính nào của gold.\n- B3 (đánh giá): Nội dung cùng chủ đề (người kế vị) nhưng định danh sai hoàn toàn so với gold; không hallucinate nhưng không khớp đáp án chuẩn.\n- B4 (chấm điểm): Off-direction với 1 yếu tố đúng (trả lời về người kế vị), cho 2 điểm.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 233,
+      "original_id": 5703,
+      "category": "history",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts chính trong gold: Nhà Hán; phát động cuộc tấn công Mân Việt; thời gian khoảng năm 135 TCN.\n2) Kiểm tra coverage: Câu trả lời nêu đúng sự kiện (Nhà Hán tấn công Mân Việt) nhưng đưa thời điểm là 111 TCN, không khớp mốc 135 TCN.\n3) Sai sót: Sai mốc thời gian trọng yếu; không phải chi tiết phụ.\n4) Điểm theo rubric: Liên quan nhưng lệch mốc chính => 2.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 234,
+      "original_id": 5712,
+      "category": "history",
+      "score": 2,
+      "raw_response": "Đánh giá ngắn gọn:\n- Gold: Ban đầu 600 thạch, đến năm 106 TCN tăng lên 2.000 thạch.\n- Model: Nói lương giảm vào năm 106 TCN (ngược hướng, không nêu số liệu).\n- Có một yếu tố đúng (đúng chủ thể/thời điểm), nhưng sai ý chính (hướng thay đổi).\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 235,
+      "original_id": 5717,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1) Keywords chính (gold): “Vương Mãng”, “cướp ngôi nhà Tây Hán”, “năm 8”.\n2) Model cover: Có “Vương Mãng”, “cướp ngôi nhà Tây Hán”, nhưng ghi “năm 9” thay vì “năm 8”.\n3) Đánh giá: Nội dung đúng người và sự kiện, sai năm (chi tiết quan trọng), không phải bịa.\n4) Điểm: Đúng một phần, thiếu/chệch một yếu tố quan trọng → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 236,
+      "original_id": 5720,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Keywords chính của gold: “di dân khẩn thực” (đưa dân đến khai khẩn, định cư để khai phá).\n\nĐối chiếu: Câu trả lời nêu “khai thác tài nguyên và phát triển nông nghiệp” chỉ chạm tới phần “khẩn thực” (phát triển nông nghiệp/khai khẩn) nhưng không đề cập yếu tố cốt lõi “di dân” và không nêu rõ đó là một chính sách cụ thể. Nội dung liên quan nhưng thiếu ý chính then chốt.\n\nKhông có bịa đặt rõ ràng, chỉ thiếu trọng tâm.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 237,
+      "original_id": 5733,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts chính (gold): \n- Thời gian: mùa Xuân năm Canh Tý (năm 40)\n- Địa điểm: đất Phong Châu\n\n2) Đối chiếu câu trả lời model:\n- Thời gian: “mùa xuân năm 40” → khớp\n- Địa điểm: “Hát Môn, Phúc Thọ, Hà Nội” → không khớp với “Phong Châu”\n\n3) Sai sót/hallucinate: Lệch địa điểm; không có dấu hiệu bịa đặt ngoài phạm vi.\n\n4) Quyết định điểm: Đúng một phần (thời gian đúng, địa điểm sai) → 3 điểm.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 238,
+      "original_id": 5734,
+      "category": "history",
+      "score": 1,
+      "raw_response": "1) Keywords/concepts chính trong gold: “thần tích”; “số quân tham gia cuộc khởi nghĩa Hai Bà Trưng”; “ước lượng”; “3 vạn (30.000)”.\n2) Câu trả lời có nhắc “theo thần tích”, “ước lượng số quân”, đúng chủ đề, nhưng đưa con số “80.000” thay vì “3 vạn”.\n3) Yếu tố cốt lõi (con số ước lượng) sai so với gold; nội dung chính không khớp.\n4) Theo rubric, đây là sai nội dung chính, không phải thiếu chi tiết phụ; không off-direction nhưng thông tin chính sai → điểm thấp.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 239,
+      "original_id": 5740,
+      "category": "history",
+      "score": 2,
+      "raw_response": "1) Keywords/concepts gold: “lập đồn riêng”, địa điểm “Nam Nguyễn”.\n2) Model không cover: nêu “Mê Linh”, không có “Nam Nguyễn” và không nói “lập đồn riêng”.\n3) Sai nội dung chính (địa điểm), không rõ hallucinate lớn nhưng trả lời lệch so với gold.\n4) Điểm theo rubric: Off-direction, có 1 yếu tố đúng (đúng nhân vật/chủ đề) → 2.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 240,
+      "original_id": 5742,
+      "category": "history",
+      "score": 2,
+      "raw_response": "Thiếu keyword chính “Tiên Du” và xác định sai vị trí chiến lược (trả lời “Luy Lâu”). Dù có nhắc đến việc kiểm soát Long Biên và tuyến giao thông (yếu tố liên quan), nhưng ý cốt lõi sai nên chỉ đạt mức off-direction với một yếu tố đúng.\n\nSCORE: 2",
+      "error": null
+    },
+    {
+      "sample_id": 241,
+      "original_id": 5760,
+      "category": "history",
+      "score": 3,
+      "raw_response": "1) Keywords/concepts gold: học cách sử dụng phân (phân bón) để bón ruộng; từ người phương Bắc; giúp tăng năng suất.\n2) Model cover: nêu công cụ sắt và cải tiến tưới tiêu; có yếu tố “từ người phương Bắc” và mục tiêu tăng năng suất nông nghiệp, nhưng không có “sử dụng phân/bón ruộng”.\n3) Đánh giá: Cùng chủ đề tiếp thu kỹ thuật nông nghiệp từ phương Bắc, nhưng lệch mất cải tiến cốt lõi (phân bón). Không bịa, chỉ sai chi tiết chính.\n4) Điểm theo rubric: Liên quan nhưng thiếu/ lệch ý chính → 3.\n\nSCOR",
+      "error": null
+    },
+    {
+      "sample_id": 242,
+      "original_id": 5783,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Câu trả lời liên quan đến biện pháp đồng hóa (lập trường học, truyền bá Nho giáo), nhưng không nêu rõ trọng tâm của gold là “dạy dân viết và biết sơ lược ngôn ngữ Trung Quốc”; thêm các chi tiết ngoài phạm vi gold. Đúng một phần, thiếu keyword chính.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 243,
+      "original_id": 5813,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Nhận xét ngắn: Mục tiêu “tập hợp lực lượng để giải phóng dân tộc” khớp ý “cứu nước”, nhưng thời gian không khớp với gold (trả lời tháng 5-1941 thay vì 25-10-1941). Do đó chỉ đúng một phần.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 244,
+      "original_id": 5831,
+      "category": "history",
+      "score": 3,
+      "raw_response": "Keywords/concepts chính (gold): “Ủy ban kháng chiến” và “đại diện Tổng bộ Việt Minh”.\n\nĐối chiếu: Câu trả lời chỉ nêu “Ủy ban Kháng chiến Nam Bộ”, thiếu phần “đại diện Tổng bộ Việt Minh”.\n\nSai sót/hallucinate: Không bịa; đúng một phần nhưng thiếu một thành tố quan trọng.\n\nĐiểm: Theo rubric, đúng một phần, thiếu thành tố chính → 3.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 245,
+      "original_id": 5862,
+      "category": "history",
+      "score": 1,
+      "raw_response": "- Keywords/concepts in gold: số quốc gia tham gia; Hội nghị Giơnevơ về chấm dứt chiến tranh ở Đông Dương; đáp án đúng là 8.\n- Model không khớp con số (trả lời 9 thay vì 8).\n- Nội dung sai về fact, không đáp ứng keyword chính.\n- Theo rubric, đây là sai hoàn toàn về đáp án.\n\nSCORE: 1",
+      "error": null
+    },
+    {
+      "sample_id": 246,
+      "original_id": 6123,
+      "category": "culture",
+      "score": 3,
+      "raw_response": "- Keywords/concepts chính (gold): “công bằng”, “dân chủ”.\n- Kiểm tra cover: Câu trả lời có “bình đẳng” (gần với “công bằng” về ý niệm), nhưng thiếu “dân chủ” và thêm “cá nhân hóa”, “quyền riêng tư” không thuộc gold.\n- Sai sót/hallucinate: Không bịa, nhưng lệch trọng tâm so với gold.\n- Đánh giá: Phù hợp một phần, thiếu một trong hai giá trị chính và có nội dung ngoài phạm vi.\n\nSCORE: 3",
+      "error": null
+    },
+    {
+      "sample_id": 247,
+      "original_id": 6296,
+      "category": "culture",
+      "score": 4,
+      "raw_response": "1. Keywords/concepts chính trong gold: vùng đất cao Nam Bộ; kiểu nhà truyền thống; “nhà ba gian hai chái”.\n2. Model cover: Nêu đúng vùng đất cao Nam Bộ; nêu “nhà ba gian” (thiếu “hai chái”); thêm chi tiết mái lá/ngói (không bắt buộc).\n3. Sai sót/hallucinate: Không hallucinate; thiếu chi tiết “hai chái”.\n4. Điểm: Khớp ý chính nhưng thiếu một chi tiết quan trọng (“hai chái”).\n\nSCORE: 4",
+      "error": null
+    }
+  ]
+}

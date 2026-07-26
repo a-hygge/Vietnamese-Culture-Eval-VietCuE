@@ -1,0 +1,1743 @@
+{
+  "fields": [
+    "id",
+    "category",
+    "subcategory",
+    "question",
+    "gold_answer"
+  ],
+  "description": "Test set: 247 items distilled from 6,126-candidate pool via discriminator-filter pipeline. Each item carries a category (History/Law/Culture) and, for Culture items, a subcategory (Society/Religion/Customs/Education/Arts/Politics/Economy). History and Law items have subcategory=None (their category is itself the leaf label).",
+  "n_items": 247,
+  "items": [
+    {
+      "id": 152,
+      "category": "Law",
+      "question": "Tòa án nào có thẩm quyền giải quyết khi người khởi kiện không có nơi cư trú tại Việt Nam?",
+      "gold_answer": "Tòa án nhân dân thành phố Hà Nội hoặc Tòa án nhân dân thành phố Hồ Chí Minh có thẩm quyền giải quyết.",
+      "subcategory": null
+    },
+    {
+      "id": 157,
+      "category": "Law",
+      "question": "Người khởi kiện vụ án hành chính có quyền khởi kiện trong những trường hợp nào liên quan đến địa giới hành chính?",
+      "gold_answer": "Người khởi kiện có quyền khởi kiện khi địa điểm cư trú, nơi làm việc hoặc trụ sở của họ nằm trên cùng phạm vi địa giới hành chính với Tòa án có thẩm quyền.",
+      "subcategory": null
+    },
+    {
+      "id": 200,
+      "category": "Law",
+      "question": "Nhà nước thực hiện quản lý dân cư theo nguyên tắc nào?",
+      "gold_answer": "Nhà nước thực hiện quản lý dân cư theo lãnh thổ, phân chia dân cư thành các đơn vị hành chính lãnh thổ không phụ thuộc vào huyết thống, nghề nghiệp hoặc giới tính.",
+      "subcategory": null
+    },
+    {
+      "id": 203,
+      "category": "Law",
+      "question": "Trước năm 1993, Việt Nam có quy định cụ thể nào về hành vi tham nhũng không?",
+      "gold_answer": "Trước năm 1993, chưa có văn bản pháp luật nào quy định cụ thể hành vi nào được coi là hành vi tham nhũng.",
+      "subcategory": null
+    },
+    {
+      "id": 212,
+      "category": "Law",
+      "question": "Theo Luật sửa đổi năm 1997, có bao nhiêu tội danh liên quan đến tham nhũng được sửa đổi trong BLHS năm 1985?",
+      "gold_answer": "Theo Luật sửa đổi năm 1997, có 9 tội danh liên quan đến tham nhũng được sửa đổi trong BLHS năm 1985.",
+      "subcategory": null
+    },
+    {
+      "id": 221,
+      "category": "Law",
+      "question": "Có bao nhiêu hành vi tham nhũng được kế thừa từ Pháp lệnh phòng chống tham nhũng năm 1998?",
+      "gold_answer": "Có 8 loại hành vi tham nhũng được kế thừa từ các quy định trong Pháp lệnh phòng chống tham nhũng năm 1998.",
+      "subcategory": null
+    },
+    {
+      "id": 226,
+      "category": "Law",
+      "question": "Luật phòng chống tham nhũng năm 2019 đã bổ sung những hành vi nào?",
+      "gold_answer": "Luật bổ sung các hành vi như đưa hối lộ, môi giới hối lộ bởi người có chức vụ, nhũng nhiễu vì vụ lợi và cản trở việc kiểm tra, thanh tra vì vụ lợi.",
+      "subcategory": null
+    },
+    {
+      "id": 282,
+      "category": "Law",
+      "question": "Quy định xử lý có thể gây ra tâm lý gì cho lãnh đạo cơ quan?",
+      "gold_answer": "Có thể gây tâm lý muốn che giấu hoặc tự giải quyết nội bộ các vụ tham nhũng.",
+      "subcategory": null
+    },
+    {
+      "id": 331,
+      "category": "Law",
+      "question": "Giáo trình 'Lý luận chung về nhà nước và pháp luật' được xuất bản vào năm nào?",
+      "gold_answer": "Giáo trình được xuất bản vào năm 2002.",
+      "subcategory": null
+    },
+    {
+      "id": 391,
+      "category": "Law",
+      "question": "Khi làm con nuôi của người thuộc dân tộc khác, dân tộc của người chưa thành niên có thể được xác định lại trong trường hợp nào?",
+      "gold_answer": "Dân tộc của người chưa thành niên có thể được xác định lại theo dân tộc của cha đẻ, mẹ đẻ nếu trước đó được xác định theo dân tộc của cha nuôi, mẹ nuôi do không biết cha đẻ, mẹ đẻ là ai.",
+      "subcategory": null
+    },
+    {
+      "id": 398,
+      "category": "Law",
+      "question": "Nhà nước đảm nhận vai trò cưỡng chế trong xã hội bằng cách nào?",
+      "gold_answer": "Nhà nước đảm nhận vai trò cưỡng chế bằng cách duy trì sự thống trị giai cấp, đàn áp sự phản kháng của các giai cấp bị thống trị và bảo vệ địa vị, lợi ích của giai cấp thống trị.",
+      "subcategory": null
+    },
+    {
+      "id": 403,
+      "category": "Law",
+      "question": "Cơ sở khám bệnh, chữa bệnh và pháp nhân có thể nhận mô, bộ phận cơ thể người để thực hiện những mục đích nào?",
+      "gold_answer": "Cơ sở khám bệnh, chữa bệnh và pháp nhân có thể nhận mô, bộ phận cơ thể người để chữa bệnh, thử nghiệm y học, dược học và thực hiện các nghiên cứu khoa học khác.",
+      "subcategory": null
+    },
+    {
+      "id": 470,
+      "category": "Law",
+      "question": "Luật di sản văn hóa quy định gì về việc mua bán tài sản thuộc di tích lịch sử - văn hóa?",
+      "gold_answer": "Theo Luật di sản văn hóa, khi tài sản thuộc di tích lịch sử - văn hóa được đem bán, Nhà nước có quyền ưu tiên mua.",
+      "subcategory": null
+    },
+    {
+      "id": 473,
+      "category": "Law",
+      "question": "Sở hữu tư nhân được chia thành những hình thức nào?",
+      "gold_answer": "Sở hữu tư nhân bao gồm sở hữu cá thể, sở hữu tiểu chủ và sở hữu tư bản tư nhân.",
+      "subcategory": null
+    },
+    {
+      "id": 635,
+      "category": "Law",
+      "question": "Viện kiểm sát có quyền hạn gì trong thủ tục hòa giải thành trong tố tụng dân sự?",
+      "gold_answer": "Viện kiểm sát nhận bản sao biên bản hòa giải thành và có quyền phản đối sự thỏa thuận của các đương sự trong thời hạn 15 ngày kể từ ngày lập biên bản hòa giải thành nếu thấy không phù hợp với pháp luật hoặc lợi ích chung.",
+      "subcategory": null
+    },
+    {
+      "id": 659,
+      "category": "Law",
+      "question": "Người được thi hành án có quyền yêu cầu thi hành án như thế nào?",
+      "gold_answer": "Người được thi hành án có quyền yêu cầu người phải thi hành án thi hành bản án, quyết định dân sự dựa trên bản sao bản án hoặc quyết định có ghi 'để thi hành'. Nếu người phải thi hành án không tự nguyện thi hành, người được thi hành án có thể gửi đơn yêu cầu đến cơ quan thi hành án trong thời hạn ba năm (đối với cá nhân) hoặc một năm (đối với tổ chức) kể từ ngày bản án, quyết định có hiệu lực pháp luật.",
+      "subcategory": null
+    },
+    {
+      "id": 660,
+      "category": "Law",
+      "question": "Thủ trưởng cơ quan thi hành án phải ra quyết định thi hành án trong thời hạn bao lâu kể từ khi nhận được đơn yêu cầu?",
+      "gold_answer": "Thủ trưởng cơ quan thi hành án phải ra quyết định thi hành án trong thời hạn mười ngày kể từ ngày nhận được đơn yêu cầu thi hành án.",
+      "subcategory": null
+    },
+    {
+      "id": 841,
+      "category": "Law",
+      "question": "Người lao động có thể đơn phương chấm dứt hợp đồng lao động dựa trên điều luật nào?",
+      "gold_answer": "Người lao động có thể đơn phương chấm dứt hợp đồng lao động theo quy định tại Điều 37 của Bộ luật Lao động.",
+      "subcategory": null
+    },
+    {
+      "id": 849,
+      "category": "Law",
+      "question": "Nhà nước được phân loại theo những hình thức nào?",
+      "gold_answer": "Nhà nước được phân loại theo hai hình thức: hình thức chính thể và hình thức cấu trúc.",
+      "subcategory": null
+    },
+    {
+      "id": 889,
+      "category": "Law",
+      "question": "Người sử dụng lao động cần thông báo trước bao lâu khi chấm dứt hợp đồng lao động xác định thời hạn?",
+      "gold_answer": "Người sử dụng lao động phải thông báo bằng văn bản cho người lao động ít nhất 15 ngày trước ngày hợp đồng lao động xác định thời hạn hết hạn.",
+      "subcategory": null
+    },
+    {
+      "id": 890,
+      "category": "Law",
+      "question": "Hai bên phải hoàn tất việc thanh toán các khoản liên quan trong thời hạn bao lâu sau khi chấm dứt hợp đồng lao động?",
+      "gold_answer": "Trong thời hạn 07 ngày làm việc, kể từ ngày chấm dứt hợp đồng lao động, hai bên phải thanh toán đầy đủ các khoản liên quan; trường hợp đặc biệt có thể kéo dài nhưng không được quá 30 ngày.",
+      "subcategory": null
+    },
+    {
+      "id": 915,
+      "category": "Law",
+      "question": "Hai phương pháp cai trị chính mà các giai cấp cầm quyền thường sử dụng là gì?",
+      "gold_answer": "Hai phương pháp cai trị chính là phương pháp dân chủ và phương pháp phản dân chủ.",
+      "subcategory": null
+    },
+    {
+      "id": 964,
+      "category": "Law",
+      "question": "Người lao động thuộc đối tượng nào sẽ được thanh toán tiền tàu xe và tiền lương những ngày đi đường?",
+      "gold_answer": "Người lao động miền xuôi làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo và người lao động ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo làm việc ở miền xuôi sẽ được người sử dụng lao động thanh toán tiền tàu xe và tiền lương những ngày đi đường.",
+      "subcategory": null
+    },
+    {
+      "id": 1002,
+      "category": "Law",
+      "question": "Điều gì xảy ra nếu thành viên góp vốn không góp đủ và đúng hạn số vốn đã cam kết?",
+      "gold_answer": "Số vốn chưa góp đủ được coi là khoản nợ của thành viên đó đối với công ty, và thành viên góp vốn có liên quan có thể bị khai trừ khỏi công ty theo quyết định của Hội đồng thành viên.",
+      "subcategory": null
+    },
+    {
+      "id": 1005,
+      "category": "Law",
+      "question": "Giấy chứng nhận phần vốn góp phải có những nội dung chủ yếu nào?",
+      "gold_answer": "Giấy chứng nhận phần vốn góp phải có các nội dung: tên, địa chỉ trụ sở chính của công ty; số và ngày cấp Giấy chứng nhận đăng ký kinh doanh; vốn điều lệ của công ty; thông tin cá nhân của thành viên như tên, địa chỉ thường trú, quốc tịch, số Giấy chứng minh nhân dân, Hộ chiếu hoặc chứng thực cá nhân hợp pháp khác; loại thành viên; giá trị phần vốn góp và loại tài sản góp vốn; số và ngày cấp giấy chứng nhận phần vốn góp; quyền và nghĩa vụ của người sở hữu giấy chứng nhận phần vốn góp; họ, tên, chữ ký của người sở hữu và của các thành viên hợp danh của công ty.",
+      "subcategory": null
+    },
+    {
+      "id": 1013,
+      "category": "Law",
+      "question": "Hợp tác xã và liên hiệp hợp tác xã có thể phát triển thành loại hình doanh nghiệp nào?",
+      "gold_answer": "Khi hợp tác xã và liên hiệp hợp tác xã phát triển đến trình độ cao hơn, chúng sẽ hình thành các doanh nghiệp của hợp tác xã và liên hiệp hợp tác xã, hoạt động theo quy định của Luật doanh nghiệp.",
+      "subcategory": null
+    },
+    {
+      "id": 1037,
+      "category": "Law",
+      "question": "Trong trường hợp giá trị tài sản thế chấp lớn hơn số nợ, phần chênh lệch sẽ được xử lý như thế nào?",
+      "gold_answer": "Phần chênh lệch sẽ được nhập vào giá trị tài sản còn lại của doanh nghiệp hoặc hợp tác xã để tiếp tục thanh lý.",
+      "subcategory": null
+    },
+    {
+      "id": 1038,
+      "category": "Law",
+      "question": "Doanh nghiệp phải thực hiện nghĩa vụ gì trước khi phân chia tài sản trong thủ tục thanh lý?",
+      "gold_answer": "Doanh nghiệp đã được Nhà nước áp dụng biện pháp đặc biệt về tài sản để phục hồi nhưng không phục hồi được mà phải thanh lý thì phải hoàn trả lại giá trị tài sản đã được áp dụng biện pháp đặc biệt cho Nhà nước trước khi thực hiện việc phân chia tài sản (theo Điều 37 Luật phá sản).",
+      "subcategory": null
+    },
+    {
+      "id": 1216,
+      "category": "Law",
+      "question": "Pháp luật Việt Nam bảo vệ lợi ích của các giai cấp và dân tộc dựa trên cơ sở nào?",
+      "gold_answer": "Pháp luật Việt Nam bảo vệ lợi ích của các giai cấp và dân tộc dựa trên quan điểm, chủ trương, đường lối, chính sách của Đảng Cộng sản Việt Nam.",
+      "subcategory": null
+    },
+    {
+      "id": 1353,
+      "category": "Law",
+      "question": "Pháp chế xuất hiện đầu tiên trong xã hội nào và phát triển mạnh mẽ trong xã hội nào?",
+      "gold_answer": "Pháp chế xuất hiện đầu tiên trong xã hội tư sản và phát triển mạnh mẽ hơn trong xã hội chủ nghĩa.",
+      "subcategory": null
+    },
+    {
+      "id": 1370,
+      "category": "Law",
+      "question": "Đảm bảo xã hội trong pháp chế xã hội chủ nghĩa được thực hiện thông qua những hình thức nào?",
+      "gold_answer": "Đảm bảo xã hội được thực hiện thông qua sự phát triển của nhiều hình thức hoạt động phong phú mang tính chất xã hội của các tổ chức đoàn thể quần chúng.",
+      "subcategory": null
+    },
+    {
+      "id": 1372,
+      "category": "Law",
+      "question": "Nguyên tắc quan trọng trong xây dựng pháp luật là gì?",
+      "gold_answer": "Pháp luật phải phản ánh đúng những quy luật và nhu cầu khách quan của sự phát triển xã hội.",
+      "subcategory": null
+    },
+    {
+      "id": 1435,
+      "category": "Law",
+      "question": "Trách nhiệm công vụ liên quan đến khiếu nại, khiếu kiện của công dân, tổ chức như thế nào?",
+      "gold_answer": "Trách nhiệm công vụ được áp dụng khi chủ thể (công chức/cơ quan công vụ) vi phạm quy định công vụ, quy chế công chức, gây ra thiệt hại cho quyền, tự do, lợi ích hợp pháp của công dân, tổ chức thông qua quyết định hành chính hoặc hành vi hành chính. Khi đó, công dân/tổ chức bị thiệt hại có quyền khiếu nại, khiếu kiện đòi bồi thường, và cơ quan nhà nước có thẩm quyền sẽ áp dụng trách nhiệm công vụ với chủ thể vi phạm.",
+      "subcategory": null
+    },
+    {
+      "id": 1546,
+      "category": "Law",
+      "question": "Cơ quan, tổ chức và cá nhân cần thực hiện những nghĩa vụ nào để đảm bảo quản lý nhà nước hiệu quả?",
+      "gold_answer": "Cơ quan, tổ chức, cá nhân phải thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng trong hoạt động kinh tế - xã hội và quản lý nhà nước.",
+      "subcategory": null
+    },
+    {
+      "id": 1614,
+      "category": "Law",
+      "question": "Các cơ quan Nhà nước có trách nhiệm gì để tạo điều kiện cho đại biểu Quốc hội thực hiện nhiệm vụ?",
+      "gold_answer": "Ủy ban thường vụ Quốc hội, Thủ tướng Chính phủ, Phó Thủ tướng Chính phủ, Bộ trưởng, Thủ trưởng cơ quan ngang bộ và các cơ quan khác của Nhà nước có trách nhiệm tạo điều kiện để đại biểu Quốc hội làm nhiệm vụ đại biểu.",
+      "subcategory": null
+    },
+    {
+      "id": 1789,
+      "category": "Law",
+      "question": "Công chức lãnh đạo, quản lý phạm tội và bị Toà án kết án sẽ bị xử lý như thế nào?",
+      "gold_answer": "Công chức lãnh đạo, quản lý phạm tội và bị Toà án kết án, khi bản án hoặc quyết định đã có hiệu lực pháp luật, sẽ đương nhiên thôi giữ chức vụ do bổ nhiệm.",
+      "subcategory": null
+    },
+    {
+      "id": 2201,
+      "category": "Culture",
+      "question": "Ý nghĩa của việc bôi than lên đầu trong ngày lễ bủn than là gì?",
+      "gold_answer": "Việc bôi than lên đầu trong ngày lễ bủn than thể hiện hành động hối lỗi của các tín đồ.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 2203,
+      "category": "Culture",
+      "question": "Khi văn hóa từ bên ngoài du nhập vào Việt Nam mà trong nước chưa có, sự thay đổi thường diễn ra ở khía cạnh nào?",
+      "gold_answer": "Sự thay đổi thường diễn ra ở nội dung, trong khi hình thức vẫn được giữ nguyên.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2209,
+      "category": "Culture",
+      "question": "Tín ngưỡng Việt Nam đã tiếp thu yếu tố nào từ văn hóa Trung Hoa?",
+      "gold_answer": "Tín ngưỡng Việt Nam đã tiếp thu cách thể chế hóa tín ngưỡng từ văn hóa Trung Hoa, trong khi vẫn giữ nguyên các biểu hiện của linh hồn giáo về nội dung.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 2305,
+      "category": "Culture",
+      "question": "Đoản ngữ danh từ trong tiếng Việt có thể bao gồm bao nhiêu yếu tố tối đa?",
+      "gold_answer": "Đoản ngữ danh từ trong tiếng Việt có thể bao gồm tối đa 4 yếu tố: mạo từ, chỉ trỏ, loại từ và danh từ.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 2319,
+      "category": "Culture",
+      "question": "Thơ mới thường được gọi là gì và nó đối lập với thơ cũ như thế nào?",
+      "gold_answer": "Thơ mới thường được gọi là thơ 'hàng hóa' và nó đối lập với thơ cũ, vốn được xem là thơ 'quà tặng'.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 2367,
+      "category": "Culture",
+      "question": "Văn học Việt Nam đầu thế kỷ 20 đã tác động đến xã hội như thế nào?",
+      "gold_answer": "Văn học Việt Nam đầu thế kỷ 20 đã tác động đến xã hội thông qua các cuộc tranh luận sôi nổi trên báo chí xung quanh từng tác phẩm quan trọng.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2384,
+      "category": "Culture",
+      "question": "Xu hướng nào trong văn học giai đoạn 1930-1945 đã mang lại sự thay đổi tích cực cho không khí văn học?",
+      "gold_answer": "Xu hướng tả thực và bênh vực quần chúng lao động đã mang lại sự thay đổi tích cực cho không khí văn học, làm giảm đi sự buồn chán và cô đơn trước đó.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 2387,
+      "category": "Culture",
+      "question": "Những nghệ sĩ nào đã thay đổi phong cách sáng tác và tạo ra các tác phẩm lôi cuốn?",
+      "gold_answer": "Những nghệ sĩ như Nguyễn Công Hoan, Ngô Tất Tố và Lan Khai đã thay đổi phong cách sáng tác và tạo ra các tác phẩm lôi cuốn.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 2391,
+      "category": "Culture",
+      "question": "Những nhà văn Việt Nam nào có tác phẩm truyện ngắn được đánh giá cao trên thế giới?",
+      "gold_answer": "Những nhà văn Việt Nam có tác phẩm truyện ngắn được đánh giá cao trên thế giới bao gồm Nguyễn Công Hoan, Nguyên Hồng và Thạch Lam.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 2394,
+      "category": "Culture",
+      "question": "Những yếu tố nào được xem xét để khôi phục bản sắc văn hóa dân tộc?",
+      "gold_answer": "Các yếu tố như tổ quốc, gia đình, thân phận và diện mạo được xem xét.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2447,
+      "category": "Culture",
+      "question": "Tín ngưỡng thờ cúng tổ tiên của người Việt có nét tương đồng với tín ngưỡng của những nền văn hóa nào?",
+      "gold_answer": "Tín ngưỡng thờ cúng tổ tiên của người Việt có nét tương đồng với người La Mã và người Mélanésie.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 2471,
+      "category": "Culture",
+      "question": "Tiếp xúc kinh tế của người Việt Nam được thể hiện qua những yếu tố nào?",
+      "gold_answer": "Tiếp xúc kinh tế của người Việt Nam được thể hiện qua việc người Việt làm chủ ở nước ngoài, không chỉ bán sức lao động, cùng với sự xuất hiện của các cửa hàng và sản phẩm Việt Nam được đón nhận tại các nước khác.",
+      "subcategory": "Kinh tế"
+    },
+    {
+      "id": 2535,
+      "category": "Culture",
+      "question": "Tác phẩm nào đóng vai trò quan trọng trong việc định hình phong tục thờ cúng tổ tiên ở Việt Nam?",
+      "gold_answer": "Tác phẩm 'Thọ Mai Gia Lễ', được soạn bởi Thọ Mai, một nhà Nho Nghệ An sống vào thế kỷ XVIII, đóng vai trò quan trọng trong việc định hình phong tục thờ cúng tổ tiên ở Việt Nam.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 2551,
+      "category": "Culture",
+      "question": "Nguồn gốc của các đặc điểm cách mạng trong văn hóa Việt Nam bắt nguồn từ đâu?",
+      "gold_answer": "Nguồn gốc của các đặc điểm cách mạng trong văn hóa Việt Nam bắt nguồn từ văn học dân gian, thể hiện qua tình hữu ái giữa người lao động, thái độ sống có tình có nghĩa và tinh thần chống bất công áp bức.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2567,
+      "category": "Culture",
+      "question": "Yếu tố nào chứng minh sự ổn định của chính quyền cách mạng Việt Nam?",
+      "gold_answer": "Chính quyền cách mạng Việt Nam được coi là ổn định nhất trong lịch sử loài người, mặc dù những người nắm chính quyền ban đầu rất ít kinh nghiệm chính trị, quân sự và kinh tế.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 2569,
+      "category": "History",
+      "question": "Nhân dân Việt Nam đã dựa vào yếu tố nào để đánh bại các thế lực ngoại bang?",
+      "gold_answer": "Nhân dân Việt Nam đã dựa vào nhân cách luận cách mạng để đánh bại các thế lực ngoại bang, bao gồm cá nhân dựa trên võ lực của Pháp và cá nhân luận kinh tế của Mỹ.",
+      "subcategory": null
+    },
+    {
+      "id": 2584,
+      "category": "History",
+      "question": "Sách về nông nghiệp trong lịch sử văn hóa Việt Nam xưa thường tập trung vào những nội dung nào?",
+      "gold_answer": "Sách về nông nghiệp chủ yếu tập trung vào địa bạ, kê khai ruộng đất, đê điều, việc đóng thuế và các thổ sản, thay vì kinh nghiệm nông nghiệp thực tiễn.",
+      "subcategory": null
+    },
+    {
+      "id": 2588,
+      "category": "Culture",
+      "question": "Thay đổi nào được cho là cần thiết để thúc đẩy sự phát triển của đất nước?",
+      "gold_answer": "Cần thay đổi cách nhìn theo con đường kỹ thuật của phương Tây, phá vỡ truyền thống cũ và chỉ chấp nhận tiêu chí cống hiến bằng lao động, sáng tạo và giá trị kinh tế.",
+      "subcategory": "Kinh tế"
+    },
+    {
+      "id": 2600,
+      "category": "History",
+      "question": "Trong thời Nguyễn trước Pháp thuộc, có bao nhiêu công trình pháp luật được ghi nhận?",
+      "gold_answer": "Có 46 công trình pháp luật được ghi nhận trong thời Nguyễn trước Pháp thuộc.",
+      "subcategory": null
+    },
+    {
+      "id": 2658,
+      "category": "Culture",
+      "question": "Trí thức Việt Nam cần làm gì để góp phần đổi mới đất nước?",
+      "gold_answer": "Trí thức Việt Nam cần rời bỏ con đường làm quan, lao vào văn hóa, kỹ thuật, sống chết vì nó để đổi mới đất nước, bất chấp khó khăn gian khổ.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2665,
+      "category": "Culture",
+      "question": "Điểm chung trong quá trình hình thành các nền văn hóa lớn ở châu Á là gì?",
+      "gold_answer": "Các nền văn hóa lớn ở châu Á như Ấn Độ, Trung Hoa, Nhật Bản, Triều Tiên và Việt Nam đều được hình thành qua hàng ngàn năm lịch sử, nhờ sự đóng góp của nhiều thế hệ con người vượt qua khó khăn.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2677,
+      "category": "Culture",
+      "question": "Văn học nghệ thuật Việt Nam khác biệt như thế nào so với các nước Đông Nam Á khác?",
+      "gold_answer": "Văn học nghệ thuật Việt Nam khác biệt ở chỗ đã thực hiện thành công sự dân tộc hóa từ văn hóa phương Tây, trong khi các nước Đông Nam Á khác chưa làm được điều này.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 2685,
+      "category": "Culture",
+      "question": "Đặc điểm nổi bật của hình thức văn hóa mới ở Việt Nam là gì?",
+      "gold_answer": "Hình thức văn hóa mới ở Việt Nam: (1) mang tính dân tộc, rất Việt Nam; (2) tất yếu có nội dung dân tộc trong hình thức ấy (dù nội dung có lệch lạc); (3) thế hệ mới đã vượt gộp thành công thế hệ cũ; (4) văn hóa sau đó không phải mò mẫm, hướng đi đã vạch được.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2691,
+      "category": "Culture",
+      "question": "Yếu tố nào đã góp phần tạo nên bề dày văn hóa hơn một ngàn năm của Việt Nam?",
+      "gold_answer": "Yếu tố góp phần tạo nên bề dày văn hóa hơn một ngàn năm của Việt Nam là sự phát triển liên tục của người Kinh cùng với sự đoàn kết với các tộc người khác trên đất Việt Nam.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2693,
+      "category": "History",
+      "question": "Điểm đặc trưng nào thường thấy trong lịch sử văn hóa Đông Nam Á?",
+      "gold_answer": "Điểm đặc trưng thường thấy trong lịch sử văn hóa Đông Nam Á là các cuộc chiến tranh giữa các tộc người, sự chia rẽ và sự nổi lên rồi sụp đổ của các trung tâm văn hóa khác nhau.",
+      "subcategory": null
+    },
+    {
+      "id": 2705,
+      "category": "Culture",
+      "question": "Hai hướng phát triển văn hóa được đặt ra trong bối cảnh hiện đại là gì?",
+      "gold_answer": "Hai hướng phát triển là Tây phương hóa hoàn toàn hoặc xây dựng một nền văn hóa dân tộc có tính chất Tây phương.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2718,
+      "category": "Culture",
+      "question": "Yếu tố nào giúp văn hóa Việt Nam dễ dàng tiếp cận Đông Nam Á?",
+      "gold_answer": "Yếu tố giúp văn hóa Việt Nam dễ dàng tiếp cận Đông Nam Á là tiểu thuyết Trung Hoa, một cầu nối văn hóa đã được thiết lập từ trước.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2768,
+      "category": "Culture",
+      "question": "Văn hóa được hiểu như thế nào theo quan điểm thao tác luận?",
+      "gold_answer": "Văn hóa không phải là một đồ vật, mà là một quan hệ, có mặt ở mọi tộc người và chỉ tồn tại ở con người.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2772,
+      "category": "Culture",
+      "question": "Định nghĩa thao tác luận về văn hóa hỗ trợ con người trong những lĩnh vực nào?",
+      "gold_answer": "Định nghĩa này giúp con người nhận diện khía cạnh văn hóa trong các hiện tượng, đổi mới và bảo tồn văn hóa, cũng như tạo ra giá trị văn hóa phục vụ kinh doanh.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2784,
+      "category": "Culture",
+      "question": "Bản sắc văn hóa được hình thành từ yếu tố nào?",
+      "gold_answer": "Bản sắc văn hóa được hình thành từ những yêu cầu và mục đích bất biến, không phụ thuộc vào các biểu hiện thay đổi của các kiểu lựa chọn.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2812,
+      "category": "Culture",
+      "question": "Văn hóa học sử dụng phương pháp nào để nghiên cứu văn hóa?",
+      "gold_answer": "Văn hóa học sử dụng phương pháp thực chứng, không dựa trên các hệ thống như âm dương, ngũ hành hay sự phân chia văn hóa theo tiêu chuẩn du mục hoặc nông nghiệp.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2844,
+      "category": "Culture",
+      "question": "Kết quả của những cuộc tiếp xúc văn hóa dựa trên bạo lực, kinh tế và kỹ thuật là gì?",
+      "gold_answer": "Những cuộc tiếp xúc văn hóa dựa trên bạo lực, kinh tế và kỹ thuật thường không để lại giá trị bền vững và sẽ dần phai nhạt theo thời gian.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2847,
+      "category": "Culture",
+      "question": "Kant dùng thuật ngữ nào để mô tả những cá nhân âm thầm nỗ lực thay đổi thế giới?",
+      "gold_answer": "Kant dùng thuật ngữ 'nhiệt tình lạnh' để mô tả những cá nhân âm thầm nỗ lực thay đổi thế giới.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 2858,
+      "category": "Culture",
+      "question": "Nhân cách luận cách mạng trong văn hóa Việt Nam tập trung vào những bổn phận nào?",
+      "gold_answer": "Nhân cách luận cách mạng tập trung vào các bổn phận cá nhân phải thực hiện đối với Tổ quốc và gia đình, nhằm góp phần vào sự ổn định thân phận cá nhân và sự tôn trọng diện mạo cá nhân trong xã hội.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2869,
+      "category": "Culture",
+      "question": "Quá trình vượt gộp thường trải qua những giai đoạn nào?",
+      "gold_answer": "Quá trình vượt gộp thường trải qua ba giai đoạn: giai đoạn đầu là bắt chước máy móc; giai đoạn kết hợp yếu tố nước ngoài với yếu tố bản địa nhưng dễ gây cảm giác lai căng; và giai đoạn cuối là sự vượt gộp thành công, phù hợp với tâm thức dân tộc.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2873,
+      "category": "Culture",
+      "question": "Xã hội học được kỳ vọng đóng vai trò gì trong việc hỗ trợ xây dựng văn hóa mới?",
+      "gold_answer": "Xã hội học được kỳ vọng giúp giảm bớt khó khăn bằng cách cung cấp những con người có nhiệt tình cách mạng, ý thức tổ chức và tinh thần cầu thị, không giáo điều.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2884,
+      "category": "Culture",
+      "question": "Điều gì tạo thành tính bất biến của các hệ thống quan hệ trong văn hóa Việt Nam?",
+      "gold_answer": "Tính bất biến của các hệ thống quan hệ trong văn hóa Việt Nam được tạo thành từ các nhu cầu của tâm thức con người Việt Nam.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2885,
+      "category": "Culture",
+      "question": "Các nhu cầu của tâm thức con người Việt Nam có đặc điểm gì?",
+      "gold_answer": "Các nhu cầu của tâm thức con người Việt Nam về cơ bản là như nhau ở mọi tầng lớp, mọi lứa tuổi, không liên quan tới tài sản hay học vấn và khá ổn định.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 2909,
+      "category": "History",
+      "question": "Lá số tử vi bắt nguồn từ nền văn hóa nào trong lịch sử?",
+      "gold_answer": "Lá số tử vi bắt nguồn từ văn hóa Lưỡng Hà, từ ba ngàn năm trước Công nguyên.",
+      "subcategory": null
+    },
+    {
+      "id": 2942,
+      "category": "Culture",
+      "question": "Tử vi và bói toán của Việt Nam chịu ảnh hưởng từ những nền văn hóa nào?",
+      "gold_answer": "Tử vi và bói toán của Việt Nam chịu ảnh hưởng từ văn hóa Trung Quốc và văn hóa Lưỡng Hà cổ đại.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3084,
+      "category": "Culture",
+      "question": "Tiêu chí nào được người dân Việt Nam ưu tiên khi chọn lãnh đạo?",
+      "gold_answer": "Người dân ưu tiên chọn lãnh đạo dựa trên sự hy sinh lớn nhất để bảo vệ đất nước, không quan tâm đến gia thế, tài sản hay nguồn gốc xuất thân.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 3097,
+      "category": "Culture",
+      "question": "Trong văn học Việt Nam, Nho giáo được thể hiện qua lăng kính nào?",
+      "gold_answer": "Nho giáo bị khúc xạ qua lăng kính tâm thức dân gian, thể hiện qua các tác phẩm văn học mang tính giễu cợt và phê phán.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3098,
+      "category": "History",
+      "question": "Điểm khác biệt trong cách cai trị của vua chúa Việt Nam là gì?",
+      "gold_answer": "Vua chúa Việt Nam không thể làm bất cứ điều gì dựa trên một bộ máy quan liêu chỉ biết vâng dạ.",
+      "subcategory": null
+    },
+    {
+      "id": 3099,
+      "category": "Culture",
+      "question": "Công trình nào được xem là biểu tượng quan trọng của văn hóa Việt Nam?",
+      "gold_answer": "Hệ thống đê điều ở miền Bắc và hệ thống kênh mương ở miền Nam.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3106,
+      "category": "History",
+      "question": "Hai cách giải tán công xã trong lịch sử Việt Nam là gì và mỗi cách có hệ quả ra sao?",
+      "gold_answer": "Hai cách là sử dụng thương nghiệp, chuyển kinh tế tự cung tự cấp thành kinh tế hàng hóa, nhưng cách này có thể dẫn tới sự nổi lên của tầng lớp thương nhân mạnh mẽ; và dùng bạo lực, nhưng cách này sẽ gây ra sự nổi dậy của toàn dân và tạo cơ hội cho ngoại xâm.",
+      "subcategory": null
+    },
+    {
+      "id": 3134,
+      "category": "History",
+      "question": "Phụ nữ Việt Nam thời xưa có vị trí ra sao trong gia đình và xã hội?",
+      "gold_answer": "Phụ nữ Việt Nam thời xưa không bị lép vế quá mức, được pháp luật bênh vực và có sự gắn bó mật thiết với cha mẹ.",
+      "subcategory": null
+    },
+    {
+      "id": 3149,
+      "category": "Culture",
+      "question": "Thái độ của các nhà văn Tự lực văn đoàn đối với minh triết dân gian như thế nào?",
+      "gold_answer": "Các nhà văn Tự lực văn đoàn như Nhất Linh và Khái Hưng vừa phê phán một số khía cạnh nhưng vẫn tôn vinh các giá trị minh triết dân gian, đặc biệt là lễ giáo và lòng tận tụy với gia đình.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3195,
+      "category": "History",
+      "question": "Kỳ Đồng đã làm gì để phù hợp với lời sấm của Trạng Trình Nguyễn Bỉnh Khiêm?",
+      "gold_answer": "Kỳ Đồng để răng trắng và tự xưng là Bạch Xỉ, phù hợp với lời sấm 'Bạch xỉ sinh, thiên hạ bình'.",
+      "subcategory": null
+    },
+    {
+      "id": 3200,
+      "category": "History",
+      "question": "Marcel Ner đã so sánh làng xã Việt Nam với hình mẫu nào trong lịch sử thế giới?",
+      "gold_answer": "Marcel Ner đã so sánh làng xã Việt Nam với xã hội dân chủ ở Hy Lạp cổ đại được mô tả trong 'Thành bang Cổ đại' của Pustel de Coulanges.",
+      "subcategory": null
+    },
+    {
+      "id": 3204,
+      "category": "Culture",
+      "question": "Nguyên nhân nào khiến nông dân Việt Nam dễ dàng gắn bó với Đảng và chủ nghĩa xã hội?",
+      "gold_answer": "Nông dân Việt Nam dễ dàng gắn bó với Đảng và chủ nghĩa xã hội vì họ đã quen sống theo cách tổ chức riêng do chính mình sáng tạo, không phụ thuộc vào chính quyền nhà vua, điều này hòa hợp với tư tưởng của chủ nghĩa xã hội.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 3210,
+      "category": "History",
+      "question": "Theo Từ Chi, bộ máy hành chính ở cấp xã Việt Nam lặp lại mô hình nào?",
+      "gold_answer": "Theo Từ Chi, bộ máy hành chính ở cấp xã Việt Nam lặp lại mô hình bộ máy quản lý làng trong thể chế công xã nông thôn cổ xưa, từ châu Phi đến châu Á, châu Đại Dương, châu Mỹ.",
+      "subcategory": null
+    },
+    {
+      "id": 3212,
+      "category": "Culture",
+      "question": "Nguyên tắc dân chủ trong hương ước được thể hiện như thế nào?",
+      "gold_answer": "Nguyên tắc dân chủ trong hương ước được thể hiện qua việc người trên phải chịu trách nhiệm thực hiện đúng giao kèo, nếu không sẽ bị người dưới phê bình và có thể mất chức.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 3217,
+      "category": "History",
+      "question": "Những phong trào nông dân nào đã để lại dấu ấn trong lịch sử Việt Nam?",
+      "gold_answer": "Các phong trào nổi bật gồm phong trào của Nguyễn Bổ ở Bắc Giang, Trần Đức Huy chống nhà Hồ, và các phong trào chống Pháp của Mạc Đình Phúc và Kỳ Đồng.",
+      "subcategory": null
+    },
+    {
+      "id": 3218,
+      "category": "Culture",
+      "question": "Tổ chức tư võ trong làng xã Việt Nam có nhiệm vụ gì?",
+      "gold_answer": "Tổ chức tư võ tập hợp những người yêu thích võ nghệ và quân sự, thường gắn liền với các lò vật nổi tiếng trong làng.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 3240,
+      "category": "Culture",
+      "question": "Người vợ có vai trò gì trong gia đình sau khi kết hôn?",
+      "gold_answer": "Sau khi kết hôn, người vợ có trách nhiệm xây dựng mối quan hệ với họ hàng nhà chồng và góp phần quyết định sự kính nể, yêu thương mà gia đình chồng nhận được từ cộng đồng.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 3241,
+      "category": "Culture",
+      "question": "Ai là nhân vật chính trong hệ thống tín ngưỡng Đạo giáo ở Việt Nam?",
+      "gold_answer": "Các Mẫu như Mẫu Thượng Thiên, Mẫu Thoải, Mẫu Thượng Ngàn là nhân vật chính trong hệ thống tín ngưỡng Đạo giáo ở Việt Nam.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3244,
+      "category": "Culture",
+      "question": "Vai trò của nam giới và nữ giới được phân chia ra sao trong xã hội Việt Nam?",
+      "gold_answer": "Nam giới thường đảm nhận vai trò trong chính trị, còn nữ giới giữ vai trò chủ đạo trong lĩnh vực tâm linh.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3273,
+      "category": "History",
+      "question": "Chế độ thực dân đã ảnh hưởng như thế nào đến đời sống tinh thần của người dân lao động?",
+      "gold_answer": "Người dân lao động sống trong cảnh cô độc, không nhà, không họ hàng, không có bàn thờ để thờ tổ tiên và không nhận được bất kỳ sự an ủi nào.",
+      "subcategory": null
+    },
+    {
+      "id": 3311,
+      "category": "Culture",
+      "question": "Những yếu tố nào góp phần củng cố diện mạo của một người trong xã hội Việt Nam thời quân chủ?",
+      "gold_answer": "Những yếu tố góp phần củng cố diện mạo bao gồm khao vọng, ăn mừng, tiệc tùng, nghi lễ, ngôi thứ, cùng với các quy chế về quần áo, xưng hô, cách đối xử và cách ăn nói.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 3327,
+      "category": "History",
+      "question": "Những nhà Nho nào đã đứng ra chủ trương phong trào thiện đản để bảo vệ truyền thống yêu nước?",
+      "gold_answer": "Những nhà Nho yêu nước như Đặng Xuân Bảng và Nguyễn Thượng Hiền đã chủ trương phong trào thiện đản để bảo vệ truyền thống yêu nước.",
+      "subcategory": null
+    },
+    {
+      "id": 3332,
+      "category": "Culture",
+      "question": "Những giá trị nào cần được giáo dục cho trẻ em để xây dựng nhân cách tốt?",
+      "gold_answer": "Trẻ em cần được giáo dục các giá trị như lễ, nghĩa, liêm, sỉ. Lễ là giữ đúng cương vị, nghĩa là làm điều đúng đắn, liêm là không tham lam, và sỉ là biết xấu hổ trước hành động sai trái.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 3335,
+      "category": "Culture",
+      "question": "Nghệ thuật truyền thống Việt Nam được duy trì nhờ yếu tố nào?",
+      "gold_answer": "Nghệ thuật truyền thống Việt Nam tồn tại nhờ phục vụ nhân cách luận, đề cao những nhân cách phù hợp với văn hóa, bất chấp hoàn cảnh khó khăn.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 3370,
+      "category": "Culture",
+      "question": "Những yếu tố nào đóng vai trò quan trọng trong việc xây dựng nhân cách con người hiện đại?",
+      "gold_answer": "Các yếu tố quan trọng bao gồm thông thạo khoa học - kỹ thuật, giỏi quản lý xã hội, thạo kinh doanh, biết sử dụng tiền hợp lý, tuân thủ pháp luật, chấp nhận cạnh tranh và hiểu quyền tư hữu trong pháp luật.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3373,
+      "category": "Culture",
+      "question": "Nguyên nhân nào khiến văn hóa Việt Nam khó duy trì tính đồng nhất?",
+      "gold_answer": "Nguyên nhân là do sự phát triển của kỹ thuật như điện thoại, vô tuyến, lưới điện và giao thông, khiến con người tiếp xúc với cả nước và thế giới, dẫn đến sự giao lưu và thỏa hiệp văn hóa từ cả hai phía.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3404,
+      "category": "Culture",
+      "question": "Những yêu cầu cơ bản mà tín ngưỡng Việt Nam cần đáp ứng là gì?",
+      "gold_answer": "Những yêu cầu cơ bản đó là Tổ quốc, gia đình, thân phận và diện mạo.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3421,
+      "category": "Culture",
+      "question": "Hệ thống chữ viết được quy phạm hóa theo cách nào?",
+      "gold_answer": "Hệ thống chữ viết được quy phạm hóa dựa trên mười nét cơ bản, và việc quy phạm hóa này chỉ thực hiện một lần nhưng áp dụng cho toàn bộ lịch sử của hệ chữ viết đó.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3440,
+      "category": "Culture",
+      "question": "Người học thư pháp cần cầm bút như thế nào để đảm bảo sự chính xác và linh hoạt?",
+      "gold_answer": "Người học thư pháp cần cầm bút bằng ba ngón tay, bên ngoài trông có vẻ lỏng nhẹ nhưng thực chất phải rất chặt, đến nỗi không ai có thể giật được bút khỏi tay mình.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 3444,
+      "category": "Culture",
+      "question": "Tại sao việc tiếp thu văn hóa Hán ở Việt Nam không giống với cách người Trung Quốc tiếp thu văn hóa của chính họ?",
+      "gold_answer": "Việc tiếp thu văn hóa Hán ở Việt Nam không giống với Trung Quốc vì học vấn Hán chủ yếu dành cho tầng lớp quý tộc, trong khi người Việt đa phần là con nhà nghèo, không có đủ thời gian và điều kiện kinh tế để học tập văn hóa Hán một cách đầy đủ.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3454,
+      "category": "Culture",
+      "question": "Trong truyền thống Việt Nam, yếu tố nào được đánh giá là có tính quy chế chặt chẽ?",
+      "gold_answer": "Quy chế thầy trò xưa trong truyền thống Việt Nam được đánh giá là chặt chẽ.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 3461,
+      "category": "Culture",
+      "question": "Danh bút trong nghệ thuật thư pháp được hiểu như thế nào?",
+      "gold_answer": "Danh bút trong nghệ thuật thư pháp là khi viết lối chữ mà cái trắng (khoảng trống) phải bay, chứ không phải cái đen (mực) bay.",
+      "subcategory": "Nghệ thuật"
+    },
+    {
+      "id": 3494,
+      "category": "Culture",
+      "question": "Văn hóa Việt Nam đề cao những giá trị nào?",
+      "gold_answer": "Văn hóa Việt Nam đề cao sự bình thường, vừa phải, gần gũi, quen thuộc và tránh mọi cực đoan.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3514,
+      "category": "Culture",
+      "question": "Câu hỏi cơ bản mà người Việt thường đặt ra trong lĩnh vực tôn giáo là gì?",
+      "gold_answer": "Câu hỏi cơ bản mà người Việt thường đặt ra trong lĩnh vực tôn giáo là: có cần hay không.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3532,
+      "category": "Culture",
+      "question": "Bề dày văn hóa của người Việt Nam được ví như điều gì?",
+      "gold_answer": "Bề dày văn hóa của người Việt Nam được ví như một kho vàng, cần vất vả khai thác và đào bới để có được.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3534,
+      "category": "Culture",
+      "question": "Những khó khăn nào thường gặp trong việc khai thác bề dày văn hóa Việt Nam?",
+      "gold_answer": "Khó khăn bao gồm việc cần vất vả đào bới, có người cố tình duy trì hoặc đổ thêm đất đá che lấp, và bản thân mỗi cá nhân phải tự mình làm việc này.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3555,
+      "category": "Culture",
+      "question": "Người Việt duy trì truyền thống văn hóa gì trong những hoàn cảnh khó khăn?",
+      "gold_answer": "Người Việt duy trì truyền thống sáng tác và sử dụng thơ, văn, giai thoại, câu tục ngữ để thể hiện tinh thần chính nghĩa và giữ vững khí tiết trong những hoàn cảnh khó khăn.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3557,
+      "category": "Culture",
+      "question": "Người Việt Nam thể hiện sự yêu thích văn hóa qua những hành động cụ thể nào?",
+      "gold_answer": "Người Việt Nam thể hiện sự yêu thích văn hóa qua việc ghi chép các bài thơ, bài hát, giai thoại, câu tục ngữ mới học được và chia sẻ chúng với đồng bào trong các buổi gặp gỡ.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3561,
+      "category": "Culture",
+      "question": "Điều gì được xem là biểu tượng quan trọng trong văn hóa Việt Nam?",
+      "gold_answer": "Biểu tượng quan trọng trong văn hóa Việt Nam là chữ viết, được thể hiện qua các câu đối, hoành phi, gia phả và trí nhớ của cộng đồng.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3574,
+      "category": "Culture",
+      "question": "Điểm yếu trong tư duy lao động truyền thống của người Việt Nam là gì?",
+      "gold_answer": "Điểm yếu trong tư duy lao động truyền thống của người Việt Nam là bị ảnh hưởng bởi địa vị xã hội và thiếu ý thức vững vàng về giá trị con người trong lao động.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3577,
+      "category": "Culture",
+      "question": "Con đường đổi mới đất nước được so sánh với điều gì và ý nghĩa của sự so sánh này?",
+      "gold_answer": "Con đường đổi mới đất nước được so sánh với con đường ngàn dặm, hàm ý rằng đổi mới đất nước là một hành trình dài và cần sự kiên trì, quyết tâm từ mỗi cá nhân.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 3598,
+      "category": "Culture",
+      "question": "Văn hóa Việt Nam được ví như hình ảnh nào để thể hiện sự hòa hợp và bản sắc riêng?",
+      "gold_answer": "Văn hóa Việt Nam được ví như một cây đại thụ mọc từ mảnh đất Đông Nam Á, tiếp nhận và hòa hợp với những ảnh hưởng văn hóa khác mà vẫn giữ được bản sắc riêng.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3605,
+      "category": "Culture",
+      "question": "Yếu tố nào giúp giao lưu văn hóa quốc tế đạt được hiệu quả cao?",
+      "gold_answer": "Yếu tố giúp giao lưu văn hóa quốc tế đạt hiệu quả cao là sự tin tưởng rằng quá trình giao lưu không chứa đựng âm mưu chính trị, không có sự đe dọa từ vũ lực hay áp lực.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3606,
+      "category": "Culture",
+      "question": "Giao lưu văn hóa được công nhận là nền tảng của quan hệ quốc tế từ thời điểm nào?",
+      "gold_answer": "Giao lưu văn hóa được công nhận là nền tảng của quan hệ quốc tế trong khoảng hai thập kỷ gần đây.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3609,
+      "category": "History",
+      "question": "Hai vị vua nào đã nổi bật trong việc tiếp thu và phát triển văn hóa Hán?",
+      "gold_answer": "Hai vị vua nổi bật trong việc tiếp thu và phát triển văn hóa Hán là Lê Thánh Tông và Minh Mạng.",
+      "subcategory": null
+    },
+    {
+      "id": 3629,
+      "category": "Culture",
+      "question": "Trong giai đoạn thứ ba của giao lưu văn hóa, tính dân tộc được thể hiện ra sao?",
+      "gold_answer": "Trong giai đoạn thứ ba, tính dân tộc được nâng lên tầm thế giới, tạo ra sản phẩm văn hóa vừa mang tinh thần dân tộc vừa có thể trở thành tiếng vọng cho nỗi khao khát của các nền văn hóa khác.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3646,
+      "category": "Culture",
+      "question": "Điểm chung trong cuộc sống của các Thánh Mẫu trong tín ngưỡng thờ Mẫu là gì?",
+      "gold_answer": "Các Thánh Mẫu đều trải qua cuộc sống bình thường với nhiều bất hạnh của phụ nữ Việt Nam, sống đạo đức, thương người và không có tu luyện gì đặc biệt.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3670,
+      "category": "Culture",
+      "question": "Thách thức nào xuất hiện khi xây dựng chế độ kinh tế mới trong một xã hội chưa có tiền tệ?",
+      "gold_answer": "Thách thức là người dân chưa có khái niệm rõ ràng về cách sản xuất, lưu thông, phân phối và tiêu dùng, dẫn đến việc các khâu này dễ bị ảnh hưởng bởi tư duy cũ và chế độ quan liêu bao cấp.",
+      "subcategory": "Kinh tế"
+    },
+    {
+      "id": 3678,
+      "category": "History",
+      "question": "Hồ Chí Minh đã so sánh Khổng Tử với ai vào năm 1923?",
+      "gold_answer": "Năm 1923, Hồ Chí Minh (dưới tên Nguyễn Ái Quốc) đã so sánh Khổng Tử ngang hàng với Mác.",
+      "subcategory": null
+    },
+    {
+      "id": 3701,
+      "category": "Culture",
+      "question": "Nhân vật nữ nào được đồng nhất hóa với nữ thần Chăm Thiên Y A Na ở Trung Bộ?",
+      "gold_answer": "Nhân vật nữ được đồng nhất hóa với nữ thần Chăm Thiên Y A Na ở Trung Bộ là Liễu Hạnh Công Chúa.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3767,
+      "category": "Culture",
+      "question": "Ngũ hành được biểu hiện qua các ông quan như thế nào trong tín ngưỡng thờ Mẫu?",
+      "gold_answer": "Ngũ hành được biểu hiện qua năm ông quan: Quan lớn đệ nhất đại diện Thánh Mẫu Thượng Thiên (mặc áo đỏ), Quan lớn đệ nhị đại diện Thánh Mẫu Thượng Ngàn (mặc áo lục), Quan lớn đệ tam đại diện Thánh Mẫu Thoải (mặc áo lam), Quan lớn đệ tứ đại diện Thánh Mẫu Địa Phủ (mặc áo vàng), và Quan lớn đệ ngũ còn được gọi là Quan Tuần Tranh.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3778,
+      "category": "History",
+      "question": "Truyền thuyết về Trịnh Thường gắn liền với sự kiện nào đặc biệt?",
+      "gold_answer": "Truyền thuyết kể rằng Trịnh Thường, quan tri phủ Ninh Giang, có vợ hai bị cậu con Long Vương kéo xuống nước, ông đã nhờ tiên Quỷ Cốc giúp đòi lại vợ từ Long Vương.",
+      "subcategory": null
+    },
+    {
+      "id": 3814,
+      "category": "History",
+      "question": "Mối quan hệ giữa lãnh đạo và dân chúng thời Xuân Thu - Chiến Quốc có đặc điểm gì?",
+      "gold_answer": "Mối quan hệ giữa lãnh đạo và dân chúng thời Xuân Thu - Chiến Quốc là trực tiếp, chưa có bộ máy quan lại đông đúc.",
+      "subcategory": null
+    },
+    {
+      "id": 3816,
+      "category": "History",
+      "question": "Yếu tố nào được dùng để điều chỉnh các mối quan hệ xã hội trong chế độ phong kiến phân quyền?",
+      "gold_answer": "Yếu tố 'lễ' được dùng để điều chỉnh các mối quan hệ xã hội, bao gồm nghi thức cống nạp, tế tự, quần áo, xe cộ và số người tham dự điệu vũ.",
+      "subcategory": null
+    },
+    {
+      "id": 3822,
+      "category": "Culture",
+      "question": "Tiên Quỷ Cốc đóng vai trò gì trong truyền thuyết về Trịnh Thường?",
+      "gold_answer": "Tiên Quỷ Cốc là người giúp Trịnh Thường gặp Long Vương để đòi lại vợ.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3886,
+      "category": "Culture",
+      "question": "Vì sao nội dung của 'Kinh Xuân Thu' không được cho là phù hợp với quan điểm của Khổng Tử?",
+      "gold_answer": "Nội dung của 'Kinh Xuân Thu' bao gồm những chuyện quái dị, cướp ngôi và tôi giết vua, trong khi Khổng Tử không bàn về những chuyện không thuộc địa vị của mình.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3909,
+      "category": "Culture",
+      "question": "Từ 'tân' trong cụm từ 'Duy tân' có nghĩa là gì?",
+      "gold_answer": "Từ 'tân' trong 'Duy tân' có nghĩa là 'cái đầu tiên', không có nghĩa là 'mới'.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3931,
+      "category": "Culture",
+      "question": "Nguyễn Khắc Viện cho rằng giữa Khổng giáo và văn hóa hiện đại có mối quan hệ như thế nào?",
+      "gold_answer": "Nguyễn Khắc Viện cho rằng giữa Khổng giáo và văn hóa hiện đại có những điểm giống nhau căn bản, còn những điểm khác nhau chỉ là thứ yếu và có thể khắc phục dễ dàng.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3932,
+      "category": "Culture",
+      "question": "Lý thuyết đầu thai được sử dụng để giải thích điều gì trong tín ngưỡng Việt Nam?",
+      "gold_answer": "Lý thuyết đầu thai được sử dụng để giải thích việc các Thánh Mẫu hóa thân thành những nhân vật lịch sử như Hai Bà Trưng, Bà Triệu, Ỷ Lan và Ngọc Hân.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3936,
+      "category": "Culture",
+      "question": "Người Việt Nam theo truyền thống Khổng giáo có đặc điểm gì trong việc tiếp nhận sự thay đổi?",
+      "gold_answer": "Người Việt Nam theo truyền thống Khổng giáo rất ham học, thông minh, tháo vát và nhạy bén với mọi thay đổi.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 3954,
+      "category": "Culture",
+      "question": "Thờ ông Lốt trong tín ngưỡng Tứ Phủ mang ý nghĩa gì?",
+      "gold_answer": "Thờ ông Lốt thể hiện sự tôn kính và tín ngưỡng đối với ông, với nghi thức khi ông nhập vào, người đông nằm dài ra đất và lấy khăn đỏ phủ lên người.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 3985,
+      "category": "Culture",
+      "question": "Điều gì khiến khái niệm tiến bộ dựa trên sản xuất vật chất trở nên lỗi thời?",
+      "gold_answer": "Khái niệm tiến bộ dựa trên sản xuất vật chất trở nên lỗi thời vì năng suất của máy móc vượt xa khả năng lao động của con người, tạo ra sự chênh lệch lớn trong hiệu quả sản xuất và làm giảm ý nghĩa của tiến bộ theo cách hiểu truyền thống.",
+      "subcategory": "Kinh tế"
+    },
+    {
+      "id": 4010,
+      "category": "Culture",
+      "question": "Việc thừa kế một phần tâm thức mang dấu ấn Nho giáo có ý nghĩa gì đối với người Việt?",
+      "gold_answer": "Việc thừa kế một phần tâm thức Nho giáo là điều tự nhiên và không bị coi là thiệt thòi, tương tự như tư tưởng phương Tây không thể thoát khỏi ảnh hưởng của Platông và Thiên Chúa giáo.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4014,
+      "category": "History",
+      "question": "Lịch sử khoa học tiến bộ nhờ yếu tố nào?",
+      "gold_answer": "Lịch sử khoa học tiến bộ nhờ vào các công cụ, trong đó khái niệm được xem là công cụ của tư duy.",
+      "subcategory": null
+    },
+    {
+      "id": 4058,
+      "category": "History",
+      "question": "Các nhà tư tưởng thời Chiến quốc có điểm chung nào trong cách tiếp cận tư tưởng?",
+      "gold_answer": "Các nhà tư tưởng thời Chiến quốc như Mạnh Tử, Trang Tử, Tuân Tử, Hàn Phi Tử đều chịu ảnh hưởng mạnh mẽ từ truyền thống, thường sử dụng cách tâng bốc hoặc mạt sát mà không mang lại cách nhìn khách quan về đối tượng.",
+      "subcategory": null
+    },
+    {
+      "id": 4061,
+      "category": "History",
+      "question": "Nguyễn Trãi và Hồ Chí Minh có điểm chung nào với Khổng Tử trong tư tưởng?",
+      "gold_answer": "Nguyễn Trãi và Hồ Chí Minh có điểm chung với Khổng Tử ở chỗ cả ba đều thể hiện sự nhất quán trong việc lựa chọn và thực hành tư tưởng của mình.",
+      "subcategory": null
+    },
+    {
+      "id": 4062,
+      "category": "Culture",
+      "question": "'Đạo nhà' được liên hệ với ai trong tư tưởng Việt Nam?",
+      "gold_answer": "'Đạo nhà' được liên hệ với cụ Đồ Chiểu và được xem như một biểu tượng cho tư tưởng lựa chọn tiêu biểu của Việt Nam.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4119,
+      "category": "Culture",
+      "question": "Làm thế nào một người được cho là trở thành 'lính' của một vị thần?",
+      "gold_answer": "Một người trở thành 'lính' của một vị thần khi họ có đặc điểm phù hợp với thần, như về diện mạo, tính tình hoặc cách ăn mặc, và được thần chọn trong buổi hầu bóng.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4121,
+      "category": "Culture",
+      "question": "Ý nghĩa của việc nước Việt Nam được gọi là 'nước lá cái' là gì?",
+      "gold_answer": "Việc nước Việt Nam được gọi là 'nước lá cái' thể hiện sự gắn bó mật thiết giữa đất nước và sự sống của con người, nơi mà không ai có thể chọn lựa hay tách rời.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4122,
+      "category": "History",
+      "question": "Trong thời kỳ Trịnh - Nguyễn phân tranh, đất nước Việt Nam được nhìn nhận như thế nào?",
+      "gold_answer": "Trong thời kỳ Trịnh - Nguyễn phân tranh, mặc dù có sự tranh giành giữa hai thế lực quan liêu, đất nước vẫn chỉ có một quốc gia duy nhất là Đại Việt.",
+      "subcategory": null
+    },
+    {
+      "id": 4124,
+      "category": "History",
+      "question": "Ngô Thời Nhậm đã sử dụng cụm từ nào để mô tả thời kỳ Trịnh - Nguyễn phân tranh?",
+      "gold_answer": "Ngô Thời Nhậm đã gọi thời kỳ Trịnh - Nguyễn phân tranh bằng cụm từ 'Thê Chiến quốc, thế Xuân Thu'.",
+      "subcategory": null
+    },
+    {
+      "id": 4126,
+      "category": "Culture",
+      "question": "Người Việt Nam và người Trung Hoa xưa có quan niệm khác nhau như thế nào về 'lẽ trời'?",
+      "gold_answer": "Người Trung Hoa xưa quan niệm 'lẽ trời' là sự hợp rồi tan, tan rồi hợp của thiên hạ, trong khi người Việt Nam không chấp nhận việc chia cắt đất nước và xem đó là điều không thể xảy ra.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4136,
+      "category": "Culture",
+      "question": "Điểm nổi bật trong tư duy của người Việt Nam so với Khổng giáo là gì?",
+      "gold_answer": "Điểm nổi bật trong tư duy của người Việt Nam là tinh thần gắn bó với Tổ quốc, trong khi Khổng giáo không đề cập đến khái niệm này.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4141,
+      "category": "Culture",
+      "question": "Sau khi được thần chọn, người 'lính' phải làm gì tiếp theo?",
+      "gold_answer": "Sau khi được thần chọn, người 'lính' phải thực hiện việc 'khất', tức là chuẩn bị lễ vật và nghi lễ, việc này thường mất thời gian và chi phí đáng kể.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4205,
+      "category": "History",
+      "question": "Người Việt Nam được mô tả như thế nào trong lịch sử và văn hóa truyền thống?",
+      "gold_answer": "Người Việt Nam vừa là thần dân của một quốc gia độc lập, vừa là người dân công xã gắn bó mật thiết với làng xã.",
+      "subcategory": null
+    },
+    {
+      "id": 4217,
+      "category": "Culture",
+      "question": "Nguyên nhân nào dẫn đến sự thay đổi trong cách tiếp nhận Nho giáo tại Việt Nam?",
+      "gold_answer": "Nguyên nhân dẫn đến sự thay đổi trong cách tiếp nhận Nho giáo tại Việt Nam là do ảnh hưởng của cơ tầng văn hóa Đông Nam Á, dù đã bị xáo trộn nhưng vẫn không mất đi hoàn toàn.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4227,
+      "category": "Law",
+      "question": "Người vợ Việt Nam có quyền gì khi chồng bỏ nhà đi lâu ngày?",
+      "gold_answer": "Người vợ có quyền lấy chồng khác nếu chồng bỏ nhà đi năm tháng mà không có con, hoặc một năm nếu có con.",
+      "subcategory": null
+    },
+    {
+      "id": 4229,
+      "category": "Culture",
+      "question": "Điều gì đã góp phần làm cho trang phục trở nên lộng lẫy hơn?",
+      "gold_answer": "Hoàn cảnh sống đặc biệt của các bà, các cô, như việc bị tách khỏi quan hệ quen thuộc, đã khiến họ chú trọng hơn đến trang phục, làm cho trang phục trở nên lộng lẫy hơn.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4237,
+      "category": "Culture",
+      "question": "Chính trị sáng suốt trong lịch sử Việt Nam được thể hiện qua điều gì?",
+      "gold_answer": "Chính trị sáng suốt được thể hiện qua việc biết dừng lại đúng lúc, tránh những tham vọng ngắn hạn có thể gây ra hậu quả nghiêm trọng trong tương lai.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 4238,
+      "category": "Culture",
+      "question": "Việt Nam đã áp dụng chiến lược nào để duy trì độc lập trước sức ép từ Trung Quốc?",
+      "gold_answer": "Việt Nam áp dụng chiến lược 'cúi mình để giữ độc lập', tức là học hỏi văn hóa và chính trị Trung Quốc nhưng vẫn bảo vệ sự tự chủ của mình.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 4276,
+      "category": "History",
+      "question": "Chế độ tổ chức kỳ thi ba năm một lần được áp dụng từ triều đại nào ở Việt Nam?",
+      "gold_answer": "Chế độ tổ chức kỳ thi ba năm một lần được áp dụng từ triều đại nhà Hồ.",
+      "subcategory": null
+    },
+    {
+      "id": 4287,
+      "category": "Culture",
+      "question": "Vì sao người Việt xưa coi trọng việc học dăm ba chữ cho con cái?",
+      "gold_answer": "Người Việt xưa coi trọng việc học dăm ba chữ để con cái có thể khấn ông bà tổ tiên bằng chữ Hán, đọc gia phả và biết cách đối xử lễ độ với họ hàng.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4303,
+      "category": "Culture",
+      "question": "Thứ tự học các sách trong 'Tứ thư' là gì?",
+      "gold_answer": "Thứ tự học các sách trong 'Tứ thư' là 'Luận ngữ', 'Mạnh tử', 'Đại học', và 'Trung Dung'.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4305,
+      "category": "Culture",
+      "question": "Giấy nào thường được dùng để tập ám tả?",
+      "gold_answer": "Giấy khổ nhỏ, chia thành tám hàng trên một trang, thường được dùng để tập ám tả.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4317,
+      "category": "Culture",
+      "question": "Thứ tự nhập của các vị thần linh trong buổi hầu bóng thường diễn ra như thế nào?",
+      "gold_answer": "Thứ tự nhập của các vị thần linh thường là 12 cô, 10 cậu, 5 Quan lớn, 10 ông Hoàng và cuối cùng là 4 Mẫu.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4321,
+      "category": "Culture",
+      "question": "Người Việt Nam tiếp thu văn hóa Hán khác gì so với người Triều Tiên và Nhật Bản?",
+      "gold_answer": "Người Việt Nam thường chỉ giao tiếp bằng văn bản với người Trung Quốc và không học cách nói tiếng Trung, điều này khác với người Triều Tiên và Nhật Bản, những người có xu hướng học cả ngôn ngữ và văn hóa Trung Quốc.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4324,
+      "category": "Culture",
+      "question": "Phương pháp học tập truyền thống được hiểu như thế nào?",
+      "gold_answer": "Phương pháp học tập truyền thống được hiểu là ghi nhớ nhiều câu có sẵn và sử dụng chúng để diễn đạt ý tưởng bằng cách thay đổi một hoặc hai chữ.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4327,
+      "category": "Culture",
+      "question": "Tại sao phương pháp dạy học truyền thống vẫn có giá trị?",
+      "gold_answer": "Phương pháp dạy học truyền thống vẫn có giá trị vì nó mang lại hiệu quả tương tự cách dạy mẫu câu trong ngôn ngữ học hiện đại, giúp người học thực hành và ghi nhớ ngôn ngữ.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4340,
+      "category": "History",
+      "question": "Vào thời nhà Nguyễn, các kỳ thi thử cho học sinh trong một tỉnh diễn ra vào thời gian nào?",
+      "gold_answer": "Vào thời nhà Nguyễn, các kỳ thi thử cho học sinh trong một tỉnh diễn ra vào tháng 11, kéo dài trong mười ngày giữa tháng.",
+      "subcategory": null
+    },
+    {
+      "id": 4354,
+      "category": "History",
+      "question": "Có bao nhiêu binh sĩ được phân bổ để trông coi trường thi cho mỗi 1.000 thí sinh?",
+      "gold_answer": "Cứ trung bình 1.000 thí sinh sẽ có 300 lính cùng với voi ngựa trông coi trường thi.",
+      "subcategory": null
+    },
+    {
+      "id": 4355,
+      "category": "History",
+      "question": "Kỳ thi Hương thường được tổ chức vào mùa nào?",
+      "gold_answer": "Kỳ thi Hương thường được tổ chức vào mùa hạ.",
+      "subcategory": null
+    },
+    {
+      "id": 4369,
+      "category": "Culture",
+      "question": "Người giỏi làm phú trong thời phong kiến Việt Nam được đánh giá như thế nào?",
+      "gold_answer": "Người giỏi làm phú được xem là người hay chữ, còn người giỏi làm thơ chỉ được coi là người có tài nhưng không xuất sắc bằng người giỏi làm phú.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4375,
+      "category": "Culture",
+      "question": "Người xưa đã sử dụng phương pháp nào để ghi nhớ các vần dễ nhầm lẫn trong thi cử?",
+      "gold_answer": "Người xưa thường chép các vần dễ nhầm lẫn bằng lối chữ nhỏ xíu gọi là chữ kiến và giấu đi để có thể kiểm tra khi cần.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4377,
+      "category": "Culture",
+      "question": "Hậu quả của việc sử dụng chữ kiến trong kỳ thi là gì?",
+      "gold_answer": "Nếu bị phát hiện sử dụng chữ kiến trong kỳ thi, thí sinh sẽ bị coi là phạm tội gian lận và bị cấm thi suốt đời.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4378,
+      "category": "History",
+      "question": "Trong kỳ thi Đệ Tam, thí sinh phải làm bài thi ở những môn nào?",
+      "gold_answer": "Trong kỳ thi Đệ Tam, thí sinh phải làm bài thi ở các môn văn sách, chế, biểu và chiếu.",
+      "subcategory": null
+    },
+    {
+      "id": 4383,
+      "category": "Culture",
+      "question": "Nguồn gốc của nghi lễ hầu bóng trong tín ngưỡng Việt Nam là gì?",
+      "gold_answer": "Nghi lễ hầu bóng có nguồn gốc từ sa-man giáo, một tín ngưỡng phổ biến ở Xibêri và Trung Á.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4391,
+      "category": "History",
+      "question": "Lệnh kiêng húy ở Việt Nam được áp dụng từ triều đại nào?",
+      "gold_answer": "Lệnh kiêng húy ở Việt Nam được áp dụng từ triều đại nhà Trần, trong khi đời Lý và trước đó không có lệnh kiêng húy.",
+      "subcategory": null
+    },
+    {
+      "id": 4401,
+      "category": "Culture",
+      "question": "Điểm khác biệt giữa tú tài và cử nhân trong cách sử dụng chữ là gì?",
+      "gold_answer": "Tú tài thường sử dụng chữ theo cách quen thuộc, trong khi cử nhân biết sử dụng chữ điển cố mới mẻ và bóng bẩy hơn.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4422,
+      "category": "History",
+      "question": "Trong giai đoạn 1821-1850, số lượng người đỗ tiến sĩ ở Việt Nam khác gì so với Trung Quốc?",
+      "gold_answer": "Trong 15 kỳ thi hội, Trung Quốc có 3.269 người đỗ tiến sĩ, trong khi Việt Nam chỉ có 124 người đỗ, trung bình mỗi kỳ thi tuyển được mười người.",
+      "subcategory": null
+    },
+    {
+      "id": 4441,
+      "category": "Culture",
+      "question": "Có bao nhiêu quyển sách về thi cử được liệt kê trong bộ 'Di sản Hán Nôm Việt Nam, thư mục đề yếu'?",
+      "gold_answer": "Có 194 quyển sách về thi cử được liệt kê trong bộ 'Di sản Hán Nôm Việt Nam, thư mục đề yếu'.",
+      "subcategory": "Giáo dục"
+    },
+    {
+      "id": 4443,
+      "category": "Culture",
+      "question": "Văn xuôi và văn biền ngẫu trong bộ 'Di sản Hán Nôm Việt Nam, thư mục đề yếu' có điểm gì đặc biệt?",
+      "gold_answer": "Văn xuôi và văn biền ngẫu chủ yếu là những bài văn của tiền nhân viết theo phong cách thi cử, mặc dù không phải trực tiếp làm trong các trường thi.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4463,
+      "category": "Culture",
+      "question": "Văn hóa chữ viết của Việt Nam có điểm gì nổi bật so với các nước Đông Nam Á?",
+      "gold_answer": "Điểm nổi bật là Việt Nam sở hữu một kho sách phong phú kéo dài từ thế kỷ X đến nay, cùng với số lượng lớn người tham gia viết sách.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4496,
+      "category": "History",
+      "question": "Vì sao y học và dược học có vai trò quan trọng trong lịch sử khoa học Việt Nam?",
+      "gold_answer": "Y học và dược học có vai trò quan trọng vì chúng gắn liền với công việc của nhà Nho, những người không làm quan thường chuyển sang làm thầy thuốc.",
+      "subcategory": null
+    },
+    {
+      "id": 4503,
+      "category": "Culture",
+      "question": "Khổng giáo đã được tiếp thu như thế nào trong văn hóa Việt Nam?",
+      "gold_answer": "Khổng giáo được tiếp thu trong văn hóa Việt Nam dưới hình thức lợi dụng học thuyết này nhưng không giữ được tinh thần cốt lõi như chữ 'thời', thuyết 'trung dung' hay nguyên lý hòa hợp.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4512,
+      "category": "Culture",
+      "question": "Điểm đặc biệt của các hương ước và khoán lệ Việt Nam so với Trung Quốc là gì?",
+      "gold_answer": "Điểm đặc biệt là các nhà Nho Việt Nam xây dựng hương ước và khoán lệ, điều này không có ở Trung Quốc.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4524,
+      "category": "Culture",
+      "question": "Những yếu tố nào được chú trọng trong văn hóa làng xã Việt Nam?",
+      "gold_answer": "Những yếu tố được chú trọng trong văn hóa làng xã Việt Nam bao gồm làng, sự phân bố dòng họ, những nhân vật có công với làng và nước, những người được phong tước, các nhà thờ, và những người phụ nữ có công và tiếng tăm.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4525,
+      "category": "Culture",
+      "question": "Đặc điểm nổi bật trong tâm thức của trí thức Việt Nam xưa là gì?",
+      "gold_answer": "Đặc điểm nổi bật trong tâm thức của trí thức Việt Nam xưa là vẫn mang tính dân gian quen thuộc của Đông Nam Á, dù họ học chữ Hán và Nho học để đi thi, làm quan.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4540,
+      "category": "Culture",
+      "question": "Hình thức bói nào được sử dụng để dự đoán kết quả của chiến tranh?",
+      "gold_answer": "Hình thức bói lục nhâm được sử dụng để dự đoán kết quả của chiến tranh.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4551,
+      "category": "Culture",
+      "question": "Tại sao nghề pháp sư ở Việt Nam không được phát triển chuyên sâu?",
+      "gold_answer": "Nghề pháp sư ở Việt Nam không được phát triển chuyên sâu vì nghề này không mang lại thu nhập đáng kể cho những người theo đuổi nó.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4561,
+      "category": "Culture",
+      "question": "Thầy mo ở miền núi Việt Nam có đặc điểm gì nổi bật trong việc học tập và sử dụng tri thức?",
+      "gold_answer": "Thầy mo ở miền núi Việt Nam thường có học vấn vững chãi hơn về Hán học nhờ tiếp cận một số sách từ Trung Quốc.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4568,
+      "category": "Culture",
+      "question": "Ý nghĩa của các mã số và ký hiệu như 'n', 'giải', 'm' trong tài liệu Nho giáo của Việt Nam là gì?",
+      "gold_answer": "Các mã số dùng để chỉ tài liệu cụ thể, còn các ký hiệu như 'n' là bản dịch ra chữ Nôm, 'giải' là giảng giải, 'm' là bài văn mẫu để tiện cho thi cử.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4593,
+      "category": "History",
+      "question": "Danh nho nào là tác giả của quyển sách 'Âm chất văn chú'?",
+      "gold_answer": "Danh nho Lê Quý Đôn là tác giả của quyển sách 'Âm chất văn chú'.",
+      "subcategory": null
+    },
+    {
+      "id": 4597,
+      "category": "Culture",
+      "question": "Nội dung chính của các bài kinh trong đạo giáo Việt Nam là gì?",
+      "gold_answer": "Các bài kinh trong đạo giáo Việt Nam chủ yếu là những bài ca ngợi các thần linh và cầu xin ân huệ, không mang giá trị giáo dục hay tư tưởng như kinh trong Phật giáo hoặc Thiên Chúa giáo.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4610,
+      "category": "Culture",
+      "question": "Phật giáo Việt Nam đóng vai trò gì trong đời sống tâm linh của người dân?",
+      "gold_answer": "Phật giáo Việt Nam giữ vai trò khiêm tốn, không có công trình chính trị hay lý luận đề cao Phật giáo hơn các tôn giáo khác, và người dân thường đến chùa để thỏa mãn nhu cầu tâm linh.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4611,
+      "category": "Culture",
+      "question": "Điểm khác biệt chính giữa Phật giáo Việt Nam và Phật giáo Trung Quốc là gì?",
+      "gold_answer": "Phật giáo Việt Nam khác Phật giáo Trung Quốc về số lượng các giáo phái, với Thiền Tông gần như làm bá chủ tại Việt Nam, trong khi Phật giáo Trung Quốc có ảnh hưởng sâu rộng hơn đến văn hóa như thơ, văn, ngôn ngữ, tư tưởng và nghệ thuật.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4613,
+      "category": "Culture",
+      "question": "Những công trình nào được xem là tiêu biểu về tư tưởng Phật giáo Việt Nam?",
+      "gold_answer": "Một số công trình tiêu biểu về tư tưởng Phật giáo Việt Nam là 'Lập Đoan Pháp' (1844) của Huệ Thanh Diệu nói về chữ Tâm, chữ Tính, và 'Khóa Hư lục' của Trần Thái Tông.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4621,
+      "category": "Culture",
+      "question": "Truyền thống trọng văn khinh võ trong văn hóa Việt Nam được thể hiện qua câu tục ngữ nào?",
+      "gold_answer": "Truyền thống này được thể hiện qua câu tục ngữ 'Quan văn thất phẩm đã sang, quan võ thất phẩm còn mang đai cờ.'",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4624,
+      "category": "History",
+      "question": "Tài liệu quân sự nào được Nguyễn Trãi nhắc đến trong một câu nói nổi tiếng?",
+      "gold_answer": "Nguyễn Trãi đã nhắc đến tài liệu quân sự 'Vũ Kinh' trong câu nói 'Nhớ xưa ở Lam Sơn đọc Vũ Kinh.'",
+      "subcategory": null
+    },
+    {
+      "id": 4649,
+      "category": "Culture",
+      "question": "Các nhà Nho thời xưa thường quan tâm đến những khía cạnh nào trong văn hóa của các tộc người miền núi?",
+      "gold_answer": "Các nhà Nho thường quan tâm đến mặt thơ ca, cúng tế và phù phép trong văn hóa của các tộc người miền núi.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4669,
+      "category": "Culture",
+      "question": "Đặc điểm nổi bật của múa trong hầu đồng về hình thức trình diễn là gì?",
+      "gold_answer": "Múa trong hầu đồng là múa đơn, ngay cả khi nhiều người cùng nhập đồng thì cũng không có sự phối hợp, mà chỉ là múa cá nhân.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4678,
+      "category": "Culture",
+      "question": "Trong bộ Di sản Hán Nôm Việt Nam, tác phẩm 'Việt sử chính biên toát yếu' ghi chép lịch sử trong khoảng thời gian nào?",
+      "gold_answer": "'Việt sử chính biên toát yếu' ghi chép lịch sử từ thời Lý Nhân Tông đến Lê Chiêu Thống.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4722,
+      "category": "History",
+      "question": "Dân luật Bắc Kỳ được dịch ra chữ Nôm vào thời điểm nào?",
+      "gold_answer": "Dân luật Bắc Kỳ được dịch ra chữ Nôm vào năm 1923.",
+      "subcategory": null
+    },
+    {
+      "id": 4725,
+      "category": "Law",
+      "question": "Thuế môn bài ở Bắc Kỳ được quy định trong nghị định ban hành vào năm nào?",
+      "gold_answer": "Thuế môn bài ở Bắc Kỳ được quy định trong nghị định ban hành vào năm 1920.",
+      "subcategory": null
+    },
+    {
+      "id": 4728,
+      "category": "Culture",
+      "question": "Sắc luật thời Minh Mạng tập trung chấn chỉnh những vấn đề gì trong xã hội?",
+      "gold_answer": "Sắc luật thời Minh Mạng tập trung chấn chỉnh các phong tục nông thôn như ăn uống, ma chay và các thói quen không phù hợp.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4731,
+      "category": "History",
+      "question": "Bộ luật Gia Long được ban hành vào năm nào?",
+      "gold_answer": "Bộ luật Gia Long, hay Hoàng Việt Luật Lệ, được ban hành vào năm 1813.",
+      "subcategory": null
+    },
+    {
+      "id": 4755,
+      "category": "Culture",
+      "question": "Trang phục đặc trưng của Chầu Thác Bờ khi nhập đồng được miêu tả như thế nào?",
+      "gold_answer": "Trang phục của Chầu Thác Bờ khi nhập đồng gồm váy đen, cạp váy thêu hoa, đầu chít khăn trắng, và cổ đeo vòng bạc, thể hiện đặc trưng văn hóa của người Mường.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4757,
+      "category": "Culture",
+      "question": "Trong tín ngưỡng Tứ Phủ, các điệu nhạc và điệu vũ được gọi chung là gì?",
+      "gold_answer": "Trong tín ngưỡng Tứ Phủ, các điệu nhạc được gọi chung là điệu xá, như Xá Bằng, Xá Bắc, Xá Quảng, và các điệu vũ cũng mang tên tương tự.",
+      "subcategory": "Tôn giáo"
+    },
+    {
+      "id": 4761,
+      "category": "Culture",
+      "question": "Các bà mẹ làm gì trong nghi lễ trừ tà để cầu mong sinh con khỏe mạnh?",
+      "gold_answer": "Các bà mẹ quỳ trước bàn thờ, che mặt, bị thôi miên, giãy giụa và điểm chỉ vào tờ cam kết.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4831,
+      "category": "Culture",
+      "question": "Lễ hội ở xã Nga Hoàng, Hà Bắc có phong tục đặc biệt nào?",
+      "gold_answer": "Lễ hội ở xã Nga Hoàng, Hà Bắc có phong tục 'Hội Chen', nơi nam nữ, già trẻ chen nhau ở đền và trên đường rước thần, thể hiện ước mơ về mùa màng tốt và cuộc sống bình đẳng thời xa xưa.",
+      "subcategory": "Phong tục tập quán"
+    },
+    {
+      "id": 4864,
+      "category": "Culture",
+      "question": "Tín ngưỡng thờ Mẫu trong văn hóa Việt Nam được thể hiện qua tác phẩm nào của Đặng Văn Lung?",
+      "gold_answer": "Tín ngưỡng thờ Mẫu trong văn hóa Việt Nam được thể hiện qua tác phẩm 'Tam Tòa Thánh Mẫu' của Đặng Văn Lung.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4899,
+      "category": "Culture",
+      "question": "Ý nghĩa của các từ 'vua nác' và 'tướng nác' trong văn hóa người Tày - Thái là gì?",
+      "gold_answer": "Trong tiếng Tày-Thái (và phương ngữ Nghệ Tĩnh), 'nác' nghĩa là 'nước'. 'Vua nác' (= vua của nước) chính là lạc vương, 'tướng nác' (= tướng của nước) chính là lạc tướng trong sử Hán. Các tên gọi này cho thấy 'lạc vương/lạc tướng' trong sử Trung Quốc thực chất là phiên âm Hán của tiếng địa phương Tày-Thái, chứng tỏ Việt Nam thời tiền sử thuộc khối văn hóa Đông Nam Á.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 4924,
+      "category": "History",
+      "question": "Trần Hưng Đạo đã cảnh báo điều gì về chiến lược của quân địch?",
+      "gold_answer": "Trần Hưng Đạo cảnh báo rằng quân địch tấn công ồ ạt thì không đáng sợ, nhưng nếu chúng sử dụng chiến lược 'tằm ăn lá dâu' thì rất đáng sợ.",
+      "subcategory": null
+    },
+    {
+      "id": 4969,
+      "category": "History",
+      "question": "Yếu tố nào được coi là quan trọng hơn cả kỷ luật thép trong quân đội Việt Nam?",
+      "gold_answer": "Tình nghĩa được coi là quan trọng hơn cả kỷ luật thép trong quân đội Việt Nam.",
+      "subcategory": null
+    },
+    {
+      "id": 4972,
+      "category": "Culture",
+      "question": "Điều gì là yếu tố chính thu hút người Việt Nam gia nhập quân đội?",
+      "gold_answer": "Yếu tố chính thu hút người Việt Nam gia nhập quân đội là sự nêu gương, chứ không phải quyền lợi vật chất hay sự đãi ngộ.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 5108,
+      "category": "Culture",
+      "question": "Nguyễn Ái Quốc có quan điểm gì về mối liên hệ giữa văn hóa và đấu tranh giai cấp?",
+      "gold_answer": "Nguyễn Ái Quốc không coi văn hóa chỉ là biểu hiện của đấu tranh giai cấp, mà còn nhấn mạnh giá trị to lớn của văn hóa truyền thống, điều này khác biệt với quan điểm của nhiều người cộng sản sau này.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 5140,
+      "category": "History",
+      "question": "Nguyễn Ái Quốc nhận xét như thế nào về sự tiến triển xã hội theo học thuyết Mác?",
+      "gold_answer": "Nguyễn Ái Quốc nhận xét rằng sự tiến triển xã hội theo học thuyết Mác trải qua ba giai đoạn: chế độ nô lệ, chế độ nông nô và chế độ tư bản, nhưng ông đặt câu hỏi liệu các dân tộc Viễn Đông có trải qua các giai đoạn này hay không.",
+      "subcategory": null
+    },
+    {
+      "id": 5156,
+      "category": "History",
+      "question": "Tại sao cách mạng Việt Nam không cần dựa nhiều vào bạo lực như ở các nước khác?",
+      "gold_answer": "Cách mạng Việt Nam không cần dựa nhiều vào bạo lực vì khi thực dân Pháp sụp đổ, hệ thống của họ cũng sụp đổ theo, và những người ủng hộ thực dân không có đủ sức mạnh để duy trì quyền lực.",
+      "subcategory": null
+    },
+    {
+      "id": 5190,
+      "category": "Culture",
+      "question": "Hồ Chí Minh cho rằng điểm chung cơ bản trong văn hóa của các dân tộc là gì?",
+      "gold_answer": "Hồ Chí Minh cho rằng điểm chung cơ bản trong văn hóa của các dân tộc là mọi dân tộc đều yêu chuộng sự lành và ghét sự dữ.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 5232,
+      "category": "Culture",
+      "question": "Quan điểm của Hồ Chí Minh về xóa bỏ giai cấp và cách mạng thế giới là gì?",
+      "gold_answer": "Hồ Chí Minh không coi việc xóa bỏ giai cấp hay làm cách mạng thế giới là mục tiêu lớn nhất, mà tập trung vào những nhu cầu thiết thực của nhân dân.",
+      "subcategory": "Chính trị"
+    },
+    {
+      "id": 5239,
+      "category": "Culture",
+      "question": "Trong tác phẩm 'Đường Kách mệnh' (1927), Hồ Chí Minh đã đề ra bốn nguyên lý cơ bản về cải tạo bản thân để làm người cách mạng. Bốn nguyên lý đó là gì?",
+      "gold_answer": "Bốn nguyên lý cơ bản mà Hồ Chí Minh nhấn mạnh gồm: cần, kiệm, liêm, chính; chí công, vô tư; lo trước vui sau; làm đầy tớ nhân dân lao động.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 5473,
+      "category": "History",
+      "question": "Niên đại của lớp trầm tích và xương răng người hiện đại được phát hiện tại hang Hùm, Yên Bái là bao lâu?",
+      "gold_answer": "Niên đại của lớp trầm tích và xương răng ở hang Hùm được đoán định khoảng từ 8 đến 14 vạn năm cách ngày nay.",
+      "subcategory": null
+    },
+    {
+      "id": 5475,
+      "category": "History",
+      "question": "Các công cụ đá của giai đoạn hậu kỳ đá cũ xuất hiện sớm nhất được phát hiện ở đâu và vào năm nào?",
+      "gold_answer": "Các công cụ đó được phát hiện tại xã Sơn Vi, huyện Phong Châu, Phú Thọ vào năm 1965.",
+      "subcategory": null
+    },
+    {
+      "id": 5476,
+      "category": "History",
+      "question": "Di vật thời đá cũ trên tầng nền Tectit ở Sa Thầy, Kon Tum được phát hiện vào thời điểm nào?",
+      "gold_answer": "Các di vật thời đá cũ trên tầng nền Tectit ở Sa Thầy, Kon Tum được phát hiện vào năm 2000.",
+      "subcategory": null
+    },
+    {
+      "id": 5489,
+      "category": "History",
+      "question": "Niên đại sớm nhất của Văn hóa Hòa Bình được xác định là bao nhiêu năm trước?",
+      "gold_answer": "Niên đại sớm nhất của Văn hóa Hòa Bình là 11.365 ± 80 năm cách ngày nay.",
+      "subcategory": null
+    },
+    {
+      "id": 5490,
+      "category": "History",
+      "question": "Người Đa Bút đã sáng tạo ra những loại công cụ mới nào từ đá và các công cụ này mang lại lợi ích gì trong lao động?",
+      "gold_answer": "Người Đa Bút đã chế tạo các công cụ mới như cuốc, đục, cưa, chày, cối, bàn nghiền, chì lưới. Các công cụ này giúp cải thiện năng suất lao động, hỗ trợ trong sản xuất nông nghiệp và chế biến thực phẩm.",
+      "subcategory": null
+    },
+    {
+      "id": 5496,
+      "category": "History",
+      "question": "Những công cụ lao động nào từ đá đã được tìm thấy tại cồn Cổ Ngựa và chúng được chế tác từ vật liệu gì?",
+      "gold_answer": "Những công cụ như rìu đá, đục đá được tìm thấy tại cồn Cổ Ngựa, chủ yếu được chế tác từ đá cuội.",
+      "subcategory": null
+    },
+    {
+      "id": 5512,
+      "category": "History",
+      "question": "Trước đó, tên gọi khác của hòn đảo Ngọc Vừng là gì?",
+      "gold_answer": "Tên gọi khác của hòn đảo Ngọc Vừng là Danh Do La.",
+      "subcategory": null
+    },
+    {
+      "id": 5519,
+      "category": "History",
+      "question": "Phương thức sinh sống chính của cộng đồng người Thạch Lạc là gì?",
+      "gold_answer": "Người Thạch Lạc sống chủ yếu nhờ vào khai thác biển, bao gồm đánh bắt hải sản và khai thác sò điệp ven bờ.",
+      "subcategory": null
+    },
+    {
+      "id": 5526,
+      "category": "History",
+      "question": "Tại các hang động ở vùng cao Thanh - Nghệ, người nguyên thủy đã chế tạo những loại công cụ lao động và đồ trang sức nào?",
+      "gold_answer": "Người nguyên thủy đã chế tạo rìu đá mài, rìu tứ giác, vòng tay, khuyên tai đá và các vật dụng khác từ vỏ ốc biển đục lỗ.",
+      "subcategory": null
+    },
+    {
+      "id": 5557,
+      "category": "History",
+      "question": "Nước Văn Lang được chia thành bao nhiêu bộ? Kể tên các bộ",
+      "gold_answer": "Nước Văn Lang được chia thành 15 bộ. Ba bộ tiêu biểu là Giao Chi, Chu Diên và Vũ Ninh.",
+      "subcategory": null
+    },
+    {
+      "id": 5577,
+      "category": "History",
+      "question": "Kỹ năng chế tác nào của cư dân Phùng Nguyên tạo ra các công cụ đá tinh xảo?",
+      "gold_answer": "Kỹ năng chế tác là khoan và tiện đá.",
+      "subcategory": null
+    },
+    {
+      "id": 5607,
+      "category": "History",
+      "question": "Những nguyên liệu nào được sử dụng để dệt vải trong thời Hùng Vương?",
+      "gold_answer": "Các nguyên liệu bao gồm lanh, gai, và tơ tằm.",
+      "subcategory": null
+    },
+    {
+      "id": 5612,
+      "category": "History",
+      "question": "Nhiệt độ nấu chảy đồng để đúc vật dụng nhỏ và để đúc trống đồng đông khác biệt như thế nào?",
+      "gold_answer": "Để đúc vật dụng nhỏ cần nhiệt độ khoảng 1.100°C, trong khi để đúc trống đồng có kích thước lớn và họa tiết phức tạp, nhiệt độ phải đạt khoảng 1.200-1.250°C.",
+      "subcategory": null
+    },
+    {
+      "id": 5634,
+      "category": "History",
+      "question": "Tên gọi Dạ Lang xuất phát từ địa danh thời cổ nào theo sách An Thuận phủ chí?",
+      "gold_answer": "Tên gọi Dạ Lang xuất phát từ tên địa danh Dạ Sơn thời cổ.",
+      "subcategory": null
+    },
+    {
+      "id": 5682,
+      "category": "History",
+      "question": "Nước Nam Việt được thành lập khi nào?",
+      "gold_answer": "Nước Nam Việt được thành lập năm 206 TCN",
+      "subcategory": null
+    },
+    {
+      "id": 5685,
+      "category": "History",
+      "question": "Triều Tây Hán được Lưu Bang thành lập vào năm nào?",
+      "gold_answer": "Triều Tây Hán được thành lập vào năm 206 TCN.",
+      "subcategory": null
+    },
+    {
+      "id": 5701,
+      "category": "History",
+      "question": "Nhà Hán thu phục các bộ lạc ở Côn Minh trong khoảng thời gian nào?",
+      "gold_answer": "Nhà Hán thu phục các bộ lạc ở Côn Minh từ năm 86 TCN đến năm 82 TCN.",
+      "subcategory": null
+    },
+    {
+      "id": 5702,
+      "category": "History",
+      "question": "Ai là người lên làm vua Nam Việt sau cái chết của Triệu Minh vương?",
+      "gold_answer": "Người lên làm vua Nam Việt sau cái chết của Triệu Minh vương là Thuật Dương hầu Kiến Đức.",
+      "subcategory": null
+    },
+    {
+      "id": 5703,
+      "category": "History",
+      "question": "Nhà Hán phát động cuộc tấn công Mân Việt vào thời gian nào?",
+      "gold_answer": "Nhà Hán phát động cuộc tấn công Mân Việt vào khoảng năm 135 TCN.",
+      "subcategory": null
+    },
+    {
+      "id": 5712,
+      "category": "History",
+      "question": "Lương của Thứ sử châu Giao Chi thay đổi thế nào từ thời điểm ban đầu cho đến năm 106 TCN?",
+      "gold_answer": "Ban đầu, Thứ sử châu Giao Chi nhận lương 600 thạch, nhưng từ năm 106 TCN, mức lương tăng lên 2.000 thạch.",
+      "subcategory": null
+    },
+    {
+      "id": 5717,
+      "category": "History",
+      "question": "Ai là người đã cướp ngôi nhà Tây Hán và việc này diễn ra vào năm nào?",
+      "gold_answer": "Vương Mãng đã cướp ngôi nhà Tây Hán vào năm 8.",
+      "subcategory": null
+    },
+    {
+      "id": 5720,
+      "category": "History",
+      "question": "Chính quyền Đông Hán đã thực hiện chính sách kinh tế nào tại Giao Chỉ để chinh phục vùng đất này?",
+      "gold_answer": "Chính quyền Đông Hán thực hiện chính sách 'di dân khẩn thực' để khai phá Giao Chỉ.",
+      "subcategory": null
+    },
+    {
+      "id": 5733,
+      "category": "History",
+      "question": "Cuộc khởi nghĩa Hai Bà Trưng khởi phát vào thời gian nào và từ địa điểm nào?",
+      "gold_answer": "Cuộc khởi nghĩa Hai Bà Trưng diễn ra vào mùa Xuân năm Canh Tý (năm 40) và bắt đầu từ đất Phong Châu.",
+      "subcategory": null
+    },
+    {
+      "id": 5734,
+      "category": "History",
+      "question": "Theo thần tích, số quân tham gia cuộc khởi nghĩa Hai Bà Trưng được ước lượng là bao nhiêu người?",
+      "gold_answer": "Số quân tham gia cuộc khởi nghĩa Hai Bà Trưng được ước lượng có thể lên đến 3 vạn người.",
+      "subcategory": null
+    },
+    {
+      "id": 5740,
+      "category": "History",
+      "question": "Bà Man Thiện, mẹ của Hai Bà Trưng, đã đóng quân ở đâu?",
+      "gold_answer": "Bà Man Thiện đã lập đồn riêng tại Nam Nguyễn.",
+      "subcategory": null
+    },
+    {
+      "id": 5742,
+      "category": "History",
+      "question": "Vị trí chiến lược nào giúp quân Hán kiểm soát khu vực Long Biên và hành lang giao thông nối liền Giao Chỉ với Trung Hoa?",
+      "gold_answer": "Vị trí chiến lược là Tiên Du, nơi quân Hán có thể kiểm soát một vùng rộng lớn bao gồm Long Biên và hành lang giao thông nối Giao Chỉ với Trung Hoa qua các khu vực Móng Cái, Tiên Yên, Uông Bí, Đông Triều, Phả Lại, và Luy Lâu.",
+      "subcategory": null
+    },
+    {
+      "id": 5760,
+      "category": "History",
+      "question": "Người Giao Châu đã áp dụng cải tiến nào từ người phương Bắc để tăng năng suất nông nghiệp?",
+      "gold_answer": "Người Giao Châu đã học cách sử dụng phân để bón ruộng từ người phương Bắc, giúp tăng năng suất nông nghiệp.",
+      "subcategory": null
+    },
+    {
+      "id": 5783,
+      "category": "History",
+      "question": "Theo sách 'Khâm định Việt sử thông giám cương mục', chính quyền phong kiến Trung Quốc đã làm gì để đồng hóa dân bản thổ Giao Châu?",
+      "gold_answer": "Chính quyền phong kiến Trung Quốc dạy dân bản thổ viết và biết sơ lược ngôn ngữ Trung Quốc.",
+      "subcategory": null
+    },
+    {
+      "id": 5813,
+      "category": "History",
+      "question": "Mặt trận Việt Minh được thành lập vào thời gian nào và nhằm mục tiêu gì?",
+      "gold_answer": "Mặt trận Việt Minh được thành lập ngày 25-10-1941 nhằm đáp ứng nguyện vọng cứu nước của đồng bào.",
+      "subcategory": null
+    },
+    {
+      "id": 5831,
+      "category": "History",
+      "question": "Chủ trương hiệu triệu nhân dân Nam Bộ kháng chiến chống Pháp ngày 23-09-1945 được đề ra bởi tổ chức nào?",
+      "gold_answer": "Ủy ban kháng chiến và đại diện Tổng bộ Việt Minh đã đưa ra chủ trương này.",
+      "subcategory": null
+    },
+    {
+      "id": 5862,
+      "category": "History",
+      "question": "Có bao nhiêu quốc gia tham gia Hội nghị Giơnevơ về chấm dứt chiến tranh ở Đông Dương?",
+      "gold_answer": "8 quốc gia.",
+      "subcategory": null
+    },
+    {
+      "id": 6123,
+      "category": "Culture",
+      "question": "Giá trị nào đang dần định hình lại mối quan hệ và cách ứng xử trong xã hội Việt Nam hiện đại?",
+      "gold_answer": "Giá trị 'công bằng, dân chủ' đang ngày càng ảnh hưởng sâu rộng đến các mối quan hệ và cách ứng xử trong xã hội Việt Nam hiện đại.",
+      "subcategory": "Xã hội"
+    },
+    {
+      "id": 6296,
+      "category": "Culture",
+      "question": "Ở vùng đất cao tại Nam Bộ, cư dân thường xây dựng kiểu nhà truyền thống nào?",
+      "gold_answer": "Ở vùng đất cao hơn, cư dân Nam Bộ thường xây dựng kiểu nhà ba gian hai chái.",
+      "subcategory": "Phong tục tập quán"
+    }
+  ],
+  "dataset": "VietCuE-test-247"
+}

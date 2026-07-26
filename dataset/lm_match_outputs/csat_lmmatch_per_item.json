@@ -1,0 +1,15 @@
+{
+  "n_pairs": 4693,
+  "agreement_matrix": {
+    "csat_gt2_lm_T": 339,
+    "csat_gt2_lm_F": 1220,
+    "csat_le2_lm_T": 46,
+    "csat_le2_lm_F": 3088
+  },
+  "partial_credit_breakdown": {
+    "csat_5_lm_F": 14,
+    "csat_4_lm_F": 56,
+    "csat_3_lm_F": 1150
+  },
+  "raw_agreement_pct": 73.02
+}
