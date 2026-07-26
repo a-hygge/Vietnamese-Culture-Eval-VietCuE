@@ -1,0 +1,19 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+(CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 Nguyễn Thị Tú Anh, Nguyen Thu Ha, Viet Dac Lai, Long Hoang Dang
+
+The dataset in this directory is licensed under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License. To view a
+copy of this license, visit:
+
+    https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to share and adapt this dataset for non-commercial research
+purposes, provided you give appropriate credit, indicate if changes were
+made, and distribute any derivative works under the same license.
+
+The standardised-examination items in `VietCuE_test_247.json` and
+`VietCuE_train_5081.json` inherit the licence of their primary sources
+(Vietnamese National High School Graduation Examinations, publicly
+available). See `dataset/README.md` for full source attribution.

@@ -22,7 +22,7 @@ Decomposing accuracy this way surfaces patterns a single leaderboard number hide
 | Cultural lexicon | 166 unique terms, used for CLC scoring |
 | Evaluated models | 19, spanning closed frontier APIs and open-weight models |
 | Judge | GPT-5, aspect-based rubric, validated against 2-annotator human consensus (4 prompting strategies compared; Cohen's κ = 0.748 quadratic-weighted vs. human) |
-| Causal cue-dependence | 4 paired-rewrite variants (v1 original, v2 correct-country marker, v3 wrong-country marker, v4 English-name marker) |
+| Causal cue-dependence | 3 paired-rewrite variants (v1 original, v2 correct-country marker, v3 wrong-country marker) |
 | Fine-tuning | Full-parameter SFT ablation on Qwen3-4B and Qwen3-8B, 5 epochs |
 
 ## Structure
@@ -40,6 +40,10 @@ pip install -r requirements.txt
 
 All released judge/model outputs are pre-computed, so the paper's tables and figures can be reproduced without re-running any LLM inference — see [code/README.md](code/README.md) for the per-script breakdown and how to point the analysis scripts at `dataset/`.
 
+## Citation
+
+Citation details (BibTeX) will be added here once the paper is published. In the meantime, please cite the paper by its title: *"Beyond Aggregate Accuracy: A Discriminator-Filtered Vietnamese Benchmark for Multi-Axis Cultural Evaluation of LLMs."*
+
 ## License
 
-Code: MIT. Dataset: CC BY-NC-SA 4.0 (see [dataset/README.md](dataset/README.md) for licences inherited from primary sources).
+Code: MIT (see [LICENSE](LICENSE)). Dataset: CC BY-NC-SA 4.0 (see [dataset/LICENSE](dataset/LICENSE) and [dataset/README.md](dataset/README.md) for licences inherited from primary sources).

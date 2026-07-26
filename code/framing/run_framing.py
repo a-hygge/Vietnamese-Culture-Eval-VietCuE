@@ -1,4 +1,4 @@
-"""Framing ablation inference — 6 model × 4 dataset (v1-v4) × 247 câu.
+"""Framing ablation inference — 6 model × 3 dataset (v1-v3) × 247 câu.
 
 Usage:
     pip install openai python-dotenv
@@ -50,7 +50,6 @@ VERSIONS = [
     'v1_original',
     'v2_vn_explicit',
     'v3_tq_explicit',
-    'v4_vietnam_english',
 ]
 
 MAX_TOKENS   = 4096
@@ -152,9 +151,9 @@ def run_one(version: str, model_name: str, workers: int = 3):
     print(f'  [DONE] {tag}: {len(results)}/{total} trong {elap/60:.1f}min')
 
 def main():
-    ap = argparse.ArgumentParser(description='Framing ablation: 6 model × 4 dataset × 247 câu')
+    ap = argparse.ArgumentParser(description='Framing ablation: 6 model × 3 dataset × 247 câu')
     ap.add_argument('--version', choices=VERSIONS + ['all'], default='all',
-                    help='Dataset version (default: all 4)')
+                    help='Dataset version (default: all 3)')
     ap.add_argument('--model', choices=MODELS + ['all'], default='all',
                     help='Model name (default: all 6)')
     ap.add_argument('--workers', type=int, default=32,

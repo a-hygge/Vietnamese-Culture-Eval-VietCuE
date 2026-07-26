@@ -12,9 +12,9 @@ dataset/
 ├── model_outputs/                # 19 model raw answers on the 247-item test set
 ├── judge_scores/                 # 19 aspect-based GPT-5 judge scores
 ├── judge_ablation_outputs/       # 4 judge-prompt-strategy scores (Table: judge validation)
-├── framing_variants/             # 4 framing-rewrite variants (v1–v4) + judged outputs
-│   ├── judge_outputs/            #   per-item judged scores, 4 variants x 6 models
-│   └── framing_all4_summary.json #   paired-Wilcoxon summary (all comparisons, all 6 models)
+├── framing_variants/             # 3 framing-rewrite variants (v1–v3) + judged outputs
+│   ├── judge_outputs/            #   per-item judged scores, 3 variants x 6 models
+│   └── framing_summary.json      #   paired-Wilcoxon summary (all comparisons, all 6 models)
 ├── lm_match_outputs/             # Binary LM-match judge scores (metric-robustness check)
 ├── finetune_outputs/             # Per-epoch Qwen3-4B / 8B SFT judge scores
 ├── human_annotations/            # Anonymised annotator scores + Cohen's κ report
@@ -59,15 +59,14 @@ The judge was run with `model=azure/gpt-5`, `temperature=1`, `max_tokens=4000`. 
 Four files: `zero_shot.json`, `cot.json`, `demonstration.json`, `aspect_based.json` — GPT-5 judge scores on the same 247 items under each of the four prompting strategies compared in the judge-validation table. Reproduces that table together with `human_annotations/` (see `code/judge_ablation/build_table1_final.py`).
 
 ### `framing_variants/`
-Four files: `v1_original.json`, `v2_vn_explicit.json`, `v3_tq_explicit.json`, `v4_vietnam_english.json`. Each is a 247-item parallel set with the variant-specific rewrite of the question prompt; `gold_answer` is unchanged across variants.
+Three files: `v1_original.json`, `v2_vn_explicit.json`, `v3_tq_explicit.json`. Each is a 247-item parallel set with the variant-specific rewrite of the question prompt; `gold_answer` is unchanged across variants.
 
 Variant semantics:
 - `v1`: original question (no marker added)
 - `v2`: prepend "`ở Việt Nam`" (correct country marker)
 - `v3`: prepend "`ở Trung Quốc`" (wrong-country marker; tests routing vs. passive ignoring)
-- `v4`: same question with the country name given in its English form ("Vietnam") instead of Vietnamese ("Việt Nam"), rest of the sentence unchanged
 
-`judge_outputs/` holds the per-item aspect-based GPT-5 judged answers for all four variants across six models (`claude-opus-4.6`, `claude-sonnet-4.6`, `deepseek-r1`, `gemini-3.1-pro-preview`, `gpt-5`, `gpt-5.4-pro`); file naming is `{version}__{model}_judged.json`. `framing_all4_summary.json` is the pre-computed paired-Wilcoxon summary (v2/v3/v4 vs.\ v1, plus v3-vs-v2 and v4-vs-v2, with per-domain breakdowns) for all six models — the paper's causal-rewrite table (§7.2) reports three of these six models.
+`judge_outputs/` holds the per-item aspect-based GPT-5 judged answers for all three variants across six models (`claude-opus-4.6`, `claude-sonnet-4.6`, `deepseek-r1`, `gemini-3.1-pro-preview`, `gpt-5`, `gpt-5.4-pro`); file naming is `{version}__{model}_judged.json`. `framing_summary.json` is the pre-computed paired-Wilcoxon summary (v2/v3 vs.\ v1, plus v3-vs-v2, with per-domain breakdowns) for all six models — the paper's causal-rewrite table (§7.2) reports three of these six models.
 
 ### `lm_match_outputs/`
 Binary LM-match judge results used for the aspect-based-vs.-binary metric-robustness check (Appendix: Metric Robustness). `csat_vs_lmmatch.json`: per-model accuracy under both metrics, rank comparison, Spearman/Pearson correlation. `csat_lmmatch_per_item.json`: aggregate agreement matrix and partial-credit breakdown across the 4,693 (model, question) pairs.
@@ -96,4 +95,4 @@ The 247 test items and 5,081 training items derive from:
 
 ## Licence
 
-Released under CC BY-NC-SA 4.0 for non-commercial research use, with the standardised-examination items inheriting the licence of their primary sources. Foreign-reference terms in the cultural lexicon (e.g.\ `Trung Quốc`, `Nhật Bản`) are retained as they appear in Vietnamese cultural QA gold references; see Appendix L of the paper for full lexicon discussion.
+Released under CC BY-NC-SA 4.0 for non-commercial research use (see [LICENSE](LICENSE)), with the standardised-examination items inheriting the licence of their primary sources. Foreign-reference terms in the cultural lexicon (e.g.\ `Trung Quốc`, `Nhật Bản`) are retained as they appear in Vietnamese cultural QA gold references; see Appendix L of the paper for full lexicon discussion.

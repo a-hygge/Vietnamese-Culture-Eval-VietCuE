@@ -94,7 +94,7 @@ Compares four GPT-5 judge prompting strategies against human consensus to select
 
 ## `framing/` — § 7 controlled-rewrite experiment
 
-`run_framing.py` consumes the four framing variants (v1/v2/v3/v4) in the dataset bundle and produces per-variant judge outputs.
+`run_framing.py` consumes the three framing variants (v1/v2/v3) in the dataset bundle and produces per-variant judge outputs.
 
 ## `lm_match/` — Appendix E alternative judge
 
@@ -147,4 +147,4 @@ Scripts used to generate and quality-check the candidate pool before discriminat
 
 ## License
 
-Code: MIT. Datasets retain the licences of their primary sources (see dataset bundle README).
+Code: MIT (see [LICENSE](../LICENSE)). Datasets retain the licences of their primary sources (see dataset bundle README).
