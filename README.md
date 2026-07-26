@@ -6,11 +6,11 @@ Dataset and code release accompanying *"Beyond Aggregate Accuracy: A Discriminat
 
 Most Vietnamese-culture LLM benchmarks report a single aggregate accuracy number. VietCuE instead pairs a **discriminator-filtered** test set (items a frontier-LLM panel cannot already answer, then unanimously verified by four human annotators) with a **multi-axis** evaluation protocol that decomposes "accuracy" into three independent signals:
 
-1. **Aspect-based rubric score** — a 0–5 GPT-5 judge scoring content match, keyword coverage, and factual accuracy separately.
-2. **Cultural Lexicon Coverage (CLC)** — whether a model's answer actually uses the culturally-specific terms present in the gold reference, independent of the judge.
-3. **Cue-dependence** — how much a model's answer changes when an explicit Vietnamese-context marker is added or swapped for a wrong-country marker, measured both observationally (marker-bearing vs. marker-less items) and causally (paired minimal-edit rewrites of the same items).
+1. **Aspect-based rubric score** - a 0–5 GPT-5 judge scoring content match, keyword coverage, and factual accuracy separately.
+2. **Cultural Lexicon Coverage (CLC)** - whether a model's answer actually uses the culturally-specific terms present in the gold reference, independent of the judge.
+3. **Cue-dependence** - how much a model's answer changes when an explicit Vietnamese-context marker is added or swapped for a wrong-country marker, measured both observationally (marker-bearing vs. marker-less items) and causally (paired minimal-edit rewrites of the same items).
 
-Decomposing accuracy this way surfaces patterns a single leaderboard number hides — e.g. the top-accuracy model on this benchmark (GPT-5) also has the *lowest* Cultural Lexicon Coverage and the *largest* cue-dependence gap among evaluated models, while Claude models sit at the opposite corner, trading some accuracy for much higher lexical grounding and cue-stability. Full methodology, all findings, and statistical tests are in the paper.
+Decomposing accuracy this way surfaces patterns a single leaderboard number hides - e.g. the top-accuracy model on this benchmark (GPT-5) also has the *lowest* Cultural Lexicon Coverage and the *largest* cue-dependence gap among evaluated models, while Claude models sit at the opposite corner, trading some accuracy for much higher lexical grounding and cue-stability. Full methodology, all findings, and statistical tests are in the paper.
 
 ## At a glance
 
@@ -27,8 +27,8 @@ Decomposing accuracy this way surfaces patterns a single leaderboard number hide
 
 ## Structure
 
-- [`dataset/`](dataset/) — VietCuE test/train sets, cultural lexicon, model outputs, judge scores, human annotations. See [dataset/README.md](dataset/README.md).
-- [`code/`](code/) — data generation, inference, LLM-as-judge, fine-tuning, and analysis pipeline. See [code/README.md](code/README.md).
+- [`dataset/`](dataset/) - VietCuE test/train sets, cultural lexicon, model outputs, judge scores, human annotations. See [dataset/README.md](dataset/README.md).
+- [`code/`](code/) - data generation, inference, LLM-as-judge, fine-tuning, and analysis pipeline. See [code/README.md](code/README.md).
 
 ## Quickstart
 
@@ -38,7 +38,7 @@ cd Vietnamese-Culture-Eval-VietCuE/code
 pip install -r requirements.txt
 ```
 
-All released judge/model outputs are pre-computed, so the paper's tables and figures can be reproduced without re-running any LLM inference — see [code/README.md](code/README.md) for the per-script breakdown and how to point the analysis scripts at `dataset/`.
+All released judge/model outputs are pre-computed, so the paper's tables and figures can be reproduced without re-running any LLM inference - see [code/README.md](code/README.md) for the per-script breakdown and how to point the analysis scripts at `dataset/`.
 
 ## License
 
