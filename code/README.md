@@ -10,6 +10,8 @@ code/
 ├── run_models/            # 19-model inference runner (runner.py + models_config.py)
 ├── judge_ablation/        # 4-prompt-strategy judge validation (judge-validation table)
 ├── framing/               # Framing-experiment runner (run_framing.py)
+│   └── openweight/        # rewrite runs for Qwen3.5 397B, Qwen3-Next 80B, Llama 3.3 70B
+├── control_set/           # open-weight-filtered control set (control-250)
 ├── lm_match/              # Binary LM-match alternative judge (run_lm_match.py)
 ├── finetune/
 │   ├── qwen3-4b/          # Full SFT Qwen3-4B (5 epochs, bf16)
@@ -54,7 +56,7 @@ python exp_c3_difficulty_v3_with_ppl.py   # § 5 + Appendix G PPL-difficulty
 # … see per-script docstrings
 ```
 
-All scripts use `seed=3407`.
+Sampling-based analyses use `seed=3407`; no seed was passed to the generation or judge APIs.
 
 ---
 
@@ -62,7 +64,7 @@ All scripts use `seed=3407`.
 
 | File | Role |
 |---|---|
-| `config.py` | system prompts, `JUDGE_PROMPT` (CSAT 0–5 rubric), `TEMPERATURE`, `MAX_TOKENS`, worker counts, paths |
+| `config.py` | system prompts, `JUDGE_PROMPT` (direct 1–5 rubric used in the frontier filter; each filter model scores its own answer), `TEMPERATURE`, `MAX_TOKENS`, worker counts, paths |
 | `call_model.py` | unified API wrapper auto-detecting provider by name prefix (`claude-*`, `gpt-*`, `gemini-*`) |
 | `judge_models.py` | main pipeline: phase-1 generate, phase-2 judge — `ThreadPoolExecutor` with auto-resume + auto-save every 50 items |
 | `sample_data.json` | 10-item smoke test before running on the full corpus |
@@ -89,12 +91,17 @@ Compares four GPT-5 judge prompting strategies against human consensus to select
 |---|---|
 | `judge_prompts.py` | the four prompt builders (Zero-shot, CoT, Demonstration, Aspect-based) + rubric + score parser |
 | `run_judge.py` | runs one or all four strategies over the 247-item test set → `judge_outputs/{strategy}.json` |
-| `build_table1_final.py` | joins judge outputs with `human_annotations/` (2-annotator consensus) to build the judge-validation table |
+| `build_table_judge_annotatorB.py` | judge-validation table of the paper: the four prompts against the human reference (annotator B, 175 items) |
+| `build_table1_final.py` | superseded: earlier version of the table that averaged in the excluded second annotation file |
 | `build_table2.py` | early leaderboard build over a 6-model subset (superseded by `run_models/` + `pipeline/` for the full 19-model leaderboard reported in the paper) |
 
 ## `framing/` — § 7 controlled-rewrite experiment
 
-`run_framing.py` consumes the three framing variants (v1/v2/v3) in the dataset bundle and produces per-variant judge outputs.
+`run_framing.py` consumes the three framing variants (v1/v2/v3) in the dataset bundle and produces per-variant judge outputs. `openweight/` holds the runs for the three open-weight models (`run_inference.py`, `judge.py`) and `analyze.py`, which combines all nine models into the paper's rewrite table.
+
+## `control_set/` — open-weight-filtered control set
+
+`run_stage.py --stage {1,2,3}` filters the training corpus sequentially with Qwen3-Next-80B, Llama-3.1-8B and GPT-OSS-20B (`weak_models.py`); `build_control_sample.py` draws the stratified 250-item sample; `judge_frontier.py` re-scores the filter models' existing answers with the leaderboard judge; `analyze.py` reproduces the test-vs-control table. Outputs live in `dataset/control_250/`.
 
 ## `lm_match/` — Appendix E alternative judge
 
@@ -116,7 +123,8 @@ Self-contained Python scripts that consume the released dataset bundle and produ
 | Script | Reproduces |
 |---|---|
 | `exp_c1_clc_v2.py` | Cultural Lexicon Coverage table (§6) |
-| `exp_c1_clc_csat_validation.py` | CLC vs. human-CSAT validation (§6) |
+| `clc_question_echo.py` | CLC with and without question-echo terms (paper's CLC table) |
+| `exp_c1_clc_csat_validation.py` | CLC vs. the filter models' self-assigned 1–5 scores on training pairs (§6) |
 | `clc_csat_per_subcat.py` | Per-sub-topic CLC lifts (Appendix J) |
 | `clc_bootstrap_ci.py` | Bootstrap CIs for CLC |
 | `exp_c2_co_ag_v2.py` | Observational Co/Ag split (§7.1) |
@@ -141,7 +149,7 @@ Scripts used to generate and quality-check the candidate pool before discriminat
 
 ## Reproducibility
 
-- All scripts are deterministic given `seed=3407`.
+- Sampling-based analyses use `seed=3407`; no seed was passed to the generation or judge APIs, so re-running inference will not reproduce the outputs exactly.
 - Judge runs at `temperature=1`, `max_tokens=4000`, `model=azure/gpt-5` (or the provider you configure).
 - LLM provider snapshots may shift over time; the released dataset bundle contains the exact judge outputs used in the paper so the analysis numbers can be reproduced without re-running inference.
 

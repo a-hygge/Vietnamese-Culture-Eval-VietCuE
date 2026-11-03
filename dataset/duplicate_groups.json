@@ -1,0 +1,1757 @@
+{
+ "description": "Duplicate groups in VietCuE. Items are flagged, not deleted, so item ids stay stable. Groups D001-D130 come from an LLM-proposed, manually verified semantic duplicate check (172 proposed pairs, 139 confirmed; 265 training items). Keeping one item per training group removes 135 items. All paper results include every item.",
+ "n_groups": 132,
+ "confirmed_pairs": [
+  [
+   3071,
+   3080
+  ],
+  [
+   3675,
+   3680
+  ],
+  [
+   4131,
+   4132
+  ],
+  [
+   4870,
+   4962
+  ],
+  [
+   4875,
+   4928
+  ],
+  [
+   4934,
+   4937
+  ],
+  [
+   4953,
+   4954
+  ],
+  [
+   5007,
+   5010
+  ],
+  [
+   5014,
+   5185
+  ],
+  [
+   5244,
+   5253
+  ],
+  [
+   5736,
+   5752
+  ],
+  [
+   42,
+   167
+  ],
+  [
+   115,
+   118
+  ],
+  [
+   121,
+   156
+  ],
+  [
+   180,
+   218
+  ],
+  [
+   181,
+   185
+  ],
+  [
+   192,
+   198
+  ],
+  [
+   204,
+   228
+  ],
+  [
+   243,
+   246
+  ],
+  [
+   301,
+   325
+  ],
+  [
+   303,
+   308
+  ],
+  [
+   304,
+   309
+  ],
+  [
+   307,
+   317
+  ],
+  [
+   318,
+   326
+  ],
+  [
+   319,
+   322
+  ],
+  [
+   380,
+   386
+  ],
+  [
+   424,
+   428
+  ],
+  [
+   521,
+   525
+  ],
+  [
+   686,
+   718
+  ],
+  [
+   700,
+   702
+  ],
+  [
+   743,
+   746
+  ],
+  [
+   773,
+   774
+  ],
+  [
+   914,
+   918
+  ],
+  [
+   970,
+   1076
+  ],
+  [
+   992,
+   1077
+  ],
+  [
+   1017,
+   1022
+  ],
+  [
+   1118,
+   1130
+  ],
+  [
+   1163,
+   1227
+  ],
+  [
+   1236,
+   1237
+  ],
+  [
+   1262,
+   1341
+  ],
+  [
+   1263,
+   1272
+  ],
+  [
+   1264,
+   1266
+  ],
+  [
+   1276,
+   1281
+  ],
+  [
+   1311,
+   1323
+  ],
+  [
+   1325,
+   1327
+  ],
+  [
+   1328,
+   1333
+  ],
+  [
+   1343,
+   1346
+  ],
+  [
+   1416,
+   1402
+  ],
+  [
+   1416,
+   1401
+  ],
+  [
+   1423,
+   1439
+  ],
+  [
+   1457,
+   1473
+  ],
+  [
+   1505,
+   1510
+  ],
+  [
+   1671,
+   1677
+  ],
+  [
+   1759,
+   1780
+  ],
+  [
+   1821,
+   1824
+  ],
+  [
+   1829,
+   1835
+  ],
+  [
+   1831,
+   1836
+  ],
+  [
+   1840,
+   1841
+  ],
+  [
+   1842,
+   1845
+  ],
+  [
+   1870,
+   1871
+  ],
+  [
+   1873,
+   1874
+  ],
+  [
+   2830,
+   2891
+  ],
+  [
+   5049,
+   5237
+  ],
+  [
+   3044,
+   3562
+  ],
+  [
+   3180,
+   3290
+  ],
+  [
+   3798,
+   3801
+  ],
+  [
+   4322,
+   4330
+  ],
+  [
+   4566,
+   4572
+  ],
+  [
+   2313,
+   2410
+  ],
+  [
+   2628,
+   4045
+  ],
+  [
+   2426,
+   2652
+  ],
+  [
+   2430,
+   2432
+  ],
+  [
+   2487,
+   2680
+  ],
+  [
+   2406,
+   3266
+  ],
+  [
+   2469,
+   3353
+  ],
+  [
+   2577,
+   3267
+  ],
+  [
+   3203,
+   3209
+  ],
+  [
+   3353,
+   3357
+  ],
+  [
+   4222,
+   5344
+  ],
+  [
+   4787,
+   4794
+  ],
+  [
+   4845,
+   4847
+  ],
+  [
+   3569,
+   3635
+  ],
+  [
+   3726,
+   3729
+  ],
+  [
+   3739,
+   3742
+  ],
+  [
+   3774,
+   3923
+  ],
+  [
+   3784,
+   4083
+  ],
+  [
+   3978,
+   3979
+  ],
+  [
+   3978,
+   4017
+  ],
+  [
+   3978,
+   4082
+  ],
+  [
+   3979,
+   4017
+  ],
+  [
+   3979,
+   4082
+  ],
+  [
+   4017,
+   4082
+  ],
+  [
+   4221,
+   4859
+  ],
+  [
+   4328,
+   4394
+  ],
+  [
+   4528,
+   4580
+  ],
+  [
+   4530,
+   4578
+  ],
+  [
+   4583,
+   4584
+  ],
+  [
+   2399,
+   2404
+  ],
+  [
+   2402,
+   2419
+  ],
+  [
+   2417,
+   2420
+  ],
+  [
+   2443,
+   2449
+  ],
+  [
+   2465,
+   2470
+  ],
+  [
+   2757,
+   2801
+  ],
+  [
+   2862,
+   2868
+  ],
+  [
+   2947,
+   2949
+  ],
+  [
+   3030,
+   3041
+  ],
+  [
+   3109,
+   3352
+  ],
+  [
+   3329,
+   3340
+  ],
+  [
+   3479,
+   3495
+  ],
+  [
+   3500,
+   3592
+  ],
+  [
+   3502,
+   3587
+  ],
+  [
+   3565,
+   3570
+  ],
+  [
+   3622,
+   3637
+  ],
+  [
+   3873,
+   3875
+  ],
+  [
+   4102,
+   4247
+  ],
+  [
+   4187,
+   4190
+  ],
+  [
+   4844,
+   4846
+  ],
+  [
+   4844,
+   4848
+  ],
+  [
+   4846,
+   4848
+  ],
+  [
+   5043,
+   5342
+  ],
+  [
+   5059,
+   5061
+  ],
+  [
+   5087,
+   5099
+  ],
+  [
+   5180,
+   5186
+  ],
+  [
+   5312,
+   5314
+  ],
+  [
+   5982,
+   5998
+  ],
+  [
+   5987,
+   5995
+  ],
+  [
+   5991,
+   6015
+  ],
+  [
+   6007,
+   6053
+  ],
+  [
+   6022,
+   6042
+  ],
+  [
+   6044,
+   6056
+  ],
+  [
+   6046,
+   6054
+  ],
+  [
+   6068,
+   6074
+  ],
+  [
+   6099,
+   6105
+  ],
+  [
+   6141,
+   6144
+  ],
+  [
+   6195,
+   6197
+  ],
+  [
+   6217,
+   6220
+  ],
+  [
+   6333,
+   6348
+  ],
+  [
+   6339,
+   6346
+  ],
+  [
+   6354,
+   6357
+  ]
+ ],
+ "groups": [
+  {
+   "group_id": "D001",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    42,
+    167
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D002",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    115,
+    118
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D003",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    121,
+    156
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D004",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    180,
+    218
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D005",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    181,
+    185
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D006",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    192,
+    198
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D007",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    204,
+    228
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D008",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    243,
+    246
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D009",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    301,
+    325
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D010",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    303,
+    308
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D011",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    304,
+    309
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D012",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    307,
+    317
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D013",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    318,
+    326
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D014",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    319,
+    322
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D015",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    380,
+    386
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D016",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    424,
+    428
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D017",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    521,
+    525
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D018",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    686,
+    718
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D019",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    700,
+    702
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D020",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    743,
+    746
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D021",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    773,
+    774
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D022",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    914,
+    918
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D023",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    970,
+    1076
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D024",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    992,
+    1077
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D025",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1017,
+    1022
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D026",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1118,
+    1130
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D027",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1163,
+    1227
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D028",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1236,
+    1237
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D029",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1262,
+    1341
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D030",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1263,
+    1272
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D031",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1264,
+    1266
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D032",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1276,
+    1281
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D033",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1311,
+    1323
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D034",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1325,
+    1327
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D035",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1328,
+    1333
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D036",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1343,
+    1346
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D037",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1401,
+    1402,
+    1416
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D038",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1423,
+    1439
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D039",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1457,
+    1473
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D040",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1505,
+    1510
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D041",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1671,
+    1677
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D042",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1759,
+    1780
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D043",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1821,
+    1824
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D044",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1829,
+    1835
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D045",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1831,
+    1836
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D046",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1840,
+    1841
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D047",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1842,
+    1845
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D048",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1870,
+    1871
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D049",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    1873,
+    1874
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D050",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2313,
+    2410
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D051",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2399,
+    2404
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D052",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2402,
+    2419
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D053",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2406,
+    3266
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D054",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2417,
+    2420
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D055",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2426,
+    2652
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D056",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2430,
+    2432
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D057",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2443,
+    2449
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D058",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2465,
+    2470
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D059",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2469,
+    3353,
+    3357
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D060",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2487,
+    2680
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D061",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2577,
+    3267
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D062",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2628,
+    4045
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D063",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2757,
+    2801
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D064",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2830,
+    2891
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D065",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2862,
+    2868
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D066",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    2947,
+    2949
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D067",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3030,
+    3041
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D068",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3044,
+    3562
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D069",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3071,
+    3080
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D070",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3109,
+    3352
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D071",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3180,
+    3290
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D072",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3203,
+    3209
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D073",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3329,
+    3340
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D074",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3479,
+    3495
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D075",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3500,
+    3592
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D076",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3502,
+    3587
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D077",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3565,
+    3570
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D078",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3569,
+    3635
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D079",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3622,
+    3637
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D080",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3675,
+    3680
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D081",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3726,
+    3729
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D082",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3739,
+    3742
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D083",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3774,
+    3923
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D084",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3784,
+    4083
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D085",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3798,
+    3801
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D086",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3873,
+    3875
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D087",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    3978,
+    3979,
+    4017,
+    4082
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D088",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4102,
+    4247
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D089",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4131,
+    4132
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D090",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4187,
+    4190
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D091",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4221,
+    4859
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D092",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4222,
+    5344
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D093",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4322,
+    4330
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D094",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4328,
+    4394
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D095",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4528,
+    4580
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D096",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4530,
+    4578
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D097",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4566,
+    4572
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D098",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4583,
+    4584
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D099",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4787,
+    4794
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D100",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4844,
+    4846,
+    4848
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D101",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4845,
+    4847
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D102",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4870,
+    4962
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D103",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4875,
+    4928
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D104",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4934,
+    4937
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D105",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    4953,
+    4954
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D106",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5007,
+    5010
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D107",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5014,
+    5185
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D108",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5043,
+    5342
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D109",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5049,
+    5237
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D110",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5059,
+    5061
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D111",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5087,
+    5099
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D112",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5180,
+    5186
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D113",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5244,
+    5253
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D114",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5312,
+    5314
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D115",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5736,
+    5752
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D116",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5982,
+    5998
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D117",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5987,
+    5995
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D118",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    5991,
+    6015
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D119",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6007,
+    6053
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D120",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6022,
+    6042
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D121",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6044,
+    6056
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D122",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6046,
+    6054
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D123",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6068,
+    6074
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D124",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6099,
+    6105
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D125",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6141,
+    6144
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D126",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6195,
+    6197
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D127",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6217,
+    6220
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D128",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6333,
+    6348
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D129",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6339,
+    6346
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D130",
+   "type": "near-duplicate (train)",
+   "item_ids": [
+    6354,
+    6357
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D131",
+   "type": "exact duplicate question (train)",
+   "item_ids": [
+    61,
+    1452
+   ],
+   "split": "train"
+  },
+  {
+   "group_id": "D132",
+   "type": "near-duplicate (train-test)",
+   "item_ids": [
+    4235,
+    4238
+   ],
+   "split": "train 4235 / test 4238"
+  }
+ ]
+}

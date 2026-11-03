@@ -1,28 +1,29 @@
 # VietCuE
 
-Dataset and code release accompanying *"Beyond Aggregate Accuracy: A Discriminator-Filtered Vietnamese Benchmark for Multi-Axis Cultural Evaluation of LLMs"*.
+Dataset and code release accompanying *"VietCuE: A Discriminator-Filtered Benchmark and Multi-Axis Protocol for Diagnosing Cultural Knowledge in LLMs"*.
 
 ## About
 
-Most Vietnamese-culture LLM benchmarks report a single aggregate accuracy number. VietCuE instead pairs a **discriminator-filtered** test set (items a frontier-LLM panel cannot already answer, then unanimously verified by four human annotators) with a **multi-axis** evaluation protocol that decomposes "accuracy" into three independent signals:
+Most Vietnamese-culture LLM benchmarks report a single aggregate accuracy number. VietCuE instead pairs a **discriminator-filtered** test set (items that three frontier models fail, then reviewed by four annotators) with a **multi-axis** evaluation protocol that decomposes "accuracy" into three signals:
 
 1. **Aspect-based rubric score** - a 0–5 GPT-5 judge scoring content match, keyword coverage, and factual accuracy separately.
 2. **Cultural Lexicon Coverage (CLC)** - whether a model's answer actually uses the culturally-specific terms present in the gold reference, independent of the judge.
 3. **Cue-dependence** - how much a model's answer changes when an explicit Vietnamese-context marker is added or swapped for a wrong-country marker, measured both observationally (marker-bearing vs. marker-less items) and causally (paired minimal-edit rewrites of the same items).
 
-Decomposing accuracy this way surfaces patterns a single leaderboard number hides - e.g. the top-accuracy model on this benchmark (GPT-5) also has the *lowest* Cultural Lexicon Coverage and the *largest* cue-dependence gap among evaluated models, while Claude models sit at the opposite corner, trading some accuracy for much higher lexical grounding and cue-stability. Full methodology, all findings, and statistical tests are in the paper.
+Decomposing accuracy this way shows what a single leaderboard number hides. For example, lexical-coverage differences between models turn out to be driven mostly by whether answers restate entities already named in the question, and the cue gap seen in an observational split is not reproduced by paired rewrites of the same items. Full methodology and findings are in the paper.
 
 ## At a glance
 
 | | |
 |---|---|
-| Test set | 247 items, discriminator-filtered, 4-annotator unanimous consensus |
-| Training corpus | 5,081 items, same source pool and category schema |
+| Test set | 247 items: frontier-filtered, then 215 accepted 4/4 by four annotators and 32 repaired by two senior annotators |
+| Training corpus | 5,081 items, same source pool and category schema; duplicate groups flagged in `dataset/duplicate_groups.json` |
+| Control set | 250 training items that three small open-weight models fail (`dataset/control_250/`) |
 | Categories | Culture / History / Law (9 leaderboard sub-topics) |
 | Cultural lexicon | 166 unique terms, used for CLC scoring |
 | Evaluated models | 19, spanning closed frontier APIs and open-weight models |
-| Judge | GPT-5, aspect-based rubric, validated against 2-annotator human consensus (4 prompting strategies compared; Cohen's κ = 0.748 quadratic-weighted vs. human) |
-| Causal cue-dependence | 3 paired-rewrite variants (v1 original, v2 correct-country marker, v3 wrong-country marker) |
+| Judge | GPT-5, aspect-based rubric; 4 prompting strategies compared against a human annotator on 175 items (quadratic-weighted κ = 0.678 for the aspect-based prompt) |
+| Causal cue-dependence | 3 paired-rewrite variants (v1 original, v2 correct-country marker, v3 wrong-country marker), 9 models |
 | Fine-tuning | Full-parameter SFT ablation on Qwen3-4B and Qwen3-8B, 5 epochs |
 
 ## Structure
@@ -42,7 +43,7 @@ All released judge/model outputs are pre-computed, so the paper's tables and fig
 
 ## Citation
 
-Citation details (BibTeX) will be added here once the paper is published. In the meantime, please cite the paper by its title: *"Beyond Aggregate Accuracy: A Discriminator-Filtered Vietnamese Benchmark for Multi-Axis Cultural Evaluation of LLMs."*
+Citation details (BibTeX) will be added here once the paper is published. In the meantime, please cite the paper by its title: *"VietCuE: A Discriminator-Filtered Benchmark and Multi-Axis Protocol for Diagnosing Cultural Knowledge in LLMs."*
 
 ## License
 

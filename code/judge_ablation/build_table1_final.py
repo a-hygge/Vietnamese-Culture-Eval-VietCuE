@@ -41,8 +41,12 @@ DISPLAY_NAME = {
 
 
 def load_human_consensus():
-    """Mean of A & B for overlap; else single annotator."""
-    df_a = pd.read_excel(os.path.join(ANNOT_DIR, 'annotator_A.xlsx'))
+    """Mean of A & B for overlap; else single annotator.
+
+    Superseded: annotator A coincides with LLM pre-filled scores, so the paper
+    now uses annotator B only (see build_table_judge_annotatorB.py).
+    """
+    df_a = pd.read_excel(os.path.join(ANNOT_DIR, 'excluded', 'annotator_A.xlsx'))
     df_b = pd.read_excel(os.path.join(ANNOT_DIR, 'annotator_B.xlsx'))
     df_a['human_score'] = pd.to_numeric(df_a['human_score'], errors='coerce')
     df_b['human_score'] = pd.to_numeric(df_b['human_score'], errors='coerce')
